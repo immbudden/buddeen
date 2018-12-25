@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e808f18350a6e38edd5d50dd748d2613",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1402,16 +1393,14 @@
         "siteUrl": "http://buddeen.com",
         "description": "On 4th July 2019 - Buddeen (Michael and Shereen) get married"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-25T21:15:17.943Z",
+      "buildTime": "2018-12-25T21:44:16.432Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5adb0e73853a10428caeea79b1bf108b",
+        "contentDigest": "5ecc4c05ba189addb2174878bcaaf0d4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1421,7 +1410,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cc228abe0aba3c95255e603fbef7c862",
+        "contentDigest": "db10cbfe3316bade7b1f81009b2138a0",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1433,7 +1422,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2018-12-25T20:55:47.020Z",
-      "accessTime": "2018-12-25T21:15:20.867Z",
+      "accessTime": "2018-12-25T21:44:21.202Z",
       "changeTime": "2018-12-25T20:55:47.020Z",
       "birthTime": "2018-12-18T13:24:12.862Z",
       "root": "/",
@@ -1451,11 +1440,11 @@
       "blksize": 4096,
       "ino": 8601505201,
       "blocks": 0,
-      "atimeMs": 1545772520866.6096,
+      "atimeMs": 1545774261202.3953,
       "mtimeMs": 1545771347020.1877,
       "ctimeMs": 1545771347020.1877,
       "birthtimeMs": 1545139452861.9148,
-      "atime": "2018-12-25T21:15:20.867Z",
+      "atime": "2018-12-25T21:44:21.202Z",
       "mtime": "2018-12-25T20:55:47.020Z",
       "ctime": "2018-12-25T20:55:47.020Z",
       "birthtime": "2018-12-18T13:24:12.862Z"
@@ -2004,10 +1993,6 @@
     "sq--src-pages-index-js": 768581675
   },
   "components": {
-    "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js"
-    },
     "/Users/immbudden/Development/Buddeen/src/pages/index.js": {
       "query": "query usersImmbuddenDevelopmentBuddeenSrcPagesIndexJs1834328999 {\n  homeHeroImg: file(relativePath: {eq: \"Buddeen.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  logo: file(relativePath: {eq: \"BuddeenLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/index.js"

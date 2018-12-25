@@ -22,6 +22,10 @@ const HeadingOne = styled.h1 `
     ${media.lessThan("huge")`
     font-size: 4rem;
     `}
+
+    ${media.lessThan("large")`
+    font-size: 2.5rem;
+    `}
 `
 
 const HeadingTwo = styled.h2 `
@@ -80,7 +84,9 @@ const LogoContainer = styled.div `
     max-width: 12rem;
     margin-bottom: 3rem;
 
-
+    ${media.lessThan("large")`
+        max-width: 7.5rem;
+    `}
 `
 
 const ServiceIcon = styled.div `

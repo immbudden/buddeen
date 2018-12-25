@@ -29,8 +29,8 @@
           "name": "babel-plugin-emotion",
           "options": {
             "cssPropOptimization": true,
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         }
@@ -62,8 +62,8 @@
           "name": "babel-plugin-emotion",
           "options": {
             "cssPropOptimization": true,
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -103,8 +103,8 @@
           "name": "babel-plugin-emotion",
           "options": {
             "cssPropOptimization": true,
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -144,8 +144,8 @@
           "name": "babel-plugin-emotion",
           "options": {
             "cssPropOptimization": true,
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
