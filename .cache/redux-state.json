@@ -1,0 +1,2026 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e808f18350a6e38edd5d50dd748d2613",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "754ee61aeb97ad4dc8378e26497e9512",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3fb3c8359c626c91754942f9f7c6ebbd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b7c370fd77b959e6b2a1996524e028b7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a3d3831b23e04527551a4d2715e17740",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "91856f5f4c819c0e0188621efd47a827",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "46c9e22d9a9a83c1afb4dbb2adf5e771",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bab74b73-2df2-5571-bee0-f42674c9d7ca": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-source-filesystem",
+      "id": "bab74b73-2df2-5571-bee0-f42674c9d7ca",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/immbudden/Development/Buddeen/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cacdfed737a492a2feb5cad5d47f0dc9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">=2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "063810a3be6b08075e1c71d059e67f72",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-emotion",
+      "id": "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177",
+      "name": "gatsby-plugin-emotion",
+      "version": "3.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [
+        "wrapRootElement"
+      ],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "3.0.1",
+        "main": "index.js",
+        "keywords": [
+          "emotion",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/plugin-transform-react-jsx",
+            "version": "^7.1.6"
+          },
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-emotion",
+            "version": "^10.0.0"
+          },
+          {
+            "name": "babel-plugin-jsx-pragmatic",
+            "version": "^1.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.0"
+          },
+          {
+            "name": "emotion",
+            "version": "^10.0.0"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^10.0.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7b8db460e623d31a83b001fa8c42a49c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.15",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "782c39a46670bbc7651fe9da96cb1075",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.9",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7062ef732a8fb3ec02b64b4ff374c140",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.16",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.16",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "06018e66c2bd5265fc4a92fc810227b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4875e4579d2bff76c983117cb12140b5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ad721324-96c1-5715-ac8d-3f362695eee0": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-typography",
+      "id": "ad721324-96c1-5715-ac8d-3f362695eee0",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.2",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "49a7e7660827164faba96b69eb118a38",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3bdae2cd-5c87-5eec-8bd2-418f7ad36477": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-favicon",
+      "id": "3bdae2cd-5c87-5eec-8bd2-418f7ad36477",
+      "name": "gatsby-plugin-favicon",
+      "version": "3.1.5",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/images/favcon.png",
+        "appName": null,
+        "appDescription": null,
+        "developerName": null,
+        "developerURL": null,
+        "dir": "auto",
+        "lang": "en-US",
+        "background": "#fff",
+        "theme_color": "#fff",
+        "display": "standalone",
+        "orientation": "any",
+        "start_url": "/?homescreen=1",
+        "version": "1.0",
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "opengraph": false,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "3.1.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "git+https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
+          },
+          {
+            "name": "html-react-parser",
+            "version": "^0.4.6"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          }
+        ],
+        "devDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "87e2ac46f41a15985560a0bffdee4d4f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/immbudden/Development/Buddeen",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "cf1fb4796169e973b1139534c0352206",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.10.0"
+          },
+          {
+            "name": "emotion",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^3.1.5"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.5"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.2"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.15"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.9"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-flexbox-grid",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-media",
+            "version": "^1.9.2"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "styled-media-query",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-bootstrap",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-kirkham",
+            "version": "^0.16.18"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "05a25fa58210fc1db92d3fa245a161fd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "068c580d-9869-5af0-9eb8-167c47f1743d": {
+      "resolve": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-page-creator",
+      "id": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/immbudden/Development/Buddeen/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a04e80be82f7b6cde9e34c42b3527cdb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Buddeen",
+        "siteUrl": "http://buddeen.com",
+        "description": "On 4th July 2019 - Buddeen (Michael and Shereen) get married"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-12-25T21:15:17.943Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5adb0e73853a10428caeea79b1bf108b",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ae516324-e66a-5057-86bb-bfaeb29def87": {
+      "id": "ae516324-e66a-5057-86bb-bfaeb29def87",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cc228abe0aba3c95255e603fbef7c862",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2018-12-25T20:55:47.020Z",
+      "accessTime": "2018-12-25T21:15:20.867Z",
+      "changeTime": "2018-12-25T20:55:47.020Z",
+      "birthTime": "2018-12-18T13:24:12.862Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601505201,
+      "blocks": 0,
+      "atimeMs": 1545772520866.6096,
+      "mtimeMs": 1545771347020.1877,
+      "ctimeMs": 1545771347020.1877,
+      "birthtimeMs": 1545139452861.9148,
+      "atime": "2018-12-25T21:15:20.867Z",
+      "mtime": "2018-12-25T20:55:47.020Z",
+      "ctime": "2018-12-25T20:55:47.020Z",
+      "birthtime": "2018-12-18T13:24:12.862Z"
+    },
+    "24de9530-f474-50f2-a423-1ec0bb917e95": {
+      "id": "24de9530-f474-50f2-a423-1ec0bb917e95",
+      "children": [
+        "24100f74-450f-5d68-86d3-86625b8ed294"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0cfd53f823d70a086c34007c2e752c88",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/BuddeenLogo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/BuddeenLogo.png",
+      "relativePath": "BuddeenLogo.png",
+      "extension": "png",
+      "size": 5870,
+      "prettySize": "5.87 kB",
+      "modifiedTime": "2018-12-25T19:25:05.539Z",
+      "accessTime": "2018-12-25T21:15:20.867Z",
+      "changeTime": "2018-12-25T19:25:05.716Z",
+      "birthTime": "2018-12-25T19:25:05.493Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "BuddeenLogo.png",
+      "ext": ".png",
+      "name": "BuddeenLogo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601548005,
+      "blocks": 16,
+      "atimeMs": 1545772520867.4282,
+      "mtimeMs": 1545765905538.5718,
+      "ctimeMs": 1545765905715.5422,
+      "birthtimeMs": 1545765905493.4016,
+      "atime": "2018-12-25T21:15:20.867Z",
+      "mtime": "2018-12-25T19:25:05.539Z",
+      "ctime": "2018-12-25T19:25:05.716Z",
+      "birthtime": "2018-12-25T19:25:05.493Z"
+    },
+    "1678432f-afff-5621-b3ac-75946eb8815d": {
+      "id": "1678432f-afff-5621-b3ac-75946eb8815d",
+      "children": [
+        "eec99fc6-d028-5fc8-bcfb-974693842c3a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0201c6cb8efb52ca2749c15fca9fe268",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/LanyonBrand19White.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/LanyonBrand19White.png",
+      "relativePath": "LanyonBrand19White.png",
+      "extension": "png",
+      "size": 17888,
+      "prettySize": "17.9 kB",
+      "modifiedTime": "2018-12-20T09:06:31.891Z",
+      "accessTime": "2018-12-25T21:15:20.867Z",
+      "changeTime": "2018-12-24T22:02:05.303Z",
+      "birthTime": "2018-12-20T09:06:31.774Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "LanyonBrand19White.png",
+      "ext": ".png",
+      "name": "LanyonBrand19White",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601505202,
+      "blocks": 40,
+      "atimeMs": 1545772520867.442,
+      "mtimeMs": 1545296791891.4917,
+      "ctimeMs": 1545688925302.7874,
+      "birthtimeMs": 1545296791774.2927,
+      "atime": "2018-12-25T21:15:20.867Z",
+      "mtime": "2018-12-20T09:06:31.891Z",
+      "ctime": "2018-12-24T22:02:05.303Z",
+      "birthtime": "2018-12-20T09:06:31.774Z"
+    },
+    "c2c163f7-b539-5842-8206-f192b52704e0": {
+      "id": "c2c163f7-b539-5842-8206-f192b52704e0",
+      "children": [
+        "1dfb183d-d083-50f5-a26a-ab737313f7e7"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c32c0800d0aee253cc851b8a7848ed2f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favcon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/favcon.png",
+      "relativePath": "favcon.png",
+      "extension": "png",
+      "size": 2040,
+      "prettySize": "2.04 kB",
+      "modifiedTime": "2018-12-25T20:55:47.019Z",
+      "accessTime": "2018-12-25T21:12:53.392Z",
+      "changeTime": "2018-12-25T20:55:47.148Z",
+      "birthTime": "2018-12-25T20:55:46.990Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "favcon.png",
+      "ext": ".png",
+      "name": "favcon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601554076,
+      "blocks": 8,
+      "atimeMs": 1545772373392.211,
+      "mtimeMs": 1545771347019.2583,
+      "ctimeMs": 1545771347147.9014,
+      "birthtimeMs": 1545771346989.751,
+      "atime": "2018-12-25T21:12:53.392Z",
+      "mtime": "2018-12-25T20:55:47.019Z",
+      "ctime": "2018-12-25T20:55:47.148Z",
+      "birthtime": "2018-12-25T20:55:46.990Z"
+    },
+    "566e3318-7155-5bf4-b6e6-5db789561159": {
+      "id": "566e3318-7155-5bf4-b6e6-5db789561159",
+      "children": [
+        "7cdf1457-e083-5af9-abe4-3a6a09ee1aa6"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d90de344d5e9c3f711162a6ce47c2367",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icon-placeholder.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icon-placeholder.png",
+      "relativePath": "icon-placeholder.png",
+      "extension": "png",
+      "size": 4264,
+      "prettySize": "4.26 kB",
+      "modifiedTime": "2018-12-20T16:03:42.969Z",
+      "accessTime": "2018-12-25T21:12:53.392Z",
+      "changeTime": "2018-12-24T22:02:05.306Z",
+      "birthTime": "2018-12-20T16:03:42.938Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "icon-placeholder.png",
+      "ext": ".png",
+      "name": "icon-placeholder",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601505206,
+      "blocks": 16,
+      "atimeMs": 1545772373392.237,
+      "mtimeMs": 1545321822969.3936,
+      "ctimeMs": 1545688925305.8208,
+      "birthtimeMs": 1545321822938.1682,
+      "atime": "2018-12-25T21:12:53.392Z",
+      "mtime": "2018-12-20T16:03:42.969Z",
+      "ctime": "2018-12-24T22:02:05.306Z",
+      "birthtime": "2018-12-20T16:03:42.938Z"
+    },
+    "24100f74-450f-5d68-86d3-86625b8ed294": {
+      "id": "24100f74-450f-5d68-86d3-86625b8ed294",
+      "children": [],
+      "parent": "24de9530-f474-50f2-a423-1ec0bb917e95",
+      "internal": {
+        "contentDigest": "0cfd53f823d70a086c34007c2e752c88",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "eec99fc6-d028-5fc8-bcfb-974693842c3a": {
+      "id": "eec99fc6-d028-5fc8-bcfb-974693842c3a",
+      "children": [],
+      "parent": "1678432f-afff-5621-b3ac-75946eb8815d",
+      "internal": {
+        "contentDigest": "0201c6cb8efb52ca2749c15fca9fe268",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1dfb183d-d083-50f5-a26a-ab737313f7e7": {
+      "id": "1dfb183d-d083-50f5-a26a-ab737313f7e7",
+      "children": [],
+      "parent": "c2c163f7-b539-5842-8206-f192b52704e0",
+      "internal": {
+        "contentDigest": "c32c0800d0aee253cc851b8a7848ed2f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1f87a4f2-1583-53ac-80c5-12dfb9550edb": {
+      "id": "1f87a4f2-1583-53ac-80c5-12dfb9550edb",
+      "children": [
+        "08e48f01-cc66-502e-b0de-f63783570c9e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "39db05882e3486ec7021b51872a5d5c1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/LanyonBelfast.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/LanyonBelfast.jpg",
+      "relativePath": "LanyonBelfast.jpg",
+      "extension": "jpg",
+      "size": 255294,
+      "prettySize": "255 kB",
+      "modifiedTime": "2018-12-18T13:56:30.599Z",
+      "accessTime": "2018-12-25T21:12:53.392Z",
+      "changeTime": "2018-12-24T22:02:05.305Z",
+      "birthTime": "2018-12-18T13:29:18.063Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "LanyonBelfast.jpg",
+      "ext": ".jpg",
+      "name": "LanyonBelfast",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601505204,
+      "blocks": 504,
+      "atimeMs": 1545772373392.103,
+      "mtimeMs": 1545141390599.3574,
+      "ctimeMs": 1545688925304.6494,
+      "birthtimeMs": 1545139758063.073,
+      "atime": "2018-12-25T21:12:53.392Z",
+      "mtime": "2018-12-18T13:56:30.599Z",
+      "ctime": "2018-12-24T22:02:05.305Z",
+      "birthtime": "2018-12-18T13:29:18.063Z"
+    },
+    "7cdf1457-e083-5af9-abe4-3a6a09ee1aa6": {
+      "id": "7cdf1457-e083-5af9-abe4-3a6a09ee1aa6",
+      "children": [],
+      "parent": "566e3318-7155-5bf4-b6e6-5db789561159",
+      "internal": {
+        "contentDigest": "d90de344d5e9c3f711162a6ce47c2367",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0b6f1543-2cf1-5273-95a2-c6657d53e989": {
+      "id": "0b6f1543-2cf1-5273-95a2-c6657d53e989",
+      "children": [
+        "06e85a14-9588-5700-8cb4-80fb229360fb"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a745669c085095ce64f610089c04fd2",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/Buddeen.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/Buddeen.jpg",
+      "relativePath": "Buddeen.jpg",
+      "extension": "jpg",
+      "size": 320116,
+      "prettySize": "320 kB",
+      "modifiedTime": "2018-12-25T15:25:40.483Z",
+      "accessTime": "2018-12-25T21:15:20.867Z",
+      "changeTime": "2018-12-25T15:25:40.738Z",
+      "birthTime": "2018-12-25T15:25:40.332Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "Buddeen.jpg",
+      "ext": ".jpg",
+      "name": "Buddeen",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601542036,
+      "blocks": 632,
+      "atimeMs": 1545772520867.428,
+      "mtimeMs": 1545751540483.0818,
+      "ctimeMs": 1545751540738.4321,
+      "birthtimeMs": 1545751540332.2566,
+      "atime": "2018-12-25T21:15:20.867Z",
+      "mtime": "2018-12-25T15:25:40.483Z",
+      "ctime": "2018-12-25T15:25:40.738Z",
+      "birthtime": "2018-12-25T15:25:40.332Z"
+    },
+    "08e48f01-cc66-502e-b0de-f63783570c9e": {
+      "id": "08e48f01-cc66-502e-b0de-f63783570c9e",
+      "children": [],
+      "parent": "1f87a4f2-1583-53ac-80c5-12dfb9550edb",
+      "internal": {
+        "contentDigest": "39db05882e3486ec7021b51872a5d5c1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8180eb06-95e0-5277-b541-4e4bb65093e2": {
+      "id": "8180eb06-95e0-5277-b541-4e4bb65093e2",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "37184397ae65c8d621793b9d2d6a8812",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/LanyonBrand19White.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/LanyonBrand19White.svg",
+      "relativePath": "LanyonBrand19White.svg",
+      "extension": "svg",
+      "size": 373337,
+      "prettySize": "373 kB",
+      "modifiedTime": "2018-12-19T15:50:34.544Z",
+      "accessTime": "2018-12-25T21:12:53.392Z",
+      "changeTime": "2018-12-24T22:02:05.303Z",
+      "birthTime": "2018-12-19T15:50:34.467Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "LanyonBrand19White.svg",
+      "ext": ".svg",
+      "name": "LanyonBrand19White",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601505203,
+      "blocks": 736,
+      "atimeMs": 1545772373392.1575,
+      "mtimeMs": 1545234634543.6157,
+      "ctimeMs": 1545688925303.4087,
+      "birthtimeMs": 1545234634466.5464,
+      "atime": "2018-12-25T21:12:53.392Z",
+      "mtime": "2018-12-19T15:50:34.544Z",
+      "ctime": "2018-12-24T22:02:05.303Z",
+      "birthtime": "2018-12-19T15:50:34.467Z"
+    },
+    "06e85a14-9588-5700-8cb4-80fb229360fb": {
+      "id": "06e85a14-9588-5700-8cb4-80fb229360fb",
+      "children": [],
+      "parent": "0b6f1543-2cf1-5273-95a2-c6657d53e989",
+      "internal": {
+        "contentDigest": "4a745669c085095ce64f610089c04fd2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "507997fc-b670-5e7d-bac9-380d2d4155b2": {
+      "id": "507997fc-b670-5e7d-bac9-380d2d4155b2",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bc788d4e2df3fa3c23a57613f513fc8b",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/icon-placeholder.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icon-placeholder.svg",
+      "relativePath": "icon-placeholder.svg",
+      "extension": "svg",
+      "size": 414673,
+      "prettySize": "415 kB",
+      "modifiedTime": "2018-12-20T16:03:21.534Z",
+      "accessTime": "2018-12-25T21:12:53.392Z",
+      "changeTime": "2018-12-24T22:02:05.305Z",
+      "birthTime": "2018-12-20T16:03:21.329Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "icon-placeholder.svg",
+      "ext": ".svg",
+      "name": "icon-placeholder",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601505205,
+      "blocks": 816,
+      "atimeMs": 1545772373392.2632,
+      "mtimeMs": 1545321801533.6672,
+      "ctimeMs": 1545688925305.27,
+      "birthtimeMs": 1545321801329.4187,
+      "atime": "2018-12-25T21:12:53.392Z",
+      "mtime": "2018-12-20T16:03:21.534Z",
+      "ctime": "2018-12-24T22:02:05.305Z",
+      "birthtime": "2018-12-20T16:03:21.329Z"
+    },
+    "2456ec98-0e2d-53ca-be38-ba37592a81a1": {
+      "id": "2456ec98-0e2d-53ca-be38-ba37592a81a1",
+      "children": [
+        "f5fc7209-8b6a-5520-8462-2e873fc8f68a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1fe194d46071bf44bfda9ae1e6bc84a6",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/Michael+Shereen-61.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/Michael+Shereen-61.jpg",
+      "relativePath": "Michael+Shereen-61.jpg",
+      "extension": "jpg",
+      "size": 1846535,
+      "prettySize": "1.85 MB",
+      "modifiedTime": "2018-12-17T23:15:34.000Z",
+      "accessTime": "2018-12-25T21:12:53.392Z",
+      "changeTime": "2018-12-25T15:24:13.709Z",
+      "birthTime": "2018-12-17T23:15:34.000Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "Michael+Shereen-61.jpg",
+      "ext": ".jpg",
+      "name": "Michael+Shereen-61",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8601541522,
+      "blocks": 3608,
+      "atimeMs": 1545772373392.1843,
+      "mtimeMs": 1545088534000,
+      "ctimeMs": 1545751453709.4846,
+      "birthtimeMs": 1545088534000,
+      "atime": "2018-12-25T21:12:53.392Z",
+      "mtime": "2018-12-17T23:15:34.000Z",
+      "ctime": "2018-12-25T15:24:13.709Z",
+      "birthtime": "2018-12-17T23:15:34.000Z"
+    },
+    "f5fc7209-8b6a-5520-8462-2e873fc8f68a": {
+      "id": "f5fc7209-8b6a-5520-8462-2e873fc8f68a",
+      "children": [],
+      "parent": "2456ec98-0e2d-53ca-be38-ba37592a81a1",
+      "internal": {
+        "contentDigest": "1fe194d46071bf44bfda9ae1e6bc84a6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "140af22f8b450a63a7851ba088d36b1c",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "10ffaf177dc87ce27908480c0337df77"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "1678432f-afff-5621-b3ac-75946eb8815d": [
+        "sq--src-components-nav-js"
+      ],
+      "0b6f1543-2cf1-5273-95a2-c6657d53e989": [
+        "/"
+      ],
+      "24de9530-f474-50f2-a423-1ec0bb917e95": [
+        "/"
+      ],
+      "eec99fc6-d028-5fc8-bcfb-974693842c3a": [
+        "sq--src-components-nav-js"
+      ],
+      "06e85a14-9588-5700-8cb4-80fb229360fb": [
+        "/"
+      ],
+      "24100f74-450f-5d68-86d3-86625b8ed294": [
+        "/"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "742/path---index-6a9-lONyPUPCbSiQ7c2mE0xkJgu4loc",
+    "sq--src-components-nav-js": 783971839,
+    "sq--src-pages-index-js": 768581675
+  },
+  "components": {
+    "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js"
+    },
+    "/Users/immbudden/Development/Buddeen/src/pages/index.js": {
+      "query": "query usersImmbuddenDevelopmentBuddeenSrcPagesIndexJs1834328999 {\n  homeHeroImg: file(relativePath: {eq: \"Buddeen.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  logo: file(relativePath: {eq: \"BuddeenLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-nav-js": {
+      "name": "usersImmbuddenDevelopmentBuddeenSrcComponentsNavJs783971839",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/components/nav.js",
+      "id": "sq--src-components-nav-js",
+      "jsonName": "sq--src-components-nav-js",
+      "query": "query usersImmbuddenDevelopmentBuddeenSrcComponentsNavJs783971839 {\n  logo: file(relativePath: {eq: \"LanyonBrand19White.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 783971839
+    }
+  }
+}
