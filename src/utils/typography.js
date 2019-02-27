@@ -1,4 +1,5 @@
 import Typography from 'typography'
+import media from "styled-media-query";
 
 const typography = new Typography({
     baseFontSize: '10px',

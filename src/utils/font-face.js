@@ -6,14 +6,14 @@ export default createGlobalStyle `
     @font-face {
         font-family: "Didot";
         font-style: normal;
-        font-weight: normal;
+        font-weight: 100;
         src: local("Didot-Reg"), local("Didot-Reg"), url(${fontFiles.DidotRegWOFF}) format("woff");
     }
 
     @font-face {
         font-family: "Didot";
         font-style: italic;
-        font-weight: normal;
+        font-weight: 100;
         src: local("Didot-Italic"), local("Didot-Italic"), url(${fontFiles.DidotItalicWOFF}) format("woff");
     }
 

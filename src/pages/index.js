@@ -7,8 +7,10 @@ import styled from 'styled-components'
 import FontFace from '../utils/font-face'
 import HeaderWrapper from '../components/headerWrapper'
 import HeaderContainer from '../components/headerContainer'
+import NavMobile from '../components/navMobile'
 import media from "styled-media-query";
 import { Helmet } from "react-helmet"
+import Hi from '../images/hi2.gif'
 // import Layout from "../components/layout"
 
 const HeadingOne = styled.h1 `
@@ -49,18 +51,97 @@ const HeadingTextContainer = styled.div `
     `}
 `
 
-const Section = styled.div `
+const SectionLight = styled.div `
     background: #FFF;
+    min-height: 100vh;
+`
+
+const SectionBlavy = styled.div `
+    background: #3C4650;
+    min-height: 100vh;
+`
+
+const SectionBlue = styled.div `
+    background: #144164;
+    min-height: 100vh;
+`
+
+const SectionGreen = styled.div `
+    background: #3CAAA0;
+    min-height: 100vh;
 `
 
 const Container = styled.div `
     display: flex;
-    flex: 12 1 0%;
+    flex: 1 1 100%;
     margin: 0 auto;
     max-width: 90%;
     position: relative;
     z-index: 2;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 `
+
+const StoryTextDark = styled.p `
+    font-size: 2rem;
+    color: #3C4650;
+    font-family: Didot;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+`
+
+const StoryTextLight = styled.p `
+    font-size: 2rem;
+    color: #FFF;
+    font-family: Didot;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+`
+
+const ImageContainer = styled.div `
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    flex-direction: column;
+`
+
+const Image = styled("img") `
+    margin-bottom: 0;
+`
+
+const ImgContainer = styled.div `
+    display: flex;
+    flex: 0 0 100%;
+    height: 25rem;
+    position: relative;
+`
+
+const ImgContainerHeight = styled.div `
+    display: flex;
+    position: relative;
+`
+
+const StoryImg = styled(Img) `
+    margin-bottom: 0;
+    width: 50rem;
+`
+
+const StoryImgHeight = styled(Img) `
+    margin-bottom: 0;
+    margin: 0 auto;
+    width: 24rem;
+`
+
+
+// OLD CODE
 
 const SectionTitle = styled.h2 `
     font-size: 5.5rem;
@@ -138,6 +219,59 @@ const IndexPage = (props) => (
                 </HeadingTextContainer>
             </HeaderContainer>
         </HeaderWrapper>
+        <SectionLight>
+            <Container>
+                <StoryTextDark>
+                    Once upon a time a Belfast boy was Portland bound and went in search of some local knowledge for his trip, when a beautiful Dr caught his eye.
+                </StoryTextDark>
+                <ImageContainer>
+                        <Image src={Hi} alt="Hello" />
+                </ImageContainer>
+                <StoryTextDark>
+                    Through the power of the internet and a mutual love of GIFs, the two swiped right and knew they had to meet.
+                </StoryTextDark>
+            </Container>
+        </SectionLight>
+        <SectionBlavy>
+            <Container>
+                <StoryTextLight>
+                    Two weeks later the young Dr landed in Ireland, and armed with her local tour guide, she was shown the sights and sounds of the beautiful island. 
+                </StoryTextLight>
+                <ImgContainer>
+                        <StoryImg fluid={props.data.RopeBridge.childImageSharp.fluid} />
+                </ImgContainer>
+                <StoryTextLight>
+                    The following week the Dr returned the favour and the Belfast boy fell in love with the weird city of Portland and the people… particularly one of the natives
+                </StoryTextLight>
+            </Container>
+        </SectionBlavy>
+        <SectionGreen>
+            <Container>
+                <StoryTextLight>
+                    The two knew this was something special, so the Dr returned to Belfast that summer, they declared their love for one another, and Buddeen was born.
+                </StoryTextLight>
+                <ImgContainerHeight>
+                        <StoryImgHeight fluid={props.data.smileHeart.childImageSharp.fluid} />
+                </ImgContainerHeight>
+                <StoryTextLight>
+                    Being 4000 miles apart from each other could prove difficult for most couples but not these two. With numerous trips between Belfast and Portland, the two continued to grow together.
+                </StoryTextLight>
+            </Container>
+        </SectionGreen>
+        <SectionBlue>
+            <Container>
+                <StoryTextLight>
+                Then in the story about how Buddeen came to be, this happened! Some more text in here to make it even.
+                </StoryTextLight>
+                <ImgContainerHeight>
+                        <StoryImgHeight fluid={props.data.smileHeart.childImageSharp.fluid} />
+                </ImgContainerHeight>
+                <StoryTextLight>
+                Then in the story about how Buddeen came to be, this happened! Some more text in here to make it even.
+                </StoryTextLight>
+            </Container>
+        </SectionBlue>
+        <NavMobile />
     </div>
 
 )
@@ -156,12 +290,26 @@ export const query = graphql`
             childImageSharp {
                 fluid(maxWidth: 2500) {
                     ...GatsbyImageSharpFluid
-                    }
                 }
             }
-
-
         }
-        `
+
+        RopeBridge: file(relativePath: { eq: "RopeBridge_Edit.jpg" }) {
+            childImageSharp {
+                fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+
+        smileHeart: file(relativePath: { eq: "smileHeart-2.png" }) {
+            childImageSharp {
+                fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+    }
+`
 
 export default IndexPage

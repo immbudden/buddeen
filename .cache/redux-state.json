@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "e808f18350a6e38edd5d50dd748d2613",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -1393,14 +1402,16 @@
         "siteUrl": "http://buddeen.com",
         "description": "On 4th July 2019 - Buddeen (Michael and Shereen) get married"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-25T21:44:16.432Z",
+      "buildTime": "2019-02-27T05:03:13.561Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5ecc4c05ba189addb2174878bcaaf0d4",
+        "contentDigest": "febd11f323f936c629d0fa8bfe93a73b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1410,7 +1421,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "db10cbfe3316bade7b1f81009b2138a0",
+        "contentDigest": "34e20d60038b702e6dd866cc6c59f46a",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1419,11 +1430,11 @@
       "absolutePath": "/Users/immbudden/Development/Buddeen/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 352,
-      "prettySize": "352 B",
-      "modifiedTime": "2018-12-25T20:55:47.020Z",
-      "accessTime": "2018-12-25T21:44:21.202Z",
-      "changeTime": "2018-12-25T20:55:47.020Z",
+      "size": 448,
+      "prettySize": "448 B",
+      "modifiedTime": "2019-02-27T04:54:29.432Z",
+      "accessTime": "2019-02-27T05:03:18.460Z",
+      "changeTime": "2019-02-27T04:54:29.432Z",
       "birthTime": "2018-12-18T13:24:12.862Z",
       "root": "/",
       "dir": "/Users/immbudden/Development/Buddeen/src",
@@ -1433,20 +1444,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 11,
+      "nlink": 14,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8601505201,
       "blocks": 0,
-      "atimeMs": 1545774261202.3953,
-      "mtimeMs": 1545771347020.1877,
-      "ctimeMs": 1545771347020.1877,
+      "atimeMs": 1551243798460.1177,
+      "mtimeMs": 1551243269431.535,
+      "ctimeMs": 1551243269431.535,
       "birthtimeMs": 1545139452861.9148,
-      "atime": "2018-12-25T21:44:21.202Z",
-      "mtime": "2018-12-25T20:55:47.020Z",
-      "ctime": "2018-12-25T20:55:47.020Z",
+      "atime": "2019-02-27T05:03:18.460Z",
+      "mtime": "2019-02-27T04:54:29.432Z",
+      "ctime": "2019-02-27T04:54:29.432Z",
       "birthtime": "2018-12-18T13:24:12.862Z"
     },
     "24de9530-f474-50f2-a423-1ec0bb917e95": {
@@ -1938,6 +1949,380 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "d633758c-5bb3-598c-bdfc-7df9b2f5550b": {
+      "id": "d633758c-5bb3-598c-bdfc-7df9b2f5550b",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8b8083164bfe213b83230d033d8660b1",
+        "type": "Directory",
+        "description": "Directory \"src/images/icons\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icons",
+      "relativePath": "icons",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-02-26T05:44:25.968Z",
+      "accessTime": "2019-02-27T05:03:18.462Z",
+      "changeTime": "2019-02-26T05:44:25.968Z",
+      "birthTime": "2019-02-26T05:44:14.614Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "icons",
+      "ext": "",
+      "name": "icons",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604293127,
+      "blocks": 0,
+      "atimeMs": 1551243798462.2905,
+      "mtimeMs": 1551159865968.0586,
+      "ctimeMs": 1551159865968.0586,
+      "birthtimeMs": 1551159854614.4094,
+      "atime": "2019-02-27T05:03:18.462Z",
+      "mtime": "2019-02-26T05:44:25.968Z",
+      "ctime": "2019-02-26T05:44:25.968Z",
+      "birthtime": "2019-02-26T05:44:14.614Z"
+    },
+    "8a1a8a69-9b22-53d7-a566-bdea56c0ffe3": {
+      "id": "8a1a8a69-9b22-53d7-a566-bdea56c0ffe3",
+      "children": [
+        "c18a3de6-871a-5514-afa5-c9d304805559"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2efe07c9ec8641c1de019b494c70beba",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icons/cal.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icons/cal.png",
+      "relativePath": "icons/cal.png",
+      "extension": "png",
+      "size": 503,
+      "prettySize": "503 B",
+      "modifiedTime": "2019-02-26T05:21:08.371Z",
+      "accessTime": "2019-02-26T05:21:10.219Z",
+      "changeTime": "2019-02-26T05:44:25.962Z",
+      "birthTime": "2019-02-26T05:21:08.350Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/icons",
+      "base": "cal.png",
+      "ext": ".png",
+      "name": "cal",
+      "relativeDirectory": "icons",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604292462,
+      "blocks": 8,
+      "atimeMs": 1551158470218.6384,
+      "mtimeMs": 1551158468371.3794,
+      "ctimeMs": 1551159865962.3418,
+      "birthtimeMs": 1551158468350.2512,
+      "atime": "2019-02-26T05:21:10.219Z",
+      "mtime": "2019-02-26T05:21:08.371Z",
+      "ctime": "2019-02-26T05:44:25.962Z",
+      "birthtime": "2019-02-26T05:21:08.350Z"
+    },
+    "d5bb29e8-a288-57b0-9733-59c43f8cca16": {
+      "id": "d5bb29e8-a288-57b0-9733-59c43f8cca16",
+      "children": [
+        "54a80402-f65e-5f35-927a-b9761357ad33"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3ad51101c3dbf633ce103e621a02ed58",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icons/plane.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icons/plane.png",
+      "relativePath": "icons/plane.png",
+      "extension": "png",
+      "size": 808,
+      "prettySize": "808 B",
+      "modifiedTime": "2019-02-26T05:21:43.129Z",
+      "accessTime": "2019-02-26T05:21:45.267Z",
+      "changeTime": "2019-02-26T05:44:25.967Z",
+      "birthTime": "2019-02-26T05:21:43.104Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/icons",
+      "base": "plane.png",
+      "ext": ".png",
+      "name": "plane",
+      "relativeDirectory": "icons",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604292496,
+      "blocks": 8,
+      "atimeMs": 1551158505267.3499,
+      "mtimeMs": 1551158503129.1162,
+      "ctimeMs": 1551159865966.8113,
+      "birthtimeMs": 1551158503103.5127,
+      "atime": "2019-02-26T05:21:45.267Z",
+      "mtime": "2019-02-26T05:21:43.129Z",
+      "ctime": "2019-02-26T05:44:25.967Z",
+      "birthtime": "2019-02-26T05:21:43.104Z"
+    },
+    "6d133444-826a-5644-b2ba-fd5fbec953c9": {
+      "id": "6d133444-826a-5644-b2ba-fd5fbec953c9",
+      "children": [
+        "ab61af24-d7af-5c89-b96d-2c2584656ad9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "24bfe167c74b11c6df1c7b3a690544d4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icons/rsvp.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icons/rsvp.png",
+      "relativePath": "icons/rsvp.png",
+      "extension": "png",
+      "size": 1058,
+      "prettySize": "1.06 kB",
+      "modifiedTime": "2019-02-26T05:30:43.783Z",
+      "accessTime": "2019-02-26T05:44:25.989Z",
+      "changeTime": "2019-02-26T05:44:25.968Z",
+      "birthTime": "2019-02-26T05:30:43.757Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/icons",
+      "base": "rsvp.png",
+      "ext": ".png",
+      "name": "rsvp",
+      "relativeDirectory": "icons",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604292738,
+      "blocks": 8,
+      "atimeMs": 1551159865989.4333,
+      "mtimeMs": 1551159043782.6663,
+      "ctimeMs": 1551159865968.0583,
+      "birthtimeMs": 1551159043756.5894,
+      "atime": "2019-02-26T05:44:25.989Z",
+      "mtime": "2019-02-26T05:30:43.783Z",
+      "ctime": "2019-02-26T05:44:25.968Z",
+      "birthtime": "2019-02-26T05:30:43.757Z"
+    },
+    "d79bca18-10ba-55a4-aa28-411a699f7946": {
+      "id": "d79bca18-10ba-55a4-aa28-411a699f7946",
+      "children": [
+        "7a8feb1f-f1f5-5239-b6f0-067bc3b16c6a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b69d17c910845ad2bea4406c1e47e4bd",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icons/gift.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icons/gift.png",
+      "relativePath": "icons/gift.png",
+      "extension": "png",
+      "size": 1078,
+      "prettySize": "1.08 kB",
+      "modifiedTime": "2019-02-26T05:25:30.277Z",
+      "accessTime": "2019-02-26T05:25:31.623Z",
+      "changeTime": "2019-02-26T05:44:25.965Z",
+      "birthTime": "2019-02-26T05:25:30.249Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/icons",
+      "base": "gift.png",
+      "ext": ".png",
+      "name": "gift",
+      "relativeDirectory": "icons",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604292595,
+      "blocks": 8,
+      "atimeMs": 1551158731623.3928,
+      "mtimeMs": 1551158730276.9792,
+      "ctimeMs": 1551159865965.2708,
+      "birthtimeMs": 1551158730249.2346,
+      "atime": "2019-02-26T05:25:31.623Z",
+      "mtime": "2019-02-26T05:25:30.277Z",
+      "ctime": "2019-02-26T05:44:25.965Z",
+      "birthtime": "2019-02-26T05:25:30.249Z"
+    },
+    "2601c2ef-93e5-5b29-bc87-c8d2766d37b1": {
+      "id": "2601c2ef-93e5-5b29-bc87-c8d2766d37b1",
+      "children": [
+        "0c913d05-7003-5ce4-b7e9-7ab05ace0804"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e590bab9807b793c3aa21dfdf6699877",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/icons/faq.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/icons/faq.png",
+      "relativePath": "icons/faq.png",
+      "extension": "png",
+      "size": 553,
+      "prettySize": "553 B",
+      "modifiedTime": "2019-02-26T05:24:21.043Z",
+      "accessTime": "2019-02-26T05:24:22.494Z",
+      "changeTime": "2019-02-26T05:44:25.964Z",
+      "birthTime": "2019-02-26T05:24:21.018Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/icons",
+      "base": "faq.png",
+      "ext": ".png",
+      "name": "faq",
+      "relativeDirectory": "icons",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604292562,
+      "blocks": 8,
+      "atimeMs": 1551158662494.4768,
+      "mtimeMs": 1551158661043.212,
+      "ctimeMs": 1551159865964.022,
+      "birthtimeMs": 1551158661017.6965,
+      "atime": "2019-02-26T05:24:22.494Z",
+      "mtime": "2019-02-26T05:24:21.043Z",
+      "ctime": "2019-02-26T05:44:25.964Z",
+      "birthtime": "2019-02-26T05:24:21.018Z"
+    },
+    "c18a3de6-871a-5514-afa5-c9d304805559": {
+      "id": "c18a3de6-871a-5514-afa5-c9d304805559",
+      "children": [],
+      "parent": "8a1a8a69-9b22-53d7-a566-bdea56c0ffe3",
+      "internal": {
+        "contentDigest": "2efe07c9ec8641c1de019b494c70beba",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "54a80402-f65e-5f35-927a-b9761357ad33": {
+      "id": "54a80402-f65e-5f35-927a-b9761357ad33",
+      "children": [],
+      "parent": "d5bb29e8-a288-57b0-9733-59c43f8cca16",
+      "internal": {
+        "contentDigest": "3ad51101c3dbf633ce103e621a02ed58",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ab61af24-d7af-5c89-b96d-2c2584656ad9": {
+      "id": "ab61af24-d7af-5c89-b96d-2c2584656ad9",
+      "children": [],
+      "parent": "6d133444-826a-5644-b2ba-fd5fbec953c9",
+      "internal": {
+        "contentDigest": "24bfe167c74b11c6df1c7b3a690544d4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "7a8feb1f-f1f5-5239-b6f0-067bc3b16c6a": {
+      "id": "7a8feb1f-f1f5-5239-b6f0-067bc3b16c6a",
+      "children": [],
+      "parent": "d79bca18-10ba-55a4-aa28-411a699f7946",
+      "internal": {
+        "contentDigest": "b69d17c910845ad2bea4406c1e47e4bd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0c913d05-7003-5ce4-b7e9-7ab05ace0804": {
+      "id": "0c913d05-7003-5ce4-b7e9-7ab05ace0804",
+      "children": [],
+      "parent": "2601c2ef-93e5-5b29-bc87-c8d2766d37b1",
+      "internal": {
+        "contentDigest": "e590bab9807b793c3aa21dfdf6699877",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d668c54c-acdd-53f2-b006-64363d5caa95": {
+      "id": "d668c54c-acdd-53f2-b006-64363d5caa95",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e78ffb47b2f01669c2cec63faad9fa45",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/Hi.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/Hi.gif",
+      "relativePath": "Hi.gif",
+      "extension": "gif",
+      "size": 992251,
+      "prettySize": "992 kB",
+      "modifiedTime": "2019-02-09T17:34:47.384Z",
+      "accessTime": "2019-02-27T04:54:23.496Z",
+      "changeTime": "2019-02-27T04:54:29.440Z",
+      "birthTime": "2019-02-09T17:34:47.378Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "Hi.gif",
+      "ext": ".gif",
+      "name": "Hi",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604350715,
+      "blocks": 1944,
+      "atimeMs": 1551243263495.8772,
+      "mtimeMs": 1549733687383.5198,
+      "ctimeMs": 1551243269439.8198,
+      "birthtimeMs": 1549733687377.555,
+      "atime": "2019-02-27T04:54:23.496Z",
+      "mtime": "2019-02-09T17:34:47.384Z",
+      "ctime": "2019-02-27T04:54:29.440Z",
+      "birthtime": "2019-02-09T17:34:47.378Z"
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -1956,6 +2341,210 @@
         "contentDigest": "140af22f8b450a63a7851ba088d36b1c",
         "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
         "owner": "internal-data-bridge"
+      }
+    },
+    "3078614d-1f98-5195-965e-7cc1a8354a29": {
+      "id": "3078614d-1f98-5195-965e-7cc1a8354a29",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e78ffb47b2f01669c2cec63faad9fa45",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/hi.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/hi.gif",
+      "relativePath": "hi.gif",
+      "extension": "gif",
+      "size": 992251,
+      "prettySize": "992 kB",
+      "modifiedTime": "2019-02-09T17:34:47.384Z",
+      "accessTime": "2019-02-27T05:03:44.807Z",
+      "changeTime": "2019-02-27T05:03:59.056Z",
+      "birthTime": "2019-02-09T17:34:47.378Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "hi.gif",
+      "ext": ".gif",
+      "name": "hi",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604350715,
+      "blocks": 1944,
+      "atimeMs": 1551243824807.449,
+      "mtimeMs": 1549733687383.5198,
+      "ctimeMs": 1551243839056.1313,
+      "birthtimeMs": 1549733687377.555,
+      "atime": "2019-02-27T05:03:44.807Z",
+      "mtime": "2019-02-09T17:34:47.384Z",
+      "ctime": "2019-02-27T05:03:59.056Z",
+      "birthtime": "2019-02-09T17:34:47.378Z"
+    },
+    "6f9a35b0-1ebc-5570-9f14-c330c0763402": {
+      "id": "6f9a35b0-1ebc-5570-9f14-c330c0763402",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "019c3d5191d76b2023656e764c6dfaa5",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/hi2.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/hi2.gif",
+      "relativePath": "hi2.gif",
+      "extension": "gif",
+      "size": 462784,
+      "prettySize": "463 kB",
+      "modifiedTime": "2019-02-27T05:48:08.915Z",
+      "accessTime": "2019-02-27T05:48:08.850Z",
+      "changeTime": "2019-02-27T05:48:08.916Z",
+      "birthTime": "2019-02-27T05:48:08.850Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "hi2.gif",
+      "ext": ".gif",
+      "name": "hi2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604366144,
+      "blocks": 904,
+      "atimeMs": 1551246488849.905,
+      "mtimeMs": 1551246488914.745,
+      "ctimeMs": 1551246488915.829,
+      "birthtimeMs": 1551246488849.905,
+      "atime": "2019-02-27T05:48:08.850Z",
+      "mtime": "2019-02-27T05:48:08.915Z",
+      "ctime": "2019-02-27T05:48:08.916Z",
+      "birthtime": "2019-02-27T05:48:08.850Z"
+    },
+    "284f4845-4e75-52ad-81e5-34e5f21ae488": {
+      "id": "284f4845-4e75-52ad-81e5-34e5f21ae488",
+      "children": [
+        "76547eae-6c29-5d1d-a7c7-e445e88730d1"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "93ed6bf6ec93e7debd9f4bd6f0ec46f3",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/RopeBridge_Edit.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/RopeBridge_Edit.jpg",
+      "relativePath": "RopeBridge_Edit.jpg",
+      "extension": "jpg",
+      "size": 6840810,
+      "prettySize": "6.84 MB",
+      "modifiedTime": "2019-02-09T18:03:51.366Z",
+      "accessTime": "2019-02-27T05:51:20.140Z",
+      "changeTime": "2019-02-27T05:51:38.120Z",
+      "birthTime": "2019-02-09T18:03:50.915Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "RopeBridge_Edit.jpg",
+      "ext": ".jpg",
+      "name": "RopeBridge_Edit",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604366274,
+      "blocks": 13368,
+      "atimeMs": 1551246680140.317,
+      "mtimeMs": 1549735431365.8206,
+      "ctimeMs": 1551246698119.673,
+      "birthtimeMs": 1549735430914.7034,
+      "atime": "2019-02-27T05:51:20.140Z",
+      "mtime": "2019-02-09T18:03:51.366Z",
+      "ctime": "2019-02-27T05:51:38.120Z",
+      "birthtime": "2019-02-09T18:03:50.915Z"
+    },
+    "76547eae-6c29-5d1d-a7c7-e445e88730d1": {
+      "id": "76547eae-6c29-5d1d-a7c7-e445e88730d1",
+      "children": [],
+      "parent": "284f4845-4e75-52ad-81e5-34e5f21ae488",
+      "internal": {
+        "contentDigest": "93ed6bf6ec93e7debd9f4bd6f0ec46f3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9961ca45-1dea-5450-bbd0-a7213e8c5d4c": {
+      "id": "9961ca45-1dea-5450-bbd0-a7213e8c5d4c",
+      "children": [
+        "0472108b-f507-5015-b351-1ed673f35811"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "562b718d8f6f9b9e2ef2ae38d2d5b302",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/smileHeart-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/smileHeart-2.png",
+      "relativePath": "smileHeart-2.png",
+      "extension": "png",
+      "size": 10238,
+      "prettySize": "10.2 kB",
+      "modifiedTime": "2019-02-27T06:34:14.762Z",
+      "accessTime": "2019-02-27T06:34:14.700Z",
+      "changeTime": "2019-02-27T06:34:14.763Z",
+      "birthTime": "2019-02-27T06:34:14.700Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "smileHeart-2.png",
+      "ext": ".png",
+      "name": "smileHeart-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604368056,
+      "blocks": 24,
+      "atimeMs": 1551249254699.65,
+      "mtimeMs": 1551249254762.1013,
+      "ctimeMs": 1551249254763.1047,
+      "birthtimeMs": 1551249254699.65,
+      "atime": "2019-02-27T06:34:14.700Z",
+      "mtime": "2019-02-27T06:34:14.762Z",
+      "ctime": "2019-02-27T06:34:14.763Z",
+      "birthtime": "2019-02-27T06:34:14.700Z"
+    },
+    "0472108b-f507-5015-b351-1ed673f35811": {
+      "id": "0472108b-f507-5015-b351-1ed673f35811",
+      "children": [],
+      "parent": "9961ca45-1dea-5450-bbd0-a7213e8c5d4c",
+      "internal": {
+        "contentDigest": "562b718d8f6f9b9e2ef2ae38d2d5b302",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     }
   },
@@ -1982,20 +2571,67 @@
       ],
       "24100f74-450f-5d68-86d3-86625b8ed294": [
         "/"
+      ],
+      "8a1a8a69-9b22-53d7-a566-bdea56c0ffe3": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "d5bb29e8-a288-57b0-9733-59c43f8cca16": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "2601c2ef-93e5-5b29-bc87-c8d2766d37b1": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "d79bca18-10ba-55a4-aa28-411a699f7946": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "6d133444-826a-5644-b2ba-fd5fbec953c9": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "c18a3de6-871a-5514-afa5-c9d304805559": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "54a80402-f65e-5f35-927a-b9761357ad33": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "0c913d05-7003-5ce4-b7e9-7ab05ace0804": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "7a8feb1f-f1f5-5239-b6f0-067bc3b16c6a": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "ab61af24-d7af-5c89-b96d-2c2584656ad9": [
+        "sq--src-components-nav-mobile-js"
+      ],
+      "284f4845-4e75-52ad-81e5-34e5f21ae488": [
+        "/"
+      ],
+      "76547eae-6c29-5d1d-a7c7-e445e88730d1": [
+        "/"
+      ],
+      "9961ca45-1dea-5450-bbd0-a7213e8c5d4c": [
+        "/"
+      ],
+      "0472108b-f507-5015-b351-1ed673f35811": [
+        "/"
       ]
     },
     "connections": {}
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "742/path---index-6a9-lONyPUPCbSiQ7c2mE0xkJgu4loc",
+    "index": "26/path---index-6a9-JJjUWzri5QwDyhFbqKl07VL4",
     "sq--src-components-nav-js": 783971839,
-    "sq--src-pages-index-js": 768581675
+    "sq--src-pages-index-js": 768581675,
+    "sq--src-components-nav-mobile-js": 1735570884
   },
   "components": {
     "/Users/immbudden/Development/Buddeen/src/pages/index.js": {
-      "query": "query usersImmbuddenDevelopmentBuddeenSrcPagesIndexJs1834328999 {\n  homeHeroImg: file(relativePath: {eq: \"Buddeen.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  logo: file(relativePath: {eq: \"BuddeenLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query usersImmbuddenDevelopmentBuddeenSrcPagesIndexJs3621373434 {\n  homeHeroImg: file(relativePath: {eq: \"Buddeen.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  logo: file(relativePath: {eq: \"BuddeenLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  RopeBridge: file(relativePath: {eq: \"RopeBridge_Edit.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  smileHeart: file(relativePath: {eq: \"smileHeart-2.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/index.js"
+    },
+    "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
@@ -2006,6 +2642,14 @@
       "jsonName": "sq--src-components-nav-js",
       "query": "query usersImmbuddenDevelopmentBuddeenSrcComponentsNavJs783971839 {\n  logo: file(relativePath: {eq: \"LanyonBrand19White.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 783971839
+    },
+    "sq--src-components-nav-mobile-js": {
+      "name": "IconQuery",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/components/navMobile.js",
+      "id": "sq--src-components-nav-mobile-js",
+      "jsonName": "sq--src-components-nav-mobile-js",
+      "query": "query IconQuery {\n  calIcon: file(relativePath: {eq: \"icons/cal.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 100) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  planeIcon: file(relativePath: {eq: \"icons/plane.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 100) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  faqIcon: file(relativePath: {eq: \"icons/faq.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 100) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  giftIcon: file(relativePath: {eq: \"icons/gift.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 100) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  rsvpIcon: file(relativePath: {eq: \"icons/rsvp.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 100) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 1735570884
     }
   }
 }
