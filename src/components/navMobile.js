@@ -3,6 +3,11 @@ import { graphql, Link, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import media from "styled-media-query";
 import Img from 'gatsby-image'
+import Today from '@material-ui/icons/Today';
+import AirplanemodeActive from '@material-ui/icons/AirplanemodeActive';
+import QuestionAnswer from '@material-ui/icons/QuestionAnswer';
+import CardGiftcard from '@material-ui/icons/CardGiftcard';
+import Favorite from '@material-ui/icons/Favorite';
 
 const NavWrapperMobile = styled.div `
     background: #FFF;
@@ -16,6 +21,7 @@ const NavWrapperMobile = styled.div `
     bottom: 0;
     width: 100%;
     z-index: 500;
+    box-shadow: 0px -2px 15px -2px rgba(17,17,17,0.1);
 
     ${media.greaterThan("medium")`
         display: none;
@@ -40,7 +46,9 @@ const NavLinkContainer = styled.div `
 `
 
 const NavLink = styled(Link) `
-    color: #144164;
+    display: flex;
+    flex-direction: column;
+    color: #BEBEC3;
     font-size: 2.4rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -64,7 +72,7 @@ const NavLink = styled(Link) `
     `}
 `
 
-const NavLinkIcon = styled(Img) `
+const NavLinkIcon = styled.div `
     margin: 0 auto;
     text-align: center;
     margin-bottom: 0.75rem;
@@ -72,80 +80,37 @@ const NavLinkIcon = styled(Img) `
     max-width: 2.2rem;
 `
 
-export default () => (
-    <StaticQuery
-        query={graphql`
-            query IconQuery {
+const active = styled.div `
+    color: pink;
+`
 
-                calIcon: file(relativePath: { eq: "icons/cal.png" }) {
-                    childImageSharp {
-                        fluid(maxWidth: 100) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-        
-                planeIcon: file(relativePath: { eq: "icons/plane.png" }) {
-                    childImageSharp {
-                        fluid(maxWidth: 100) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-        
-                faqIcon: file(relativePath: { eq: "icons/faq.png" }) {
-                    childImageSharp {
-                        fluid(maxWidth: 100) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-        
-                giftIcon: file(relativePath: { eq: "icons/gift.png" }) {
-                    childImageSharp {
-                        fluid(maxWidth: 100) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-        
-                rsvpIcon: file(relativePath: { eq: "icons/rsvp.png" }) {
-                    childImageSharp {
-                        fluid(maxWidth: 100) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-            }
-        `}
-
-      render={data => (
-         <NavWrapperMobile>
-            <NavContainer>
-                <NavLinkContainer>
-                    <NavLink to="/another-page/">
-                        <NavLinkIcon fluid={data.calIcon.childImageSharp.fluid} />
-                        Schedule
-                    </NavLink>
-                    <NavLink to="/another-page/">
-                        <NavLinkIcon fluid={data.planeIcon.childImageSharp.fluid} />
-                        Travel
-                    </NavLink>
-                    <NavLink to="/another-page/">
-                        <NavLinkIcon fluid={data.faqIcon.childImageSharp.fluid} />
-                        FAQ
-                    </NavLink>
-                    <NavLink to="/another-page/">
-                        <NavLinkIcon fluid={data.giftIcon.childImageSharp.fluid} />
-                        Registry
-                    </NavLink>
-                    <NavLink to="/another-page/">
-                        <NavLinkIcon fluid={data.rsvpIcon.childImageSharp.fluid} />
-                        RSVP
-                    </NavLink>
-                </NavLinkContainer>
-                </NavContainer>
-        </NavWrapperMobile>
-      )}
-    />
+const NavMobile = (props) => (
+    <NavWrapperMobile>
+        <NavContainer>
+            <NavLinkContainer>
+                <NavLink to="/schedule/" activeStyle={{ color: "#64D2C8" }}>
+                <NavLinkIcon><Today /> </NavLinkIcon>
+                    Schedule
+                </NavLink>
+                <NavLink to="/travel/" activeStyle={{ color: "#64D2C8" }}>
+                    <NavLinkIcon><AirplanemodeActive /> </NavLinkIcon>
+                    Travel
+                </NavLink>
+                <NavLink to="/faq/" activeStyle={{ color: "#64D2C8" }}>
+                    <NavLinkIcon><QuestionAnswer /> </NavLinkIcon>
+                    FAQ
+                </NavLink>
+                <NavLink to="/registry/" activeStyle={{ color: "#64D2C8" }}>
+                    <NavLinkIcon><CardGiftcard /> </NavLinkIcon>
+                    Registry
+                </NavLink>
+                <NavLink to="/rsvp/" activeStyle={{ color: "#64D2C8" }}>
+                    <NavLinkIcon><Favorite /> </NavLinkIcon>
+                    RSVP
+                </NavLink>
+            </NavLinkContainer>
+        </NavContainer>
+    </NavWrapperMobile>
 )
+
+export default NavMobile
