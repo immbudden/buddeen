@@ -73,6 +73,7 @@ const SlideContainer = styled.div `
 const SectionLight = styled.div `
     background: #FFF;
     min-height: 100vh;
+    width: 100vw;
 `
 
 const SectionBreakGreen = styled.div `

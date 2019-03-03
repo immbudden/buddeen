@@ -22,11 +22,6 @@ const TabContainer = styled.div `
     width: 100vw;
     padding-bottom: 7.5vh;
     overflow-y: scroll;
-
-    
-    &:-webkit-scrollbar {
-        display: none;
-    }
 `
 // Old code from Material Tabs
 // function TabContainer({ children, dir }) {
