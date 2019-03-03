@@ -118,12 +118,12 @@ const SectionImgContainer = styled.div `
     margin: 0 auto;
     margin-bottom: 1rem;
     margin-top: 5rem;
+    overflow: hidden;
+    position: relative;
 `
 
 const SectionImg = styled(Img) `
-    width: 50vw;
-    max-width: 50vw;
-    margin-bottom: 0;
+    width: 17.5rem;
 `
 
 const Paragraph = styled.p `
@@ -187,7 +187,7 @@ export default () => (
     
     <StaticQuery
       query={graphql`
-        query ImageQuery {
+        query GettingHereQuery {
 
             passportImg: file(relativePath: { eq: "illustrations/Passport.png" }) {
                 childImageSharp {

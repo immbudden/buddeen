@@ -12,6 +12,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import GettingHere from '../tabs/GettingHere';
+import BigDay from '../tabs/BigDay';
 // import { theme } from '../../utils/materialTheme'
 
 const BottomPadding = styled.div `
@@ -158,7 +159,7 @@ class TravelTabs extends React.Component {
                     </TabContainer>
 
                     <TabContainer dir={theme.direction}>
-                        Item Two
+                        <BigDay />
                     </TabContainer>
 
                     <TabContainer dir={theme.direction}>
