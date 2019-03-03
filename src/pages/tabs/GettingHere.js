@@ -160,7 +160,7 @@ const Button = styled.button `
 `
 
 const CarouselStyled = styled (Carousel) `
-    margin-left: 5vw;
+    padding-left: 5vw;
     margin-top: 2.5rem;
 `
 

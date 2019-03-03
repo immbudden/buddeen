@@ -163,6 +163,7 @@ const CarouselStyled = styled (Carousel) `
     padding-left: 5vw;
     margin-top: 2.5rem;
     overflow-x: hidden;
+    z-index: 10;
 `
 
 const Slide = styled.div `

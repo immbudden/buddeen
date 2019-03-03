@@ -21,13 +21,22 @@ const BottomPadding = styled.div `
     margin-bottom: 10rem;
 `
 
-function TabContainer({ children, dir }) {
-  return (
-    <Typography component="div" dir={dir} style={{ }}>
-      {children}
-    </Typography>
-  );
-}
+const TabContainer = styled.div `
+    max-height: 100vh;
+    overflow-y: scroll;
+    
+    &:-webkit-scrollbar {
+        display: none;
+    }
+`
+// Old code from Material Tabs
+// function TabContainer({ children, dir }) {
+//   return (
+//     <Typography component="div" dir={dir} style={{ }}>
+//       {children}
+//     </Typography>
+//   );
+// }
 
 TabContainer.propTypes = {
   children: PropTypes.node.isRequired,
@@ -153,6 +162,10 @@ class TravelTabs extends React.Component {
                     axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                     index={this.state.value}
                     onChangeIndex={this.handleChangeIndex}
+                    disabled="true"
+                    action={actions => {
+                        this.swipeableActions = actions;
+                    }}
                 >
                     <TabContainer dir={theme.direction}>
                         <GettingHere />
