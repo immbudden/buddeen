@@ -60,7 +60,7 @@ const styles = theme => ({
     
     tabRoot: {
         textTransform: 'initial',
-        minWidth: 72,
+        // minWidth: 72,
         fontWeight: "100",
         fontSize: "1.25rem",
         letterSpacing: "0.07rem",
