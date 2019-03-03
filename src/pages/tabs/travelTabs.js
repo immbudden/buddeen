@@ -18,10 +18,10 @@ import withRoot from '../../utils/withRoot';
 
 
 const TabContainer = styled.div `
-    max-height: 95vh;
-    width: 100vw;
+    // max-height: 95vh;
+    // width: 100vw;
     padding-bottom: 7.5vh;
-    overflow-y: scroll;
+    // overflow-y: scroll;
 
     
     &:-webkit-scrollbar {
@@ -148,15 +148,7 @@ class TravelTabs extends React.Component {
                         />
                     </Tabs>
                 </AppBar>
-                <SwipeableViews
-                    axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-                    index={this.state.value}
-                    onChangeIndex={this.handleChangeIndex}
-                    disabled="true"
-                    action={actions => {
-                        this.swipeableActions = actions;
-                    }}
-                >
+                
                     <TabContainer dir={theme.direction}>
                         <GettingHere />
                     </TabContainer>
@@ -169,7 +161,7 @@ class TravelTabs extends React.Component {
                         Item Three
                     </TabContainer>
                 
-                </SwipeableViews>
+                
       </div>
     );
   }
