@@ -18,10 +18,10 @@ import withRoot from '../../utils/withRoot';
 
 
 const TabContainer = styled.div `
-    // max-height: 95vh;
-    // width: 100vw;
+    max-height: 95vh;
+    width: 100vw;
     padding-bottom: 7.5vh;
-    // overflow-y: scroll;
+    overflow-y: scroll;
 
     
     &:-webkit-scrollbar {
@@ -60,7 +60,7 @@ const styles = theme => ({
     
     tabRoot: {
         textTransform: 'initial',
-        // minWidth: 72,
+        minWidth: 72,
         fontWeight: "100",
         fontSize: "1.25rem",
         letterSpacing: "0.07rem",
@@ -126,6 +126,7 @@ class TravelTabs extends React.Component {
     return (
         
         <div className={classes.root}>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <AppBar position="fixed" color="primary">
                     <Tabs
                         value={this.state.value}
