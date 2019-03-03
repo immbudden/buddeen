@@ -18,25 +18,25 @@ import BigDay from '../tabs/BigDay';
 const BottomPadding = styled.div `
     flex 1 1 100%;
     width: 100vw;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
 `
 
-const TabContainer = styled.div `
-    max-height: 100vh;
-    overflow-y: scroll;
+// const TabContainer = styled.div `
+//     max-height: 95vh;
+//     overflow-y: scroll;
     
-    &:-webkit-scrollbar {
-        display: none;
-    }
-`
+//     &:-webkit-scrollbar {
+//         display: none;
+//     }
+// `
 // Old code from Material Tabs
-// function TabContainer({ children, dir }) {
-//   return (
-//     <Typography component="div" dir={dir} style={{ }}>
-//       {children}
-//     </Typography>
-//   );
-// }
+function TabContainer({ children, dir }) {
+  return (
+    <Typography component="div" dir={dir} style={{ }}>
+      {children}
+    </Typography>
+  );
+}
 
 TabContainer.propTypes = {
   children: PropTypes.node.isRequired,
