@@ -15,28 +15,25 @@ import GettingHere from '../tabs/GettingHere';
 import BigDay from '../tabs/BigDay';
 // import { theme } from '../../utils/materialTheme'
 
-const BottomPadding = styled.div `
-    flex 1 1 100%;
-    width: 100vw;
-    padding-bottom: 10rem;
-`
 
-// const TabContainer = styled.div `
-//     max-height: 95vh;
-//     overflow-y: scroll;
+const TabContainer = styled.div `
+    max-height: 95vh;
+    padding-bottom: 7.5vh;
+    overflow-y: scroll;
+
     
-//     &:-webkit-scrollbar {
-//         display: none;
-//     }
-// `
+    &:-webkit-scrollbar {
+        display: none;
+    }
+`
 // Old code from Material Tabs
-function TabContainer({ children, dir }) {
-  return (
-    <Typography component="div" dir={dir} style={{ }}>
-      {children}
-    </Typography>
-  );
-}
+// function TabContainer({ children, dir }) {
+//   return (
+//     <Typography component="div" dir={dir} style={{ }}>
+//       {children}
+//     </Typography>
+//   );
+// }
 
 TabContainer.propTypes = {
   children: PropTypes.node.isRequired,
@@ -181,7 +178,6 @@ class TravelTabs extends React.Component {
                 
                 </SwipeableViews>
             </MuiThemeProvider>
-            <BottomPadding />
       </div>
     );
   }
