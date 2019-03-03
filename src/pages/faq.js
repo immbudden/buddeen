@@ -7,6 +7,7 @@ import FontFace from '../utils/font-face'
 import Img from 'gatsby-image'
 import { withStyles } from '@material-ui/core/styles';
 import { Helmet } from "react-helmet"
+import NavMobile from '../components/navMobile'
 
 // Typography
 
@@ -181,7 +182,7 @@ export default () => (
       query={graphql`
         query faqQuery {
 
-            passportImg: file(relativePath: { eq: "illustrations/Passport.png" }) {
+            IrelandImg: file(relativePath: { eq: "illustrations/Ireland.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -259,9 +260,9 @@ export default () => (
                     <SectionBreakBlue>
                             <SectionBreakContent>
                                     <SectionBreakImgContainer>
-                                        <SectionBreakImg fluid={data.passportImg.childImageSharp.fluid} />
+                                        <SectionBreakImg fluid={data.IrelandImg.childImageSharp.fluid} />
                                     </SectionBreakImgContainer>
-                                    <HeadingOneLight>Getting to Northern Ireland</HeadingOneLight>
+                                    <HeadingOneLight>Wait! There are two Irelands?</HeadingOneLight>
                             </SectionBreakContent>
                     </SectionBreakBlue>
                 
@@ -313,6 +314,7 @@ export default () => (
                         </SectionContent>
                     </Container>
                 </SectionLight>
+                <NavMobile />
             </div>
         )}
       
