@@ -108,33 +108,17 @@ const styles = theme => ({
 // });
 
 class TravelTabs extends React.Component {
-//   state = {
-//     value: 0,
-//   };
+  state = {
+    value: 0,
+  };
 
-//   handleChange = (event, value) => {
-//     this.setState({ value });
-//   };
+  handleChange = (event, value) => {
+    this.setState({ value });
+  };
 
-//   handleChangeIndex = index => {
-//     this.setState({ value: index });
-//   };
-
-    state = {
-        open: false,
-    };
-
-    handleClose = () => {
-        this.setState({
-        open: false,
-        });
-    };
-
-    handleClick = () => {
-        this.setState({
-        open: true,
-        });
-    };
+  handleChangeIndex = index => {
+    this.setState({ value: index });
+  };
 
   render() {
     const { classes, theme } = this.props;
@@ -167,7 +151,7 @@ class TravelTabs extends React.Component {
                 <SwipeableViews
                     axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                     index={this.state.value}
-                    onChangeIndex={this.handleClick}
+                    onChangeIndex={this.handleChangeIndex}
                     disabled="true"
                     action={actions => {
                         this.swipeableActions = actions;

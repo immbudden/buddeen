@@ -268,10 +268,13 @@ export default () => (
                 
                     <Container>
                         <SectionContent>
-                            <SectionImgContainer>
-                                <SectionImg fluid={data.flightImg.childImageSharp.fluid} />
-                            </SectionImgContainer>
-                            <Paragraph>If you are travelling from the USA we advise that you fly into Dublin rather than Belfast - this will save you around £300!</Paragraph>
+                            <Paragraph>
+                                Yes! You will fly to a tiny beautiful island that contains two completely separate “Irelands”.
+                                <br /><br />
+                                Northern Ireland is made up of 6 counties and the capital city is Belfast. Northern Ireland is part of the United Kingdom - a sovereign state that includes England, Scotland, Wales, and Northern Ireland.
+                                <br /><br />
+                                The Republic of Ireland is its own country with its own government. The country is made up of 26 counties and it’s capital city is Dublin. 
+                            </Paragraph>
                             
                             <Divider />
 
