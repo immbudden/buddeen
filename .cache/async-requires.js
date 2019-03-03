@@ -3,6 +3,7 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---cache-dev-404-page-js": () => import("/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---src-pages-faq-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-index-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-tabs-big-day-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/BigDay.js" /* webpackChunkName: "component---src-pages-tabs-big-day-js" */),
   "component---src-pages-tabs-getting-here-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/GettingHere.js" /* webpackChunkName: "component---src-pages-tabs-getting-here-js" */),

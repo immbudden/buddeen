@@ -61,6 +61,15 @@ const Container = styled.div `
     flex-direction: column;
 `
 
+const SlideContainer = styled.div `
+    display: flex;
+    flex: 1 1 100%;
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+`
+
 const SectionLight = styled.div `
     background: #FFF;
     min-height: 100vh;
@@ -155,8 +164,19 @@ const Button = styled.button `
     border: none;
     border-radius: 0.4rem;
     margin: 0 auto;
-    min-width: 50vw;
+    min-width: 45vw;
     margin-top: 2.5rem;
+`
+
+const ButtonSmall = styled.button `
+    background: #64D2C3;
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 10px 15px 5px; // Typefix
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 2.5rem;
+    max-width: 30vw;
 `
 
 const CarouselStyled = styled (Carousel) `
@@ -170,9 +190,9 @@ const Slide = styled.div `
     height: 20vh;
     overflow: hidden;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 2.5rem;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 1.5rem 0;
     margin-right: 0;
 `
 const SlideImg = styled(Img) `
@@ -267,9 +287,10 @@ export default () => (
                                 zIndex: -1,
                             }}
                             fluid={data.KilmoreImg.childImageSharp.fluid} />
-                            <Container>
+                            <SlideContainer>
                                     <LocationTitle>Kilmore House</LocationTitle>
-                            </Container>
+                                    <ButtonSmall>Book for £35</ButtonSmall>
+                            </SlideContainer>
                         </Slide>
                     </Url>
                     <Url href="http://bit.ly/2SEXj6q">
@@ -283,9 +304,10 @@ export default () => (
                                 zIndex: -1,
                             }}
                             fluid={data.MarineHotelImg.childImageSharp.fluid} />
-                            <Container>
+                            <SlideContainer>
                                     <LocationTitle>Marine Hotel</LocationTitle>
-                            </Container>
+                                    <ButtonSmall>Book for £130</ButtonSmall>
+                            </SlideContainer>
                         </Slide>
                     </Url>
                     <Url href="http://bit.ly/2Uhjj91">
@@ -299,9 +321,10 @@ export default () => (
                                 zIndex: -1,
                             }}
                             fluid={data.TitanicHotelImg.childImageSharp.fluid} />
-                            <Container>
+                            <SlideContainer>
                                     <LocationTitle>Titanic Belfast</LocationTitle>
-                            </Container>
+                                    <ButtonSmall>Book for £120</ButtonSmall>
+                            </SlideContainer>
                         </Slide>
                     </Url>
                 </CarouselStyled>

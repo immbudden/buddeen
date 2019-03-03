@@ -10,6 +10,11 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-faq-js",
+        "jsonName": "faq-19a",
+        "path": "/faq/"
+    },
+    {
         "componentChunkName": "component---src-pages-tabs-big-day-js",
         "jsonName": "tabs-big-day-6c6",
         "path": "/tabs/BigDay/"

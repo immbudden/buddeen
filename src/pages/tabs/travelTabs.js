@@ -13,6 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import GettingHere from '../tabs/GettingHere';
 import BigDay from '../tabs/BigDay';
+const JssProvider = require('react-jss/lib/JssProvider').default;
 // import { theme } from '../../utils/materialTheme'
 
 

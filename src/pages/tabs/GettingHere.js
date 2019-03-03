@@ -61,6 +61,15 @@ const Container = styled.div `
     flex-direction: column;
 `
 
+const SlideContainer = styled.div `
+    display: flex;
+    flex: 1 1 100%;
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+`
+
 const SectionLight = styled.div `
     background: #FFF;
     min-height: 100vh;
@@ -155,7 +164,7 @@ const Button = styled.button `
     border: none;
     border-radius: 0.4rem;
     margin: 0 auto;
-    min-width: 50vw;
+    min-width: 45vw;
     margin-top: 2.5rem;
 `
 
@@ -168,9 +177,9 @@ const Slide = styled.div `
     height: 20vh;
     overflow: hidden;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
-    padding: 2.5rem;
+    padding: 1.5rem 0;
     margin-right: 0;
 `
 const SlideImg = styled(Img) `
@@ -325,9 +334,9 @@ export default () => (
                                 zIndex: -1,
                             }}
                             fluid={data.BelfastImg.childImageSharp.fluid} />
-                            <Container>
+                            <SlideContainer>
                                     <LocationTitle>Belfast</LocationTitle>
-                            </Container>
+                            </SlideContainer>
                         </Slide>
                     </Url>
                     <Url href="http://bit.ly/2SEXj6q">
@@ -341,9 +350,9 @@ export default () => (
                                 zIndex: -1,
                             }}
                             fluid={data.CaveHillImg.childImageSharp.fluid} />
-                            <Container>
+                            <SlideContainer>
                                     <LocationTitle>Newtownabbey</LocationTitle>
-                            </Container>
+                            </SlideContainer>
                         </Slide>
                     </Url>
                     <Url href="http://bit.ly/2Uhjj91">
@@ -357,9 +366,9 @@ export default () => (
                                 zIndex: -1,
                             }}
                             fluid={data.CarrickImg.childImageSharp.fluid} />
-                            <Container>
+                            <SlideContainer>
                                     <LocationTitle>Carrickfergus</LocationTitle>
-                            </Container>
+                            </SlideContainer>
                         </Slide>
                     </Url>
                 </CarouselStyled>
