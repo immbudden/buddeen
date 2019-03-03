@@ -1,5 +1,9 @@
 import React from 'react';
+import { graphql, StaticQuery, Link } from 'gatsby'
 import PropTypes from 'prop-types';
+import media from "styled-media-query";
+import styled from 'styled-components'
+import Img from 'gatsby-image'
 import { withStyles } from '@material-ui/core/styles';
 import SwipeableViews from 'react-swipeable-views';
 import AppBar from '@material-ui/core/AppBar';
@@ -7,11 +11,18 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
+import GettingHere from '../tabs/GettingHere';
 // import { theme } from '../../utils/materialTheme'
+
+const BottomPadding = styled.div `
+    flex 1 1 100%;
+    width: 100vw;
+    margin-bottom: 10rem;
+`
 
 function TabContainer({ children, dir }) {
   return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3 }}>
+    <Typography component="div" dir={dir} style={{ }}>
       {children}
     </Typography>
   );
@@ -115,7 +126,7 @@ class TravelTabs extends React.Component {
         
         <div className={classes.root}>
             <MuiThemeProvider theme={themeBuddeen}>
-                <AppBar position="static" color="primary">
+                <AppBar position="fixed" color="primary">
                     <Tabs
                         value={this.state.value}
                         onChange={this.handleChange}
@@ -143,17 +154,20 @@ class TravelTabs extends React.Component {
                     onChangeIndex={this.handleChangeIndex}
                 >
                     <TabContainer dir={theme.direction}>
-                        Item One
+                        <GettingHere />
                     </TabContainer>
+
                     <TabContainer dir={theme.direction}>
                         Item Two
                     </TabContainer>
+
                     <TabContainer dir={theme.direction}>
                         Item Three
                     </TabContainer>
                 
                 </SwipeableViews>
             </MuiThemeProvider>
+            <BottomPadding />
       </div>
     );
   }

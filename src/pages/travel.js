@@ -155,40 +155,4 @@ const TravelPage = (props) => (
 
 )
 
-export const query = graphql`
-        query {
-            homeHeroImg: file(relativePath: { eq: "Buddeen.jpg" }) {
-                childImageSharp {
-                    fluid(maxWidth: 2500) {
-                        ...GatsbyImageSharpFluid
-                        }
-                }
-            }
-
-        logo: file(relativePath: { eq: "BuddeenLogo.png" }) {
-            childImageSharp {
-                fluid(maxWidth: 2500) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-
-        RopeBridge: file(relativePath: { eq: "RopeBridge_Edit.jpg" }) {
-            childImageSharp {
-                fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-
-        smileHeart: file(relativePath: { eq: "smileHeart-2.png" }) {
-            childImageSharp {
-                fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-    }
-`
-
 export default TravelPage

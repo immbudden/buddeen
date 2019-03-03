@@ -10,7 +10,6 @@ import HeaderContainer from '../components/headerContainer'
 import NavMobile from '../components/navMobile'
 import media from "styled-media-query";
 import { Helmet } from "react-helmet"
-import SwipeableViews from 'react-swipeable-views';
 import Hi from '../images/hi2.gif'
 // import Layout from "../components/layout"
 

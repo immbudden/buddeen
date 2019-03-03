@@ -10,6 +10,11 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-tabs-getting-here-js",
+        "jsonName": "tabs-getting-here-c85",
+        "path": "/tabs/GettingHere/"
+    },
+    {
         "componentChunkName": "component---src-pages-tabs-travel-tabs-js",
         "jsonName": "tabs-travel-tabs-6b0",
         "path": "/tabs/travelTabs/"
