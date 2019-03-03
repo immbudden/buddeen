@@ -19,6 +19,7 @@ import withRoot from '../../utils/withRoot';
 
 const TabContainer = styled.div `
     max-height: 95vh;
+    width: 100vw;
     padding-bottom: 7.5vh;
     overflow-y: scroll;
 
@@ -87,32 +88,24 @@ const styles = theme => ({
 
 });
 
-const themeBuddeen = createMuiTheme({
-    // palette: {
-    //     primary: { 
-    //         main: '#144164',
-    //         contrastText: '#fff',
-    //     },
-    //     secondary: { main: '#64D2C8' },
-    //     white: { main: '#FFF' },
-    // },
+// const themeBuddeen = createMuiTheme({
+//     // palette: {
+//     //     primary: { 
+//     //         main: '#144164',
+//     //         contrastText: '#fff',
+//     //     },
+//     //     secondary: { main: '#64D2C8' },
+//     //     white: { main: '#FFF' },
+//     // },
 
-    palette: {
-        primary: { 
-            main: '#144164',
-            contrastText: '#FFF',
-        },
-        secondary: { main: '#64D2C8' },
-    },
+//     typography: {
+//         "fontFamily": "\GillSansMT\", \"Helvetica\", \"Arial\", sans-serif",
+//     },
 
-    typography: {
-        "fontFamily": "\GillSansMT\", \"Helvetica\", \"Arial\", sans-serif",
-    },
-
-    // tabsIndicator: {
-    //     backgroundColor: '#1890ff',
-    // },
-});
+//     // tabsIndicator: {
+//     //     backgroundColor: '#1890ff',
+//     // },
+// });
 
 class TravelTabs extends React.Component {
   state = {
@@ -133,12 +126,11 @@ class TravelTabs extends React.Component {
     return (
         
         <div className={classes.root}>
-            <MuiThemeProvider theme={themeBuddeen}>
                 <AppBar position="fixed" color="primary">
                     <Tabs
                         value={this.state.value}
                         onChange={this.handleChange}
-                        // indicatorColor="secondary"
+                        indicatorColor="secondary"
                         variant="fullWidth"
                         classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
                     >
@@ -178,7 +170,6 @@ class TravelTabs extends React.Component {
                     </TabContainer>
                 
                 </SwipeableViews>
-            </MuiThemeProvider>
       </div>
     );
   }
