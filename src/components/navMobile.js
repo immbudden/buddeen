@@ -84,7 +84,7 @@ const active = styled.div `
     color: pink;
 `
 
-const NavMobile = (props) => (
+const NavMobile = () => (
     <NavWrapperMobile>
         <NavContainer>
             <NavLinkContainer>
