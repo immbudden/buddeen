@@ -9,6 +9,11 @@ import NavMobile from '../components/navMobile'
 import media from "styled-media-query";
 import { Helmet } from "react-helmet"
 import TravelTabs from "../pages/tabs/travelTabs";
+import Today from '@material-ui/icons/Today';
+import AirplanemodeActive from '@material-ui/icons/AirplanemodeActive';
+import QuestionAnswer from '@material-ui/icons/QuestionAnswer';
+import CardGiftcard from '@material-ui/icons/CardGiftcard';
+import Favorite from '@material-ui/icons/Favorite';
 // import Layout from "../components/layout"
 
 const HeadingOne = styled.h1 `
