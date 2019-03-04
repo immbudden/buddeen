@@ -190,6 +190,7 @@ const SlideImg = styled(Img) `
 const Url = styled.a `
     text-decoration: none;
     width: 100%;
+    color: #FFF;
 `
 
 
@@ -290,7 +291,7 @@ export default () => (
                             <SectionImg fluid={data.busImg.childImageSharp.fluid} />
                         </SectionImgContainer>
                         <Paragraph>If you don't plan on driving, the easiest way to get to Belfast would be to book a return Bus with Translink - this will drop you directly into Belfast city center and only costs £17 for the return if you book it online.</Paragraph>
-                        <Button>Book a Bus</Button>
+                        <Button><Url href="http://bit.ly/2tQthSY">Book the Bus</Url></Button>
 
                         <Divider />
 

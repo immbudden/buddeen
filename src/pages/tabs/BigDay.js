@@ -111,6 +111,10 @@ const SectionBreakImg = styled(Img) `
     margin-bottom: 0;
 `
 
+const SectionBreakBackgroundImg = styled(Img) `
+    width: 4.5rem;
+`
+
 const SectionContent = styled.div `
     display: flex;
     flex-direction: column;
@@ -227,6 +231,14 @@ export default () => (
                 }
             }
 
+            champagneImg: file(relativePath: { eq: "illustrations/champagne.png" }) {
+                childImageSharp {
+                    fluid(maxWidth: 500) {
+                        ...GatsbyImageSharpFluid_tracedSVG
+                    }
+                }
+            }
+
             KilmoreImg: file(relativePath: { eq: "places/Kilmore.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
@@ -257,10 +269,15 @@ export default () => (
             <SectionLight>
                 <SectionBreakGreen>
                         <SectionBreakContent>
-                                {/* <SectionBreakImgContainer>
-                                    <SectionBreakImg fluid={data.passportImg.childImageSharp.fluid} />
-                                </SectionBreakImgContainer> */}
-                                <HeadingOneLight>Wedding Night</HeadingOneLight>
+                            <SectionBreakBackgroundImg style={{
+                                position: "absolute",
+                                left: 0,
+                                top: 0,
+                                width: "100%",
+                                zIndex: -1,
+                            }}
+                            fluid={data.champagneImg.childImageSharp.fluid} />
+                            <HeadingOneLight>Wedding Night</HeadingOneLight>
                         </SectionBreakContent>
                 </SectionBreakGreen>
             
