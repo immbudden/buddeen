@@ -150,7 +150,7 @@ class TravelTabs extends React.Component {
                     axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                     index={this.state.value}
                     onChangeIndex={this.handleChangeIndex}
-                    disabled="true"
+                    disabled={true}
                     action={actions => {
                         this.swipeableActions = actions;
                     }}

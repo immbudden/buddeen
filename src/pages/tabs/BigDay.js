@@ -292,7 +292,7 @@ export default () => (
                     </SectionContent>
                 </Container>
 
-                <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} edgeEasing="easeQuadInOut" edgeEasing="easeQuadInOut" renderBottomCenterControls={false} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
+                <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} edgeEasing="easeQuadInOut" edgeEasing="easeQuadInOut" renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
                     <Url href="http://bit.ly/2Tm0og4">
                         <Slide>
                             <SlideImg 
