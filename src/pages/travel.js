@@ -140,7 +140,7 @@ const StoryImgHeight = styled(Img) `
 
 
 
-const TravelPage = (props) => (
+const TravelPage = () => (
 
     <div>
         <Helmet >
