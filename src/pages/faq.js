@@ -66,6 +66,7 @@ const Container = styled.div `
 const SectionLight = styled.div `
     background: #FFF;
     min-height: 100vh;
+    padding-bottom: 10rem;
 `
 
 const SectionBreakGreen = styled.div `
@@ -175,6 +176,16 @@ const Button = styled.button `
     margin-top: 2.5rem;
 `
 
+const Url = styled.a `
+    text-decoration: none;
+    width: 100%;
+    color: #FFF;
+`
+
+const Bullet = styled.li `
+    padding-top: 1rem;
+`
+
 
 export default () => (
     
@@ -214,7 +225,7 @@ export default () => (
                 }
             }
 
-            baseCampImg: file(relativePath: { eq: "illustrations/baseCamp.png" }) {
+            phoneHandImg: file(relativePath: { eq: "illustrations/phoneHand.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -222,7 +233,7 @@ export default () => (
                 }
             }
 
-            BelfastImg: file(relativePath: { eq: "Belfast.jpg" }) {
+            piggyImg: file(relativePath: { eq: "illustrations/piggy.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -230,7 +241,7 @@ export default () => (
                 }
             }
 
-            CaveHillImg: file(relativePath: { eq: "places/Cavehill.jpg" }) {
+            statueImg: file(relativePath: { eq: "illustrations/statue.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -238,13 +249,6 @@ export default () => (
                 }
             }
 
-            CarrickImg: file(relativePath: { eq: "places/Carrick.jpg" }) {
-                childImageSharp {
-                    fluid(maxWidth: 500) {
-                        ...GatsbyImageSharpFluid_tracedSVG
-                    }
-                }
-            }
         }
       `}
 
@@ -275,47 +279,97 @@ export default () => (
                                 <br /><br />
                                 The Republic of Ireland is its own country with its own government. The country is made up of 26 counties and it’s capital city is Dublin. 
                             </Paragraph>
-                            
-                            <Divider />
-
-                            <HeadingOne>The Bus</HeadingOne>
-                            <SectionImgContainer>
-                                <SectionImg fluid={data.busImg.childImageSharp.fluid} />
-                            </SectionImgContainer>
-                            <Paragraph>If you don't plan on driving, the easiest way to get to Belfast would be to book a return Bus with Translink - this will drop you directly into Belfast city center and only costs £17 for the return if you book it online.</Paragraph>
-                            <Button>Book a Bus</Button>
-
-                            <Divider />
-
-                            <HeadingOne>Car Rental</HeadingOne>
-                            <SectionImgContainer>
-                                <SectionImg fluid={data.carImg.childImageSharp.fluid} />
-                            </SectionImgContainer>
-                            <Paragraph>The easiest way to explore our beautiful Island would be to rent a car. We advise booking with Sixt at Dublin Airport, where you can get a car from as little as $10 a day (VW Polo). <br /><br />If you use the code XXX at the checkout, we have arranged a special 15% discount.</Paragraph>
-                            <Button>Book a Car</Button>
                         </SectionContent>
                     </Container>
-                    
+{/* 
+                    <HeadingOne>Car Rental</HeadingOne>
+                    <SectionImgContainer>
+                        <SectionImg fluid={data.carImg.childImageSharp.fluid} />
+                    </SectionImgContainer>
+                    <Paragraph>The easiest way to explore our beautiful Island would be to rent a car. We advise booking with Sixt at Dublin Airport, where you can get a car from as little as $10 a day (VW Polo). <br /><br />If you use the code XXX at the checkout, we have arranged a special 15% discount.</Paragraph>
+                    <Button>Book a Car</Button> */}
+
                     <SectionBreakGreen>
                         <SectionBreakContent>
                                 <SectionBreakImgContainer>
-                                    <SectionBreakImg fluid={data.baseCampImg.childImageSharp.fluid} />
+                                    <SectionBreakImg fluid={data.phoneHandImg.childImageSharp.fluid} />
                                 </SectionBreakImgContainer>
-                                <HeadingOneLight>Setup Basecamp</HeadingOneLight>
+                                <HeadingOneLight>What about my electronics?</HeadingOneLight>
                         </SectionBreakContent>
                     </SectionBreakGreen>
-
+                    
                     <Container>
                         <SectionContent>
                             <Paragraph>
-                                Some information in here about the availability of hotels and B&amp;Bs, we recommend setting a base in and around Belfast 
-                                so that you can easily explore the city and the rest of the island.
-                                <br />
-                                <br />
-                                <Bold>We recommend staying in these locations</Bold>
-                                </Paragraph>
+                                <ul>
+                                    <Bullet>We strongly recommend bringing a converter so you can use your phone/computer charger, straightener/curling iron, blow dryer, etc.</Bullet>
+                                </ul>
+                                <ul>
+                                    <Bullet>Many hotels will however have USB outlets.</Bullet>
+                                </ul>
+                                <ul>
+                                    <Bullet>If you forget to bring a converter you can buy one at Tesco or Argos.</Bullet>
+                                </ul> 
+                            </Paragraph>
+                            <Button><Url href="https://www.argos.co.uk/product/8556295">Reserve at Argos</Url></Button>
                         </SectionContent>
                     </Container>
+
+                    <SectionBreakGreen>
+                        <SectionBreakContent>
+                                <SectionBreakImgContainer>
+                                    <SectionBreakImg fluid={data.piggyImg.childImageSharp.fluid} />
+                                </SectionBreakImgContainer>
+                                <HeadingOneLight>How do I pay for things?  £ vs €</HeadingOneLight>
+                        </SectionBreakContent>
+                    </SectionBreakGreen>
+                    
+                    <Container>
+                        <SectionContent>
+                            <Paragraph>
+                                <ul>
+                                    <Bullet>The currency in Northern Ireland is the pound (£), also commonly known as called sterling or quid</Bullet>
+                                </ul>
+                                <ul>
+                                    <Bullet>The currency in the Republic of Ireland is the Euro (€)</Bullet>
+                                </ul>
+                                <ul>
+                                    <Bullet>We recommend getting a travel debit card which will allow you to pay in both currencies</Bullet>
+                                </ul> 
+                            </Paragraph>
+                        </SectionContent>
+                    </Container>
+
+                    <SectionBreakBlue>
+                        <SectionBreakContent>
+                                <SectionBreakImgContainer>
+                                    <SectionBreakImg fluid={data.statueImg.childImageSharp.fluid} />
+                                </SectionBreakImgContainer>
+                                <HeadingOneLight>How do I get back to the USA?</HeadingOneLight>
+                        </SectionBreakContent>
+                    </SectionBreakBlue>
+                    
+                    <Container>
+                        <SectionContent>
+                            <Paragraph>
+                                <ul>
+                                    <Bullet>
+                                        When you fly from Dublin to the United States you will have to go through pre-clearance in the Dublin airport.  This means that you will check in as usual and go through the normal security, then you will follow signs downstairs to USA pre-clearance.
+                                        You will then go through security again, USA style (removing shoes, taking out liquids, etc.).
+                                        <br /><br />
+                                        After you clear security, you will go through customs and finally you will walk to your gate.
+                                    </Bullet>
+                                </ul>
+                                <ul>
+                                    <Bullet>We recommend getting to Dublin Airport 30-60 minutes before you normally would if you have to go through pre-clearance.  There is no pre-clearance if you are flying on to another country in the EU. </Bullet>
+                                </ul>
+                                <ul>
+                                    <Bullet>Food and drink choices in pre-clearance are pretty poor,  so make sure you grab something before you head down. Thankfully not all is lost, you can still get a decent pint of Guiness down there!</Bullet>
+                                </ul> 
+                            </Paragraph>
+                        </SectionContent>
+                    </Container>
+
                 </SectionLight>
                 <NavMobile />
             </div>
