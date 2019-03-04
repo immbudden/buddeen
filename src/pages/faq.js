@@ -257,7 +257,7 @@ export default () => (
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Buddeen - 4th July 2019</title>
-                    <link rel="canonical" href="http://buddeen.com" />
+                    <link rel="canonical" href="https://buddeen.com" />
                 </Helmet>
                 <FontFace />
                 <SectionLight>
