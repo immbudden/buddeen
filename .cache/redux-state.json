@@ -1433,12 +1433,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-03T22:08:31.976Z",
+      "buildTime": "2019-03-05T00:02:50.906Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8ce1991b96086216b66a380907476dba",
+        "contentDigest": "e96cd5d324700b00805afcff7a2f75d9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1448,7 +1448,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "59be55a7e452607dc4985c0917a614a4",
+        "contentDigest": "5c422f85508e2d3050dcedd2ef41130d",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1457,11 +1457,11 @@
       "absolutePath": "/Users/immbudden/Development/Buddeen/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 640,
-      "prettySize": "640 B",
-      "modifiedTime": "2019-03-03T04:05:58.741Z",
-      "accessTime": "2019-03-03T22:08:36.902Z",
-      "changeTime": "2019-03-03T04:05:58.741Z",
+      "size": 672,
+      "prettySize": "672 B",
+      "modifiedTime": "2019-03-04T23:14:35.550Z",
+      "accessTime": "2019-03-05T00:02:55.765Z",
+      "changeTime": "2019-03-04T23:14:35.550Z",
       "birthTime": "2018-12-18T13:24:12.862Z",
       "root": "/",
       "dir": "/Users/immbudden/Development/Buddeen/src",
@@ -1471,20 +1471,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 20,
+      "nlink": 21,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8601505201,
       "blocks": 0,
-      "atimeMs": 1551650916901.8164,
-      "mtimeMs": 1551585958741.0413,
-      "ctimeMs": 1551585958741.0413,
+      "atimeMs": 1551744175765.1787,
+      "mtimeMs": 1551741275550.3965,
+      "ctimeMs": 1551741275550.3965,
       "birthtimeMs": 1545139452861.9148,
-      "atime": "2019-03-03T22:08:36.902Z",
-      "mtime": "2019-03-03T04:05:58.741Z",
-      "ctime": "2019-03-03T04:05:58.741Z",
+      "atime": "2019-03-05T00:02:55.765Z",
+      "mtime": "2019-03-04T23:14:35.550Z",
+      "ctime": "2019-03-04T23:14:35.550Z",
       "birthtime": "2018-12-18T13:24:12.862Z"
     },
     "d633758c-5bb3-598c-bdfc-7df9b2f5550b": {
@@ -1492,7 +1492,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a3b46d01b1a37de0b67c415ecf1f2246",
+        "contentDigest": "fcedfa3a92f339c432402c392017bf5e",
         "type": "Directory",
         "description": "Directory \"src/images/icons\"",
         "owner": "gatsby-source-filesystem"
@@ -1504,7 +1504,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-02-26T05:44:25.968Z",
-      "accessTime": "2019-03-03T22:08:36.905Z",
+      "accessTime": "2019-03-05T00:02:55.769Z",
       "changeTime": "2019-02-26T05:44:25.968Z",
       "birthTime": "2019-02-26T05:44:14.614Z",
       "root": "/",
@@ -1522,11 +1522,11 @@
       "blksize": 4096,
       "ino": 8604293127,
       "blocks": 0,
-      "atimeMs": 1551650916905.0925,
+      "atimeMs": 1551744175768.7107,
       "mtimeMs": 1551159865968.0586,
       "ctimeMs": 1551159865968.0586,
       "birthtimeMs": 1551159854614.4094,
-      "atime": "2019-03-03T22:08:36.905Z",
+      "atime": "2019-03-05T00:02:55.769Z",
       "mtime": "2019-02-26T05:44:25.968Z",
       "ctime": "2019-02-26T05:44:25.968Z",
       "birthtime": "2019-02-26T05:44:14.614Z"
@@ -1536,7 +1536,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e1940fae0f3094c66d191c0c630a5fde",
+        "contentDigest": "243ecbb708853c9d8a051a3decb3f84c",
         "type": "Directory",
         "description": "Directory \"src/images/illustrations\"",
         "owner": "gatsby-source-filesystem"
@@ -1545,11 +1545,11 @@
       "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/illustrations",
       "relativePath": "illustrations",
       "extension": "",
-      "size": 416,
-      "prettySize": "416 B",
-      "modifiedTime": "2019-03-03T21:56:24.780Z",
-      "accessTime": "2019-03-03T22:08:36.905Z",
-      "changeTime": "2019-03-03T21:56:24.780Z",
+      "size": 608,
+      "prettySize": "608 B",
+      "modifiedTime": "2019-03-04T23:34:49.894Z",
+      "accessTime": "2019-03-05T00:02:55.769Z",
+      "changeTime": "2019-03-04T23:34:49.894Z",
       "birthTime": "2019-03-02T23:19:42.597Z",
       "root": "/",
       "dir": "/Users/immbudden/Development/Buddeen/src/images",
@@ -1559,20 +1559,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 13,
+      "nlink": 19,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8604628443,
       "blocks": 0,
-      "atimeMs": 1551650916905.1165,
-      "mtimeMs": 1551650184779.699,
-      "ctimeMs": 1551650184779.699,
+      "atimeMs": 1551744175768.6787,
+      "mtimeMs": 1551742489893.5942,
+      "ctimeMs": 1551742489893.5942,
       "birthtimeMs": 1551568782597.1433,
-      "atime": "2019-03-03T22:08:36.905Z",
-      "mtime": "2019-03-03T21:56:24.780Z",
-      "ctime": "2019-03-03T21:56:24.780Z",
+      "atime": "2019-03-05T00:02:55.769Z",
+      "mtime": "2019-03-04T23:34:49.894Z",
+      "ctime": "2019-03-04T23:34:49.894Z",
       "birthtime": "2019-03-02T23:19:42.597Z"
     },
     "a191120a-b9be-594e-8921-c181c0611f72": {
@@ -1580,7 +1580,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "50d567c949780a936c9446bd80370304",
+        "contentDigest": "bb30fcb0056b8f036bb0eb1377b78789",
         "type": "Directory",
         "description": "Directory \"src/images/places\"",
         "owner": "gatsby-source-filesystem"
@@ -1592,7 +1592,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-03-03T05:29:40.713Z",
-      "accessTime": "2019-03-03T22:08:36.905Z",
+      "accessTime": "2019-03-05T00:02:55.769Z",
       "changeTime": "2019-03-03T05:29:40.713Z",
       "birthTime": "2019-03-03T04:05:58.741Z",
       "root": "/",
@@ -1610,11 +1610,11 @@
       "blksize": 4096,
       "ino": 8604642037,
       "blocks": 0,
-      "atimeMs": 1551650916905.0974,
+      "atimeMs": 1551744175768.699,
       "mtimeMs": 1551590980712.904,
       "ctimeMs": 1551590980712.904,
       "birthtimeMs": 1551585958741.027,
-      "atime": "2019-03-03T22:08:36.905Z",
+      "atime": "2019-03-05T00:02:55.769Z",
       "mtime": "2019-03-03T05:29:40.713Z",
       "ctime": "2019-03-03T05:29:40.713Z",
       "birthtime": "2019-03-03T04:05:58.741Z"
@@ -3542,126 +3542,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /faq/": {
-      "jsonName": "faq-19a",
-      "internalComponentName": "ComponentFaq",
-      "path": "/faq/",
-      "component": "/Users/immbudden/Development/Buddeen/src/pages/faq.js",
-      "componentChunkName": "component---src-pages-faq-js",
-      "context": {},
-      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/faq.js",
-      "id": "SitePage /faq/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "8af21392cdb56548d5f9e13717af5316",
-        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/immbudden/Development/Buddeen/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "140af22f8b450a63a7851ba088d36b1c",
-        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tabs/BigDay/": {
-      "jsonName": "tabs-big-day-6c6",
-      "internalComponentName": "ComponentTabsBigDay",
-      "path": "/tabs/BigDay/",
-      "component": "/Users/immbudden/Development/Buddeen/src/pages/tabs/BigDay.js",
-      "componentChunkName": "component---src-pages-tabs-big-day-js",
-      "context": {},
-      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/BigDay.js",
-      "id": "SitePage /tabs/BigDay/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "d4e43427de6c7928498a6e446dec4f9c",
-        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tabs/GettingHere/": {
-      "jsonName": "tabs-getting-here-c85",
-      "internalComponentName": "ComponentTabsGettingHere",
-      "path": "/tabs/GettingHere/",
-      "component": "/Users/immbudden/Development/Buddeen/src/pages/tabs/GettingHere.js",
-      "componentChunkName": "component---src-pages-tabs-getting-here-js",
-      "context": {},
-      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/GettingHere.js",
-      "id": "SitePage /tabs/GettingHere/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "fd9690055145b9c7c8f50de0623a410a",
-        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tabs/travelTabs/": {
-      "jsonName": "tabs-travel-tabs-6b0",
-      "internalComponentName": "ComponentTabsTravelTabs",
-      "path": "/tabs/travelTabs/",
-      "component": "/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js",
-      "componentChunkName": "component---src-pages-tabs-travel-tabs-js",
-      "context": {},
-      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js",
-      "id": "SitePage /tabs/travelTabs/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "141b5dd3e008dd0e983deb63c6451a72",
-        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /travel/": {
-      "jsonName": "travel-554",
-      "internalComponentName": "ComponentTravel",
-      "path": "/travel/",
-      "component": "/Users/immbudden/Development/Buddeen/src/pages/travel.js",
-      "componentChunkName": "component---src-pages-travel-js",
-      "context": {},
-      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/travel.js",
-      "id": "SitePage /travel/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "831bcbe1d4afe5d9d0de15636a78456d",
-        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
-        "owner": "internal-data-bridge"
-      }
-    },
     "5dca67b6-a775-595b-b2d9-c2542d8ef73c": {
       "id": "5dca67b6-a775-595b-b2d9-c2542d8ef73c",
       "children": [
@@ -3889,6 +3769,317 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "44ac452d-e889-541d-9e16-7b8fd2b060cb": {
+      "id": "44ac452d-e889-541d-9e16-7b8fd2b060cb",
+      "children": [
+        "8d6e078d-8db4-556d-9b16-d95de15a3a55"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d8dfecee66a42000a49b16af3ec55fa1",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/illustrations/presentPop.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/illustrations/presentPop.png",
+      "relativePath": "illustrations/presentPop.png",
+      "extension": "png",
+      "size": 14627,
+      "prettySize": "14.6 kB",
+      "modifiedTime": "2019-03-04T22:41:40.070Z",
+      "accessTime": "2019-03-04T22:41:40.067Z",
+      "changeTime": "2019-03-04T22:41:40.070Z",
+      "birthTime": "2019-03-04T22:41:40.067Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/illustrations",
+      "base": "presentPop.png",
+      "ext": ".png",
+      "name": "presentPop",
+      "relativeDirectory": "illustrations",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604780378,
+      "blocks": 32,
+      "atimeMs": 1551739300066.5088,
+      "mtimeMs": 1551739300069.9014,
+      "ctimeMs": 1551739300069.9014,
+      "birthtimeMs": 1551739300066.5088,
+      "atime": "2019-03-04T22:41:40.067Z",
+      "mtime": "2019-03-04T22:41:40.070Z",
+      "ctime": "2019-03-04T22:41:40.070Z",
+      "birthtime": "2019-03-04T22:41:40.067Z"
+    },
+    "8d6e078d-8db4-556d-9b16-d95de15a3a55": {
+      "id": "8d6e078d-8db4-556d-9b16-d95de15a3a55",
+      "children": [],
+      "parent": "44ac452d-e889-541d-9e16-7b8fd2b060cb",
+      "internal": {
+        "contentDigest": "d8dfecee66a42000a49b16af3ec55fa1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8fab5b03-1ab0-55e0-9e05-71da6052e35b": {
+      "id": "8fab5b03-1ab0-55e0-9e05-71da6052e35b",
+      "children": [
+        "0ac428cf-f75e-532d-a0ca-978d831ea7f7"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ca1c41ee2040565439fadc244742087a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/macysLogo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/macysLogo.png",
+      "relativePath": "macysLogo.png",
+      "extension": "png",
+      "size": 4386,
+      "prettySize": "4.39 kB",
+      "modifiedTime": "2019-03-04T23:14:35.587Z",
+      "accessTime": "2019-03-04T23:14:35.550Z",
+      "changeTime": "2019-03-04T23:14:35.587Z",
+      "birthTime": "2019-03-04T23:14:35.550Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images",
+      "base": "macysLogo.png",
+      "ext": ".png",
+      "name": "macysLogo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604782227,
+      "blocks": 16,
+      "atimeMs": 1551741275550.365,
+      "mtimeMs": 1551741275587.1514,
+      "ctimeMs": 1551741275587.1514,
+      "birthtimeMs": 1551741275550.365,
+      "atime": "2019-03-04T23:14:35.550Z",
+      "mtime": "2019-03-04T23:14:35.587Z",
+      "ctime": "2019-03-04T23:14:35.587Z",
+      "birthtime": "2019-03-04T23:14:35.550Z"
+    },
+    "0ac428cf-f75e-532d-a0ca-978d831ea7f7": {
+      "id": "0ac428cf-f75e-532d-a0ca-978d831ea7f7",
+      "children": [],
+      "parent": "8fab5b03-1ab0-55e0-9e05-71da6052e35b",
+      "internal": {
+        "contentDigest": "ca1c41ee2040565439fadc244742087a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "92cd2a74-d43a-5ccd-b360-876104ab48c2": {
+      "id": "92cd2a74-d43a-5ccd-b360-876104ab48c2",
+      "children": [
+        "ea559731-8ea3-583c-8ee8-2ed71c08e4c0"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "626766a87794dcd695dec4900f33ea7d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/illustrations/palm.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/illustrations/palm.png",
+      "relativePath": "illustrations/palm.png",
+      "extension": "png",
+      "size": 13055,
+      "prettySize": "13.1 kB",
+      "modifiedTime": "2019-03-04T23:34:49.896Z",
+      "accessTime": "2019-03-04T23:34:49.894Z",
+      "changeTime": "2019-03-04T23:34:49.896Z",
+      "birthTime": "2019-03-04T23:34:49.894Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/illustrations",
+      "base": "palm.png",
+      "ext": ".png",
+      "name": "palm",
+      "relativeDirectory": "illustrations",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604785402,
+      "blocks": 32,
+      "atimeMs": 1551742489893.5706,
+      "mtimeMs": 1551742489895.544,
+      "ctimeMs": 1551742489895.544,
+      "birthtimeMs": 1551742489893.5706,
+      "atime": "2019-03-04T23:34:49.894Z",
+      "mtime": "2019-03-04T23:34:49.896Z",
+      "ctime": "2019-03-04T23:34:49.896Z",
+      "birthtime": "2019-03-04T23:34:49.894Z"
+    },
+    "ea559731-8ea3-583c-8ee8-2ed71c08e4c0": {
+      "id": "ea559731-8ea3-583c-8ee8-2ed71c08e4c0",
+      "children": [],
+      "parent": "92cd2a74-d43a-5ccd-b360-876104ab48c2",
+      "internal": {
+        "contentDigest": "626766a87794dcd695dec4900f33ea7d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /faq/": {
+      "jsonName": "faq-19a",
+      "internalComponentName": "ComponentFaq",
+      "path": "/faq/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/faq.js",
+      "componentChunkName": "component---src-pages-faq-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/faq.js",
+      "id": "SitePage /faq/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8af21392cdb56548d5f9e13717af5316",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "140af22f8b450a63a7851ba088d36b1c",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /registry/": {
+      "jsonName": "registry-952",
+      "internalComponentName": "ComponentRegistry",
+      "path": "/registry/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/registry.js",
+      "componentChunkName": "component---src-pages-registry-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/registry.js",
+      "id": "SitePage /registry/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6020d4a109ea93ed44b3aa0472a27bfc",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tabs/BigDay/": {
+      "jsonName": "tabs-big-day-6c6",
+      "internalComponentName": "ComponentTabsBigDay",
+      "path": "/tabs/BigDay/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/tabs/BigDay.js",
+      "componentChunkName": "component---src-pages-tabs-big-day-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/BigDay.js",
+      "id": "SitePage /tabs/BigDay/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d4e43427de6c7928498a6e446dec4f9c",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tabs/GettingHere/": {
+      "jsonName": "tabs-getting-here-c85",
+      "internalComponentName": "ComponentTabsGettingHere",
+      "path": "/tabs/GettingHere/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/tabs/GettingHere.js",
+      "componentChunkName": "component---src-pages-tabs-getting-here-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/GettingHere.js",
+      "id": "SitePage /tabs/GettingHere/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fd9690055145b9c7c8f50de0623a410a",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tabs/travelTabs/": {
+      "jsonName": "tabs-travel-tabs-6b0",
+      "internalComponentName": "ComponentTabsTravelTabs",
+      "path": "/tabs/travelTabs/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js",
+      "componentChunkName": "component---src-pages-tabs-travel-tabs-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js",
+      "id": "SitePage /tabs/travelTabs/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "141b5dd3e008dd0e983deb63c6451a72",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /travel/": {
+      "jsonName": "travel-554",
+      "internalComponentName": "ComponentTravel",
+      "path": "/travel/",
+      "component": "/Users/immbudden/Development/Buddeen/src/pages/travel.js",
+      "componentChunkName": "component---src-pages-travel-js",
+      "context": {},
+      "pluginCreator___NODE": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "pluginCreatorId": "068c580d-9869-5af0-9eb8-167c47f1743d",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/travel.js",
+      "id": "SitePage /travel/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "831bcbe1d4afe5d9d0de15636a78456d",
+        "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -3919,15 +4110,12 @@
         "sq--src-pages-tabs-getting-here-js"
       ],
       "faa06c86-20a2-5c7e-8a47-fc6040f03064": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-tabs-getting-here-js"
       ],
       "25882c7b-1567-5393-94e3-35ec12899740": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-tabs-getting-here-js"
       ],
       "1fc94978-d18a-573e-9194-17af042aacea": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-tabs-getting-here-js"
       ],
       "5a768044-0309-56e6-8256-ba5da6dc922e": [
@@ -3964,15 +4152,12 @@
         "sq--src-pages-tabs-getting-here-js"
       ],
       "05be0f41-0a0f-57cc-bde1-3931770c06f6": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-tabs-getting-here-js"
       ],
       "ccdc7e84-24b6-53bf-9d60-d9d5d3ff72bc": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-tabs-getting-here-js"
       ],
       "b30dc828-daf2-5b3e-a709-cbc5cd1cf194": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-tabs-getting-here-js"
       ],
       "39b9c2ba-dcc0-59ce-86af-4288c1b2bec1": [
@@ -4024,22 +4209,44 @@
         "sq--src-pages-faq-js"
       ],
       "602c690b-af9b-5faa-ba61-85feb695faa6": [
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "953be6c5-fe02-58ea-b67a-553943bf829d": [
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "dafcc3d5-3857-53b7-b20d-2b56f5a9bf34": [
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "fb144539-c5bd-568f-a724-f0de562750f1": [
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "f89dde66-5f83-5ed4-acbe-f7efbd5fd1e4": [
         "sq--src-pages-tabs-big-day-js"
       ],
       "be07cc55-ae8d-505e-a265-9977bb09f263": [
         "sq--src-pages-tabs-big-day-js"
+      ],
+      "44ac452d-e889-541d-9e16-7b8fd2b060cb": [
+        "sq--src-pages-registry-js"
+      ],
+      "8d6e078d-8db4-556d-9b16-d95de15a3a55": [
+        "sq--src-pages-registry-js"
+      ],
+      "8fab5b03-1ab0-55e0-9e05-71da6052e35b": [
+        "sq--src-pages-registry-js"
+      ],
+      "0ac428cf-f75e-532d-a0ca-978d831ea7f7": [
+        "sq--src-pages-registry-js"
+      ],
+      "92cd2a74-d43a-5ccd-b360-876104ab48c2": [
+        "sq--src-pages-registry-js"
+      ],
+      "ea559731-8ea3-583c-8ee8-2ed71c08e4c0": [
+        "sq--src-pages-registry-js"
       ]
     },
     "connections": {}
@@ -4058,7 +4265,9 @@
     "tabs-big-day-6c6": "779/path---tabs-big-day-6-c-6-74b-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-pages-tabs-big-day-js": 659040727,
     "faq-19a": "927/path---faq-19-a-275-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-pages-faq-js": 1665369854
+    "sq--src-pages-faq-js": 2919243106,
+    "registry-952": "519/path---registry-952-dd3-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-pages-registry-js": 595730646
   },
   "components": {
     "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js": {
@@ -4088,6 +4297,10 @@
     "/Users/immbudden/Development/Buddeen/src/pages/travel.js": {
       "query": "",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/travel.js"
+    },
+    "/Users/immbudden/Development/Buddeen/src/pages/registry.js": {
+      "query": "",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/registry.js"
     }
   },
   "staticQueryComponents": {
@@ -4107,14 +4320,6 @@
       "query": "query BigDayQuery {\n  taxiImg: file(relativePath: {eq: \"illustrations/taxi.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  busStopsImg: file(relativePath: {eq: \"illustrations/busStops.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  champagneImg: file(relativePath: {eq: \"illustrations/champagne.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  KilmoreImg: file(relativePath: {eq: \"places/Kilmore.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  MarineHotelImg: file(relativePath: {eq: \"places/MarineHotel.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  TitanicHotelImg: file(relativePath: {eq: \"places/TitanicHotel.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 659040727
     },
-    "sq--src-pages-faq-js": {
-      "name": "faqQuery",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/faq.js",
-      "id": "sq--src-pages-faq-js",
-      "jsonName": "sq--src-pages-faq-js",
-      "query": "query faqQuery {\n  IrelandImg: file(relativePath: {eq: \"illustrations/Ireland.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  flightImg: file(relativePath: {eq: \"illustrations/flight.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  busImg: file(relativePath: {eq: \"illustrations/bus.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  carImg: file(relativePath: {eq: \"illustrations/car.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  phoneHandImg: file(relativePath: {eq: \"illustrations/phoneHand.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  piggyImg: file(relativePath: {eq: \"illustrations/piggy.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  statueImg: file(relativePath: {eq: \"illustrations/statue.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 1665369854
-    },
     "sq--src-pages-tabs-getting-here-js": {
       "name": "GettingHereQuery",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/GettingHere.js",
@@ -4122,6 +4327,22 @@
       "jsonName": "sq--src-pages-tabs-getting-here-js",
       "query": "query GettingHereQuery {\n  passportImg: file(relativePath: {eq: \"illustrations/Passport.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  flightImg: file(relativePath: {eq: \"illustrations/flight.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  busImg: file(relativePath: {eq: \"illustrations/bus.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  carImg: file(relativePath: {eq: \"illustrations/car.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  baseCampImg: file(relativePath: {eq: \"illustrations/baseCamp.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  BelfastImg: file(relativePath: {eq: \"Belfast.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CaveHillImg: file(relativePath: {eq: \"places/Cavehill.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CarrickImg: file(relativePath: {eq: \"places/Carrick.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 1760091226
+    },
+    "sq--src-pages-faq-js": {
+      "name": "faqQuery",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/faq.js",
+      "id": "sq--src-pages-faq-js",
+      "jsonName": "sq--src-pages-faq-js",
+      "query": "query faqQuery {\n  IrelandImg: file(relativePath: {eq: \"illustrations/Ireland.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  phoneHandImg: file(relativePath: {eq: \"illustrations/phoneHand.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  piggyImg: file(relativePath: {eq: \"illustrations/piggy.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  statueImg: file(relativePath: {eq: \"illustrations/statue.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2919243106
+    },
+    "sq--src-pages-registry-js": {
+      "name": "registryQuery",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/registry.js",
+      "id": "sq--src-pages-registry-js",
+      "jsonName": "sq--src-pages-registry-js",
+      "query": "query registryQuery {\n  presentImg: file(relativePath: {eq: \"illustrations/presentPop.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  macysImg: file(relativePath: {eq: \"macysLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  palmImg: file(relativePath: {eq: \"illustrations/palm.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  piggyImg: file(relativePath: {eq: \"illustrations/piggy.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  statueImg: file(relativePath: {eq: \"illustrations/statue.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 595730646
     }
   }
 }

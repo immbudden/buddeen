@@ -119,6 +119,10 @@ const SectionBreakImg = styled(Img) `
     margin-bottom: 0;
 `
 
+const SectionBreakImgXL = styled(Img) `
+    width: 7.5rem;
+`
+
 const SectionContent = styled.div `
     display: flex;
     flex-direction: column;
@@ -139,8 +143,25 @@ const SectionImgContainer = styled.div `
     position: relative;
 `
 
+const SectionImgContainerNoPad = styled.div `
+    display: flex;
+    flex 1 1 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    overflow: hidden;
+    position: relative;
+`
+
 const SectionImg = styled(Img) `
     width: 17.5rem;
+`
+
+const SectionImgXS = styled(Img) `
+    width: 7.5rem;
 `
 
 const Paragraph = styled.p `
@@ -174,9 +195,13 @@ const Button = styled.button `
     margin: 0 auto;
     min-width: 45vw;
     margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 `
 
 const Url = styled.a `
+    flex: 0 0 40%;
     text-decoration: none;
     width: 100%;
     color: #FFF;
@@ -186,14 +211,23 @@ const Bullet = styled.li `
     padding-top: 1rem;
 `
 
+const LogoContainer = styled.div `
+    flex 0 0 50%;
+    margin: 0 auto;
+`
+
+const MacysLogo = styled(Img) `
+    width: 100%;
+`
+
 
 export default () => (
     
     <StaticQuery
       query={graphql`
-        query faqQuery {
+        query registryQuery {
 
-            IrelandImg: file(relativePath: { eq: "illustrations/Ireland.png" }) {
+            presentImg: file(relativePath: { eq: "illustrations/presentPop.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -201,7 +235,15 @@ export default () => (
                 }
             }
 
-            phoneHandImg: file(relativePath: { eq: "illustrations/phoneHand.png" }) {
+            macysImg: file(relativePath: { eq: "macysLogo.png" }) {
+                childImageSharp {
+                    fluid(maxWidth: 500) {
+                        ...GatsbyImageSharpFluid_tracedSVG
+                    }
+                }
+            }
+
+            palmImg: file(relativePath: { eq: "illustrations/palm.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -240,108 +282,35 @@ export default () => (
                     <SectionBreakBlue>
                             <SectionBreakContent>
                                     <SectionBreakImgContainer>
-                                        <SectionBreakImg fluid={data.IrelandImg.childImageSharp.fluid} />
+                                        <SectionBreakImgXL fluid={data.presentImg.childImageSharp.fluid} />
                                     </SectionBreakImgContainer>
-                                    <HeadingOneLight>Wait! There are two Irelands?</HeadingOneLight>
+                                    <HeadingOneLight>Gift Registry</HeadingOneLight>
                             </SectionBreakContent>
                     </SectionBreakBlue>
                 
                     <Container>
                         <SectionContent>
                             <Paragraph>
-                                Yes! You will fly to a tiny beautiful island that contains two completely separate “Irelands”.
+                                This will be some intro text about the registry, something along the lines that we don’t expect anything from anyone and that their presence is enough. 
                                 <br /><br />
-                                Northern Ireland is made up of 6 counties and the capital city is Belfast. Northern Ireland is part of the United Kingdom - a sovereign state that includes England, Scotland, Wales, and Northern Ireland.
+                                However if you do feel the need to get us a gift, we have two set up, one at Macy’s and one at Amazon.
+                            </Paragraph>
+                            <Button><Url href="https://maceys.com">Buy at</Url><LogoContainer><MacysLogo fluid={data.macysImg.childImageSharp.fluid} /></LogoContainer></Button>
+                        </SectionContent>
+                    </Container>
+
+                    <Divider />
+
+                    <Container>
+                        <SectionContent>
+                            <SectionImgContainerNoPad>
+                                <SectionImgXS fluid={data.palmImg.childImageSharp.fluid} />
+                            </SectionImgContainerNoPad>
+                            <Paragraph>
+                                We don’t plan on going on honeymoon this year but we are planning to do so in 2020. 
+                                If you feel that you need to gift us something we would appreciate any contribution to that fund, no matter how small.
                                 <br /><br />
-                                The Republic of Ireland is its own country with its own government. The country is made up of 26 counties and it’s capital city is Dublin. 
-                            </Paragraph>
-                        </SectionContent>
-                    </Container>
-{/* 
-                    <HeadingOne>Car Rental</HeadingOne>
-                    <SectionImgContainer>
-                        <SectionImg fluid={data.carImg.childImageSharp.fluid} />
-                    </SectionImgContainer>
-                    <Paragraph>The easiest way to explore our beautiful Island would be to rent a car. We advise booking with Sixt at Dublin Airport, where you can get a car from as little as $10 a day (VW Polo). <br /><br />If you use the code XXX at the checkout, we have arranged a special 15% discount.</Paragraph>
-                    <Button>Book a Car</Button> */}
-
-                    <SectionBreakGreen>
-                        <SectionBreakContent>
-                                <SectionBreakImgContainer>
-                                    <SectionBreakImg fluid={data.phoneHandImg.childImageSharp.fluid} />
-                                </SectionBreakImgContainer>
-                                <HeadingOneLight>What about my electronics?</HeadingOneLight>
-                        </SectionBreakContent>
-                    </SectionBreakGreen>
-                    
-                    <Container>
-                        <SectionContent>
-                            <Paragraph>
-                                <ul>
-                                    <Bullet>We strongly recommend bringing a converter so you can use your phone/computer charger, straightener/curling iron, blow dryer, etc.</Bullet>
-                                </ul>
-                                <ul>
-                                    <Bullet>Many hotels will however have USB outlets.</Bullet>
-                                </ul>
-                                <ul>
-                                    <Bullet>If you forget to bring a converter you can buy one at Tesco or Argos.</Bullet>
-                                </ul> 
-                            </Paragraph>
-                            <Button><Url href="https://www.argos.co.uk/product/8556295">Reserve at Argos</Url></Button>
-                        </SectionContent>
-                    </Container>
-
-                    <SectionBreakGreen>
-                        <SectionBreakContent>
-                                <SectionBreakImgContainer>
-                                    <SectionBreakImg fluid={data.piggyImg.childImageSharp.fluid} />
-                                </SectionBreakImgContainer>
-                                <HeadingOneLight>How do I pay for things?  £ vs €</HeadingOneLight>
-                        </SectionBreakContent>
-                    </SectionBreakGreen>
-                    
-                    <Container>
-                        <SectionContent>
-                            <Paragraph>
-                                <ul>
-                                    <Bullet>The currency in Northern Ireland is the pound (£), also commonly known as called sterling or quid</Bullet>
-                                </ul>
-                                <ul>
-                                    <Bullet>The currency in the Republic of Ireland is the Euro (€)</Bullet>
-                                </ul>
-                                <ul>
-                                    <Bullet>We recommend getting a travel debit card which will allow you to pay in both currencies</Bullet>
-                                </ul> 
-                            </Paragraph>
-                        </SectionContent>
-                    </Container>
-
-                    <SectionBreakBlue>
-                        <SectionBreakContent>
-                                <SectionBreakImgContainer>
-                                    <SectionBreakImg fluid={data.statueImg.childImageSharp.fluid} />
-                                </SectionBreakImgContainer>
-                                <HeadingOneLight>How do I get back to the USA?</HeadingOneLight>
-                        </SectionBreakContent>
-                    </SectionBreakBlue>
-                    
-                    <Container>
-                        <SectionContent>
-                            <Paragraph>
-                                <ul>
-                                    <Bullet>
-                                        When you fly from Dublin to the United States you will have to go through pre-clearance in the Dublin airport.  This means that you will check in as usual and go through the normal security, then you will follow signs downstairs to USA pre-clearance.
-                                        You will then go through security again, USA style (removing shoes, taking out liquids, etc.).
-                                        <br /><br />
-                                        After you clear security, you will go through customs and finally you will walk to your gate.
-                                    </Bullet>
-                                </ul>
-                                <ul>
-                                    <Bullet>We recommend getting to Dublin Airport 30-60 minutes before you normally would if you have to go through pre-clearance.  There is no pre-clearance if you are flying on to another country in the EU. </Bullet>
-                                </ul>
-                                <ul>
-                                    <Bullet>Food and drink choices in pre-clearance are pretty poor,  so make sure you grab something before you head down. Thankfully not all is lost, you can still get a decent pint of Guiness down there!</Bullet>
-                                </ul> 
+                                More information on how to donate will be added here soon.
                             </Paragraph>
                         </SectionContent>
                     </Container>

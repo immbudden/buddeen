@@ -15,6 +15,11 @@
         "path": "/faq/"
     },
     {
+        "componentChunkName": "component---src-pages-registry-js",
+        "jsonName": "registry-952",
+        "path": "/registry/"
+    },
+    {
         "componentChunkName": "component---src-pages-tabs-big-day-js",
         "jsonName": "tabs-big-day-6c6",
         "path": "/tabs/BigDay/"
