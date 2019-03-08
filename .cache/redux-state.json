@@ -4182,16 +4182,13 @@
         "sq--src-pages-tabs-getting-here-js"
       ],
       "47d85f92-1673-551a-8e87-a2cecd9a2a7c": [
-        "sq--src-pages-tabs-getting-here-js",
-        "sq--src-pages-tabs-rehersal-dinner-js"
+        "sq--src-pages-tabs-getting-here-js"
       ],
       "61bb3dbc-a123-5f6a-b706-4fa3b46269f1": [
-        "sq--src-pages-tabs-getting-here-js",
-        "sq--src-pages-tabs-rehersal-dinner-js"
+        "sq--src-pages-tabs-getting-here-js"
       ],
       "bfd3c2b0-3922-5898-b8f7-4fd3c1b0f261": [
-        "sq--src-pages-tabs-getting-here-js",
-        "sq--src-pages-tabs-rehersal-dinner-js"
+        "sq--src-pages-tabs-getting-here-js"
       ],
       "eec99fc6-d028-5fc8-bcfb-974693842c3a": [
         "sq--src-components-nav-js"
@@ -4227,16 +4224,13 @@
         "sq--src-pages-tabs-getting-here-js"
       ],
       "e68faeb8-5e01-5b20-91e3-b1adc52abdb3": [
-        "sq--src-pages-tabs-getting-here-js",
-        "sq--src-pages-tabs-rehersal-dinner-js"
+        "sq--src-pages-tabs-getting-here-js"
       ],
       "a4ad18e2-9acc-5045-93af-7fd6b4a96cbc": [
-        "sq--src-pages-tabs-getting-here-js",
-        "sq--src-pages-tabs-rehersal-dinner-js"
+        "sq--src-pages-tabs-getting-here-js"
       ],
       "844f1cab-2a7e-57ac-a3ed-635aa4e531ec": [
-        "sq--src-pages-tabs-getting-here-js",
-        "sq--src-pages-tabs-rehersal-dinner-js"
+        "sq--src-pages-tabs-getting-here-js"
       ],
       "0b6f1543-2cf1-5273-95a2-c6657d53e989": [
         "/"
@@ -4425,14 +4419,6 @@
       "jsonName": "sq--src-pages-registry-js",
       "query": "query registryQuery {\n  presentImg: file(relativePath: {eq: \"illustrations/presentPop.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  macysImg: file(relativePath: {eq: \"macysLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  palmImg: file(relativePath: {eq: \"illustrations/palm.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  piggyImg: file(relativePath: {eq: \"illustrations/piggy.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  statueImg: file(relativePath: {eq: \"illustrations/statue.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 595730646
-    },
-    "sq--src-pages-tabs-rehersal-dinner-js": {
-      "name": "RehersalDinnerQuery",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/RehersalDinner.js",
-      "id": "sq--src-pages-tabs-rehersal-dinner-js",
-      "jsonName": "sq--src-pages-tabs-rehersal-dinner-js",
-      "query": "query RehersalDinnerQuery {\n  BelfastImg: file(relativePath: {eq: \"Belfast.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CaveHillImg: file(relativePath: {eq: \"places/Cavehill.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CarrickImg: file(relativePath: {eq: \"places/Carrick.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 313945805
     }
   }
 }

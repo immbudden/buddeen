@@ -461,70 +461,102 @@ const MyMapComponent = compose(
     </GoogleMap>
   );
 
+  
 
-export default () => (
-    
-    <StaticQuery
-      query={graphql`
-        query RehersalDinnerQuery {
+const RehersalDinner = () => (
 
-            BelfastImg: file(relativePath: { eq: "Belfast.jpg" }) {
-                childImageSharp {
-                    fluid(maxWidth: 500) {
-                        ...GatsbyImageSharpFluid_tracedSVG
-                    }
-                }
-            }
+    <SectionLight>
+        <SectionBreakWhite>
+                <SectionBreakContent>
+                    <HeadingTwo>3 <SuperScript>rd</SuperScript></HeadingTwo>
+                    <HeadingThree>July</HeadingThree>
+                    <HeadingFour>Venue TBC - Belfast</HeadingFour>
+                </SectionBreakContent>
+        </SectionBreakWhite>
+        <MapWrapper>
+            <MapContainer>
+                <MyMapComponent isMarkerShown />
+            </MapContainer>
+            <FabContainer>
+                {/* <Fab color="secondary" aria-label="Navigate" size="large">
+                    <NavigationIcon /> <FabLabel>navigate</FabLabel>
+                </Fab> */}
+                <Url href="https://www.google.com/maps/dir/54.6972398,-5.8505757/Kilmore+Country+House,+10+Glasmullen+Rd,+Waterfoot,+Ballymena+BT44+0QZ/@54.8768863,-6.3067012,10z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0xa2ef259ccecef498!2sKilmore+Country+House!8m2!3d55.0411051!4d-6.0828247!4m8!1m1!4e1!1m5!1m1!1s0x4861c89cfbc11f5b:0xa2ef259ccecef498!2m2!1d-6.0828247!2d55.0411051">
+                    <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
+                        <NavigationIcon />
+                        <FabLabel>Get Directions</FabLabel>
+                    </Fab>
+                </Url>
+            </FabContainer>
+        </MapWrapper>
+    </SectionLight>
 
-            CaveHillImg: file(relativePath: { eq: "places/Cavehill.jpg" }) {
-                childImageSharp {
-                    fluid(maxWidth: 500) {
-                        ...GatsbyImageSharpFluid_tracedSVG
-                    }
-                }
-            }
-
-            CarrickImg: file(relativePath: { eq: "places/Carrick.jpg" }) {
-                childImageSharp {
-                    fluid(maxWidth: 500) {
-                        ...GatsbyImageSharpFluid_tracedSVG
-                    }
-                }
-            }
-        }
-      `}
-
-        render={data => (
-            <SectionLight>
-                <SectionBreakWhite>
-                        <SectionBreakContent>
-                            <HeadingTwo>3 <SuperScript>rd</SuperScript></HeadingTwo>
-                            <HeadingThree>July</HeadingThree>
-                            <HeadingFour>Venue TBC - Belfast</HeadingFour>
-                        </SectionBreakContent>
-                </SectionBreakWhite>
-                <MapWrapper>
-                    <MapContainer>
-                        <MyMapComponent isMarkerShown />
-                    </MapContainer>
-                    <FabContainer>
-                        {/* <Fab color="secondary" aria-label="Navigate" size="large">
-                            <NavigationIcon /> <FabLabel>navigate</FabLabel>
-                        </Fab> */}
-                        <Url href="https://www.google.com/maps/dir/54.6972398,-5.8505757/Kilmore+Country+House,+10+Glasmullen+Rd,+Waterfoot,+Ballymena+BT44+0QZ/@54.8768863,-6.3067012,10z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0xa2ef259ccecef498!2sKilmore+Country+House!8m2!3d55.0411051!4d-6.0828247!4m8!1m1!4e1!1m5!1m1!1s0x4861c89cfbc11f5b:0xa2ef259ccecef498!2m2!1d-6.0828247!2d55.0411051">
-                            <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
-                                <NavigationIcon />
-                                <FabLabel>Get Directions</FabLabel>
-                            </Fab>
-                        </Url>
-                    </FabContainer>
-                </MapWrapper>
-            </SectionLight>
-            
-        )}
-      
-    />
 )
+
+
+// export default () => (
+    
+//     <StaticQuery
+//       query={graphql`
+//         query RehersalDinnerQuery {
+
+//             BelfastImg: file(relativePath: { eq: "Belfast.jpg" }) {
+//                 childImageSharp {
+//                     fluid(maxWidth: 500) {
+//                         ...GatsbyImageSharpFluid_tracedSVG
+//                     }
+//                 }
+//             }
+
+//             CaveHillImg: file(relativePath: { eq: "places/Cavehill.jpg" }) {
+//                 childImageSharp {
+//                     fluid(maxWidth: 500) {
+//                         ...GatsbyImageSharpFluid_tracedSVG
+//                     }
+//                 }
+//             }
+
+//             CarrickImg: file(relativePath: { eq: "places/Carrick.jpg" }) {
+//                 childImageSharp {
+//                     fluid(maxWidth: 500) {
+//                         ...GatsbyImageSharpFluid_tracedSVG
+//                     }
+//                 }
+//             }
+//         }
+//       `}
+
+//         render={data => (
+//             <SectionLight>
+//                 <SectionBreakWhite>
+//                         <SectionBreakContent>
+//                             <HeadingTwo>3 <SuperScript>rd</SuperScript></HeadingTwo>
+//                             <HeadingThree>July</HeadingThree>
+//                             <HeadingFour>Venue TBC - Belfast</HeadingFour>
+//                         </SectionBreakContent>
+//                 </SectionBreakWhite>
+//                 <MapWrapper>
+//                     <MapContainer>
+//                         <MyMapComponent isMarkerShown />
+//                     </MapContainer>
+//                     <FabContainer>
+//                         {/* <Fab color="secondary" aria-label="Navigate" size="large">
+//                             <NavigationIcon /> <FabLabel>navigate</FabLabel>
+//                         </Fab> */}
+//                         <Url href="https://www.google.com/maps/dir/54.6972398,-5.8505757/Kilmore+Country+House,+10+Glasmullen+Rd,+Waterfoot,+Ballymena+BT44+0QZ/@54.8768863,-6.3067012,10z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0xa2ef259ccecef498!2sKilmore+Country+House!8m2!3d55.0411051!4d-6.0828247!4m8!1m1!4e1!1m5!1m1!1s0x4861c89cfbc11f5b:0xa2ef259ccecef498!2m2!1d-6.0828247!2d55.0411051">
+//                             <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
+//                                 <NavigationIcon />
+//                                 <FabLabel>Get Directions</FabLabel>
+//                             </Fab>
+//                         </Url>
+//                     </FabContainer>
+//                 </MapWrapper>
+//             </SectionLight>
+            
+//         )}
+      
+//     />
+// )
 
 // const RehersalDinner = (data) => (
 
@@ -553,4 +585,4 @@ export default () => (
 //     }
 // `
 
-// export default RehersalDinner
+export default RehersalDinner
