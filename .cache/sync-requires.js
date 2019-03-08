@@ -9,8 +9,11 @@ exports.components = {
   "component---src-pages-faq-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/faq.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/index.js"))),
   "component---src-pages-registry-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/registry.js"))),
+  "component---src-pages-schedule-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/schedule.js"))),
   "component---src-pages-tabs-big-day-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/BigDay.js"))),
   "component---src-pages-tabs-getting-here-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/GettingHere.js"))),
+  "component---src-pages-tabs-rehersal-dinner-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/RehersalDinner.js"))),
+  "component---src-pages-tabs-schedule-tabs-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/scheduleTabs.js"))),
   "component---src-pages-tabs-travel-tabs-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js"))),
   "component---src-pages-travel-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/travel.js")))
 }

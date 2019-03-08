@@ -20,6 +20,11 @@
         "path": "/registry/"
     },
     {
+        "componentChunkName": "component---src-pages-schedule-js",
+        "jsonName": "schedule-f57",
+        "path": "/schedule/"
+    },
+    {
         "componentChunkName": "component---src-pages-tabs-big-day-js",
         "jsonName": "tabs-big-day-6c6",
         "path": "/tabs/BigDay/"
@@ -28,6 +33,16 @@
         "componentChunkName": "component---src-pages-tabs-getting-here-js",
         "jsonName": "tabs-getting-here-c85",
         "path": "/tabs/GettingHere/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-rehersal-dinner-js",
+        "jsonName": "tabs-rehersal-dinner-873",
+        "path": "/tabs/RehersalDinner/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-schedule-tabs-js",
+        "jsonName": "tabs-schedule-tabs-87c",
+        "path": "/tabs/scheduleTabs/"
     },
     {
         "componentChunkName": "component---src-pages-tabs-travel-tabs-js",
