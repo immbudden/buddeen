@@ -11,7 +11,7 @@ import NavMobile from '../components/navMobile'
 import media from "styled-media-query";
 import { Helmet } from "react-helmet"
 import Hi from '../images/hi2.gif'
-import ContactForm from '../components/ContactForm'
+import ContactForm from '../components/contactForm'
 // import Layout from "../components/layout"
 
 const HeadingOne = styled.h1 `
