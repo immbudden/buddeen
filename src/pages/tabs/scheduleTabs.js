@@ -1,7 +1,5 @@
 import React from 'react';
-import { graphql, StaticQuery, Link } from 'gatsby'
 import PropTypes from 'prop-types';
-import media from "styled-media-query";
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import { withStyles } from '@material-ui/core/styles';
@@ -12,7 +10,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import RehersalDinner from '../tabs/RehersalDinner';
-import BigDay from '../tabs/BigDay';
+import BigBigDay from '../tabs/BigBigDay';
 import withRoot from '../../utils/withRoot';
 // import { theme } from '../../utils/materialTheme'
 
@@ -156,7 +154,7 @@ class ScheduleTabs extends React.Component {
                     </TabContainer>
 
                     <TabContainer dir={theme.direction}>
-                        {/* <BigDay /> */}
+                        <BigBigDay />
                     </TabContainer>
                 
                 </SwipeableViews>

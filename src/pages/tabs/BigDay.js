@@ -191,7 +191,7 @@ const CarouselStyled = styled (Carousel) `
 `
 
 const Slide = styled.div `
-    height: 20vh;
+    height: 17.5vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -200,7 +200,7 @@ const Slide = styled.div `
     margin-right: 0;
 `
 const SlideImg = styled(Img) `
-    min-height: 20vh;
+    min-height: 17.5vh;
 `
 
 const Url = styled.a `

@@ -50,13 +50,21 @@ const SuperScript = styled.sup `
 `
 
 
-const LocationTitle = styled.h2 `
+const EventTitle = styled.h2 `
     font-size: 2rem;
     color: #FFF;
-    font-weight: 100;
+    font-weight: 400;
     display: flex;
     text-align: left;
     text-shadow: 2px 2px 8px rgba(34,34,34,0.5);
+`
+
+const EventSubTitle = styled.p `
+    font-size: 1.25rem;
+    color: #FFF;
+    font-weight: 400;
+    display: flex;
+    text-align: left;
 `
 
 // Typography End
@@ -72,10 +80,9 @@ const Container = styled.div `
 const SlideContainer = styled.div `
     display: flex;
     flex: 1 1 100%;
-    margin: 0 auto;
     width: 90%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 `
 
 const SectionLight = styled.div `
@@ -178,21 +185,25 @@ const Button = styled.button `
 `
 
 const CarouselStyled = styled (Carousel) `
-    padding-left: 5vw;
-    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 `
 
 const Slide = styled.div `
-    height: 20vh;
+    height: 17.5vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 1.5rem 0;
     margin-right: 0;
+    width: 100%;
+
+    &:first-of-type {
+        margin-left: 5vw;
+    }
 `
 const SlideImg = styled(Img) `
-    min-height: 20vh;
+    min-height: 17.5vh;
 `
 
 const Url = styled.a `
@@ -434,7 +445,7 @@ const MyMapComponent = compose(
   )((props) =>
     <GoogleMap
         defaultZoom={12}
-        defaultCenter={{ lat: 55.0411051, lng: -6.0828247 }}
+        defaultCenter={{ lat: 54.58, lng: -5.90 }}
         defaultOptions={{ 
             styles: exampleMapStyles,
             streetViewControl: false,
@@ -454,109 +465,125 @@ const MyMapComponent = compose(
         {props.isMarkerShown && 
 
             <Marker 
-                position={{ lat: 55.0411051, lng: -6.0828247 }} 
+                position={{ lat: 54.5967266, lng: -5.9322709 }} 
                 // icon={markerLanyon}
             />
         }
     </GoogleMap>
   );
 
-  
 
-const RehersalDinner = () => (
-
-    <SectionLight>
-        <SectionBreakWhite>
-                <SectionBreakContent>
-                    <HeadingTwo>3 <SuperScript>rd</SuperScript></HeadingTwo>
-                    <HeadingThree>July</HeadingThree>
-                    <HeadingFour>Venue TBC - Belfast</HeadingFour>
-                </SectionBreakContent>
-        </SectionBreakWhite>
-        <MapWrapper>
-            <MapContainer>
-                <MyMapComponent isMarkerShown />
-            </MapContainer>
-            <FabContainer>
-                {/* <Fab color="secondary" aria-label="Navigate" size="large">
-                    <NavigationIcon /> <FabLabel>navigate</FabLabel>
-                </Fab> */}
-                <Url href="https://www.google.com/maps/dir/54.6972398,-5.8505757/Kilmore+Country+House,+10+Glasmullen+Rd,+Waterfoot,+Ballymena+BT44+0QZ/@54.8768863,-6.3067012,10z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0xa2ef259ccecef498!2sKilmore+Country+House!8m2!3d55.0411051!4d-6.0828247!4m8!1m1!4e1!1m5!1m1!1s0x4861c89cfbc11f5b:0xa2ef259ccecef498!2m2!1d-6.0828247!2d55.0411051">
-                    <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
-                        <NavigationIcon />
-                        <FabLabel>Get Directions</FabLabel>
-                    </Fab>
-                </Url>
-            </FabContainer>
-        </MapWrapper>
-    </SectionLight>
-
-)
-
-
-// export default () => (
+export default () => (
     
-//     <StaticQuery
-//       query={graphql`
-//         query RehersalDinnerQuery {
+    <StaticQuery
+      query={graphql`
+        query RehersalDinnerQuery {
 
-//             BelfastImg: file(relativePath: { eq: "Belfast.jpg" }) {
-//                 childImageSharp {
-//                     fluid(maxWidth: 500) {
-//                         ...GatsbyImageSharpFluid_tracedSVG
-//                     }
-//                 }
-//             }
+            BeerImg: file(relativePath: { eq: "beer.jpg" }) {
+                childImageSharp {
+                    fluid(maxWidth: 500, cropFocus: CENTER) {
+                        ...GatsbyImageSharpFluid_tracedSVG
+                    }
+                }
+            }
 
-//             CaveHillImg: file(relativePath: { eq: "places/Cavehill.jpg" }) {
-//                 childImageSharp {
-//                     fluid(maxWidth: 500) {
-//                         ...GatsbyImageSharpFluid_tracedSVG
-//                     }
-//                 }
-//             }
+            CeremonyImg: file(relativePath: { eq: "ceremony.jpg" }) {
+                childImageSharp {
+                    fluid(maxWidth: 500) {
+                        ...GatsbyImageSharpFluid_tracedSVG
+                    }
+                }
+            }
 
-//             CarrickImg: file(relativePath: { eq: "places/Carrick.jpg" }) {
-//                 childImageSharp {
-//                     fluid(maxWidth: 500) {
-//                         ...GatsbyImageSharpFluid_tracedSVG
-//                     }
-//                 }
-//             }
-//         }
-//       `}
+            BBQImg: file(relativePath: { eq: "bbq.jpg" }) {
+                childImageSharp {
+                    fluid(maxWidth: 500) {
+                        ...GatsbyImageSharpFluid_tracedSVG
+                    }
+                }
+            }
+        }
+      `}
 
-//         render={data => (
-//             <SectionLight>
-//                 <SectionBreakWhite>
-//                         <SectionBreakContent>
-//                             <HeadingTwo>3 <SuperScript>rd</SuperScript></HeadingTwo>
-//                             <HeadingThree>July</HeadingThree>
-//                             <HeadingFour>Venue TBC - Belfast</HeadingFour>
-//                         </SectionBreakContent>
-//                 </SectionBreakWhite>
-//                 <MapWrapper>
-//                     <MapContainer>
-//                         <MyMapComponent isMarkerShown />
-//                     </MapContainer>
-//                     <FabContainer>
-//                         {/* <Fab color="secondary" aria-label="Navigate" size="large">
-//                             <NavigationIcon /> <FabLabel>navigate</FabLabel>
-//                         </Fab> */}
-//                         <Url href="https://www.google.com/maps/dir/54.6972398,-5.8505757/Kilmore+Country+House,+10+Glasmullen+Rd,+Waterfoot,+Ballymena+BT44+0QZ/@54.8768863,-6.3067012,10z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0xa2ef259ccecef498!2sKilmore+Country+House!8m2!3d55.0411051!4d-6.0828247!4m8!1m1!4e1!1m5!1m1!1s0x4861c89cfbc11f5b:0xa2ef259ccecef498!2m2!1d-6.0828247!2d55.0411051">
-//                             <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
-//                                 <NavigationIcon />
-//                                 <FabLabel>Get Directions</FabLabel>
-//                             </Fab>
-//                         </Url>
-//                     </FabContainer>
-//                 </MapWrapper>
-//             </SectionLight>
+        render={data => (
+            <SectionLight>
+                <SectionBreakWhite>
+                        <SectionBreakContent>
+                            <HeadingTwo>3 <SuperScript>rd</SuperScript></HeadingTwo>
+                            <HeadingThree>July</HeadingThree>
+                            <HeadingFour>Venue TBC - Belfast</HeadingFour>
+                        </SectionBreakContent>
+                </SectionBreakWhite>
+                <MapWrapper>
+                    <MapContainer>
+                        <MyMapComponent isMarkerShown />
+                    </MapContainer>
+                    <FabContainer>
+                        {/* <Fab color="secondary" aria-label="Navigate" size="large">
+                            <NavigationIcon /> <FabLabel>navigate</FabLabel>
+                        </Fab> */}
+                        <Url href="https://www.google.com/maps/dir/54.697254,-5.8505651/Belfast+City+Hall,+Donegall+Square,+Belfast+BT1+5GS/@54.6479002,-5.9606305,12z/data=!3m1!4b1!4m16!1m6!3m5!1s0x486108562c8242a1:0xa923f9ba0ada408!2sBelfast+City+Hall!8m2!3d54.5967235!4d-5.9300822!4m8!1m1!4e1!1m5!1m1!1s0x486108562c8242a1:0xa923f9ba0ada408!2m2!1d-5.9300822!2d54.5967235">
+                            <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
+                                <NavigationIcon />
+                                <FabLabel>Get Directions</FabLabel>
+                            </Fab>
+                        </Url>
+                    </FabContainer>
+                    <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} edgeEasing="easeQuadInOut" edgeEasing="easeQuadInOut" renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
+                        <Slide>
+                            <SlideImg 
+                            style={{
+                                position: "absolute",
+                                left: 0,
+                                top: 0,
+                                width: "100%",
+                                zIndex: -1,
+                            }}
+                            fluid={data.BeerImg.childImageSharp.fluid} />
+                            <SlideContainer>
+                                    <EventTitle>Drinks Reception</EventTitle>
+                                    <EventSubTitle>Time TBC</EventSubTitle>
+                            </SlideContainer>
+                        </Slide>
+                        <Slide>
+                            <SlideImg 
+                            style={{
+                                position: "absolute",
+                                left: 0,
+                                top: 0,
+                                width: "100%",
+                                zIndex: -1,
+                            }}
+                            fluid={data.CeremonyImg.childImageSharp.fluid} />
+                            <SlideContainer>
+                                    <EventTitle>Ceremony</EventTitle>
+                                    <EventSubTitle>Time TBC</EventSubTitle>
+                            </SlideContainer>
+                        </Slide>
+                        <Slide>
+                            <SlideImg 
+                            style={{
+                                position: "absolute",
+                                left: 0,
+                                top: 0,
+                                width: "100%",
+                                zIndex: -1,
+                            }}
+                            fluid={data.BBQImg.childImageSharp.fluid} />
+                            <SlideContainer>
+                                    <EventTitle>BBQ</EventTitle>
+                                    <EventSubTitle>Time TBC</EventSubTitle>
+                            </SlideContainer>
+                        </Slide>
+
+                </CarouselStyled>
+                </MapWrapper>
+            </SectionLight>
             
-//         )}
+        )}
       
-//     />
-// )
+    />
+)
 
 // const RehersalDinner = (data) => (
 
@@ -585,4 +612,4 @@ const RehersalDinner = () => (
 //     }
 // `
 
-export default RehersalDinner
+// export default RehersalDinner

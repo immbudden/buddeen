@@ -25,6 +25,11 @@
         "path": "/schedule/"
     },
     {
+        "componentChunkName": "component---src-pages-tabs-big-big-day-js",
+        "jsonName": "tabs-big-big-day-9e9",
+        "path": "/tabs/BigBigDay/"
+    },
+    {
         "componentChunkName": "component---src-pages-tabs-big-day-js",
         "jsonName": "tabs-big-day-6c6",
         "path": "/tabs/BigDay/"
