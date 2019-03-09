@@ -20,6 +20,11 @@
         "path": "/registry/"
     },
     {
+        "componentChunkName": "component---src-pages-rsvp-js",
+        "jsonName": "rsvp-9a0",
+        "path": "/rsvp/"
+    },
+    {
         "componentChunkName": "component---src-pages-schedule-js",
         "jsonName": "schedule-f57",
         "path": "/schedule/"

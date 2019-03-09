@@ -13,7 +13,8 @@ exports.components = {
   "component---src-pages-tabs-schedule-tabs-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/scheduleTabs.js" /* webpackChunkName: "component---src-pages-tabs-schedule-tabs-js" */),
   "component---src-pages-tabs-travel-tabs-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js" /* webpackChunkName: "component---src-pages-tabs-travel-tabs-js" */),
   "component---src-pages-travel-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/travel.js" /* webpackChunkName: "component---src-pages-travel-js" */),
-  "component---src-pages-tabs-big-big-day-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/BigBigDay.js" /* webpackChunkName: "component---src-pages-tabs-big-big-day-js" */)
+  "component---src-pages-tabs-big-big-day-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/BigBigDay.js" /* webpackChunkName: "component---src-pages-tabs-big-big-day-js" */),
+  "component---src-pages-rsvp-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/rsvp.js" /* webpackChunkName: "component---src-pages-rsvp-js" */)
 }
 
 exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/immbudden/Development/Buddeen/.cache/data.json")

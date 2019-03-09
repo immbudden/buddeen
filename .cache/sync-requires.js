@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-tabs-schedule-tabs-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/scheduleTabs.js"))),
   "component---src-pages-tabs-travel-tabs-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js"))),
   "component---src-pages-travel-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/travel.js"))),
-  "component---src-pages-tabs-big-big-day-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/BigBigDay.js")))
+  "component---src-pages-tabs-big-big-day-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/BigBigDay.js"))),
+  "component---src-pages-rsvp-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/rsvp.js")))
 }
 
