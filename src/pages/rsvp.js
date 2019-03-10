@@ -11,7 +11,7 @@ import NavMobile from '../components/navMobile'
 import media from "styled-media-query";
 import { Helmet } from "react-helmet"
 import Hi from '../images/hi2.gif'
-import App from '../components/contactForm'
+import RSVPForm from '../components/rsvpForm'
 // import Layout from "../components/layout"
 
 const HeadingOne = styled.h1 `
@@ -219,7 +219,7 @@ const RSVP = (props) => (
         </DarkHeaderSection>
         <SectionLight>
             <Container>
-                    <App />
+                    <RSVPForm />
             </Container>
         </SectionLight>
         <NavMobile />

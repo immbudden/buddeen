@@ -21,7 +21,7 @@ const theme = createMuiTheme({
   },
 
   typography: {
-    "fontFamily": "\GillSansMT\", \"Helvetica\", \"Arial\", sans-serif",
+    "fontFamily": "GillSansMT\", \"Helvetica\", \"Arial\", sans-serif",
     useNextVariants: true,
   },
 });
