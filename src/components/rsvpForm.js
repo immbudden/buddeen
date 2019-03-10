@@ -265,7 +265,7 @@ const FormikApp = withFormik({
       } else {
         resetForm()
       }
-      setSubmitting(false)
+      setSubmitting(true)
     }, 2000)
   }
 })(App)
