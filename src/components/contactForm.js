@@ -596,7 +596,7 @@ const ContactForm = (props) => (
                         onBlur={props.handleBlur}
                         style={{
                             borderColor:
-                            props.errors.bus && props.touched.bus && "red"
+                            props.errors.plusOne && props.touched.plusOne && "red"
                         }}
                     />
                     <InputLabel>Yes</InputLabel>
