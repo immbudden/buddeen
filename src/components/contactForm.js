@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import { Formik, Field, Form } from 'formik';
 // import classNames from 'classnames';
 // import { withStyles } from '@material-ui/core/styles';
 // import MenuItem from '@material-ui/core/MenuItem';
@@ -74,7 +75,7 @@ import PropTypes from 'prop-types';
 //     classes: PropTypes.object.isRequired,
 //   };
 
-const Form = styled('form') `
+const StyledForm = styled(Form) `
     flex: 1 1 100%;
     margin-bottom: 5rem;
 `
@@ -125,9 +126,10 @@ const FormInputSpaced = styled('input') `
     color: #222;
     width: 100%;
     padding: 1rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0rem;
     margin-top: 1rem;
     border: 2px solid #EEE;
+    padding-bottom: 0.5rem; //typefix
 
     &:last-of-type {
         margin-bottom: 0;
@@ -207,84 +209,473 @@ const TickInput = styled.input `
 `
 
 
+// const ContactForm = (props) => (
+//     <Form 
+//         key="contact-form"
+//         name="contact-form"
+//         method="POST"
+//         action={'#'}
+//         data-netlify="true"
+//         data-netlify-honeypot="bot-field"
+//     >
+//         <input type="hidden" name="form-name" value="contact-form" />
+
+//         <div>
+//             <FormInput name="name" type="name" placeholder="Full Name" />
+
+//             <HoneyPot name="bot-field" type="pot-name" />
+
+//             <FormInput name="email" type="email" placeholder="Email" />
+
+//             <FormInput name="tel" type="tel" placeholder="Telephone number" />
+//         </div>
+
+//         <Divider />
+        
+//         <FormLabel htmlFor="attendance">Will you be attending the wedding?</FormLabel>
+        
+//         <InputWrapper>
+//             <InputContainer>
+//                 <RadioInput type="radio" name="attending" value="yes" />
+//                 <InputLabel>Yes</InputLabel>
+//             </InputContainer>
+//             <InputContainer>
+//                 <RadioInput type="radio" name="attending" value="no" />
+//                 <InputLabel>No</InputLabel>
+//             </InputContainer>
+//         </InputWrapper>
+
+//         <Spacer />
+
+//         <FormLabel htmlFor="attendancedetail">I'll be attending:</FormLabel>
+
+//         <InputWrapper>
+//             <InputContainer>
+//                 <TickInput type="checkbox" name="Rehersal-Dinner" value="Rehersal Dinner" />
+//                 <InputLabel>Rehersal Dinner</InputLabel>
+//             </InputContainer>
+//             <InputContainer>
+//                 <TickInput type="checkbox" name="Wedding-Ceremony" value="Wedding Ceremony" />
+//                 <InputLabel>Wedding Ceremony</InputLabel>
+//             </InputContainer>
+//             <InputContainer>
+//                 <TickInput type="checkbox" name="evening" value="Evening Reception" />
+//                 <InputLabel>Evening Reception</InputLabel>
+//             </InputContainer>
+//         </InputWrapper>
+
+//         <Spacer />
+
+//         <FormLabel htmlFor="attendancedetail">Do you need a space on the bus?</FormLabel>
+
+//         <InputWrapper>
+//             <InputContainer>
+//                 <RadioInput type="radio" name="bus" value="yes" />
+//                 <InputLabel>Yes</InputLabel>
+//             </InputContainer>
+//             <InputContainer>
+//                 <RadioInput type="radio" name="bus" value="no" />
+//                 <InputLabel>No</InputLabel>
+//             </InputContainer>
+//         </InputWrapper>
+
+//         <Spacer />
+
+//         <FormLabel htmlFor="plusone">Are you bringing a plus one?</FormLabel>
+
+//         <InputWrapper>
+//             <InputContainer>
+//                 <RadioInput type="radio" name="plusone" value="yes" />
+//                 <InputLabel>Yes</InputLabel>
+//             </InputContainer>
+//             <InputContainer>
+//                 <RadioInput type="radio" name="plusone" value="no" />
+//                 <InputLabel>No</InputLabel>
+//             </InputContainer>
+//         </InputWrapper>
+
+//         <FormInputSpaced name="Plus-One-Name" type="text" placeholder="If yes, what is their full name?" />
+
+//         <Divider />
+
+//         <FormLabel htmlFor="dietry">Any dietry requirements we should know about?</FormLabel>
+
+//         <FormInput name="dietry" type="text" placeholder="If yes, please detail" />
+
+//         <Button type="submit">Send</Button>
+//     </Form>
+// )
+
 const ContactForm = (props) => (
-    <Form 
-        key="contact-form"
-        name="contact-form"
-        method="POST"
-        action={'#'}
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-    >
-        <input type="hidden" name="form-name" value="contact-form" />
+    <Formik
+        // Sets up our default values
+        // initialValues={{ 
+        //     fullname: "Full Name", 
+        //     email: "Email Address",
+        //     tel: "Telephone Number",
+        //     plusOneName: "If yes, what is their full name?",
+        //     dietry: "Any dietry requirements we should know about?"
+        // }}
 
-        <div>
-            <FormInput name="name" type="name" placeholder="Full Name" />
+        // Validates our data
+        validate={values => {
+            const errors = {};
 
-            <HoneyPot name="bot-field" type="pot-name" />
+            if (!values.name) errors.name = "You must enter your name";
 
-            <FormInput name="email" type="email" placeholder="Email" />
+            if (!values.email) errors.email = "Required";
 
-            <FormInput name="tel" type="tel" placeholder="Telephone number" />
-        </div>
+            if (
+            !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)
+            ) {
+            errors.email = "You must supply a valid email address";
+            }
 
-        <Divider />
-        
-        <FormLabel htmlFor="attendance">Will you be attending the wedding?</FormLabel>
-        
-        <InputWrapper>
-            <InputContainer>
-                <RadioInput type="radio" name="attending" value="yes" />
+            if (
+            !/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/m.test(values.tel)
+            ) {
+            errors.tel = "You must supply a valid telephone number";
+            }
+
+            if (!values.message) errors.message = "You must enter a message";
+
+            if (!values.attending) errors.attending = "Please tell us if your are coming to the wedding";
+
+            if (!values.attendingdetail) errors.attendingdetail = "Please tell us what you are coming to";
+
+            if (!values.bus) errors.bus = "Please tell us if you need a space on the bus";
+
+            if (!values.plusOne) errors.bus = "Please tell us if you are bringing a plus one";
+
+            return errors;
+        }}
+
+        // Handles our submission
+        // onSubmit={(values, { setSubmitting }) => {
+        //     // This is where you could wire up axios or superagent
+        //     console.log("Submitted Values:", values);
+        //     // Simulates the delay of a real request
+        //     setTimeout(() => setSubmitting(false), 3 * 1000);
+        // }}
+        >
+        {props => (
+            <StyledForm 
+                key="contact-form"
+                name="contact-form"
+                method="POST"
+                action={'#'}
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+            >
+            <FormLabel htmlFor="name">Name</FormLabel>
+
+                <FormInput
+                name="name"
+                type="name"
+                placeholder="Enter your full name"
+                value={props.values.name}
+                onChange={props.handleChange}
+                onBlur={props.handleBlur}
+                style={{
+                    borderColor:
+                    props.errors.name && props.touched.name && "red"
+                }}
+                />
+                {props.errors.name && props.touched.name && (
+                <div style={{ color: "red" }}>{props.errors.name}</div>
+                )}
+
+            <FormInput
+                name="bot-field"
+                type="hidden"
+            />
+            <FormLabel htmlFor="email">Email</FormLabel>
+
+                <FormInput
+                name="email"
+                type="email"
+                placeholder="Email Address"
+                value={props.values.email}
+                onChange={props.handleChange}
+                onBlur={props.handleBlur}
+                style={{
+                    borderColor:
+                    props.errors.email && props.touched.email && "red"
+                }}
+                />
+                {props.errors.email && props.touched.email && (
+                <div style={{ color: "red" }}>{props.errors.email}</div>
+                )}
+
+            <FormLabel htmlFor="tel">Telephone Number</FormLabel>
+
+                <FormInput
+                    name="tel"
+                    type="tel"
+                    placeholder="Telephone Number"
+                    value={props.values.tel}
+                    onChange={props.handleChange}
+                    onBlur={props.handleBlur}
+                    style={{
+                        borderColor:
+                        props.errors.tel && props.touched.tel && "red"
+                    }}
+                />
+                {props.errors.tel && props.touched.tel && (
+                    <div style={{ color: "red" }}>{props.errors.tel}</div>
+                )}
+
+                <Divider />
+
+                <FormLabel htmlFor="attendance">Will you be attending the wedding?</FormLabel>
+
+                <RadioInput
+                    name="attendance"
+                    type="radio"
+                    value={props.values.attendance}
+                    onChange={props.handleChange}
+                    onBlur={props.handleBlur}
+                    style={{
+                        borderColor:
+                        props.errors.attendance && props.touched.attendance && "red"
+                    }}
+                />
                 <InputLabel>Yes</InputLabel>
-            </InputContainer>
-            <InputContainer>
-                <RadioInput type="radio" name="attending" value="no" />
+
+                <RadioInput
+                    name="attendance"
+                    type="radio"
+                    value={props.values.attendance}
+                    onChange={props.handleChange}
+                    onBlur={props.handleBlur}
+                    style={{
+                        borderColor:
+                        props.errors.attendance && props.touched.attendance && "red"
+                    }}
+                />
                 <InputLabel>No</InputLabel>
-            </InputContainer>
-        </InputWrapper>
 
-        <Spacer />
+                {props.errors.attendance && props.touched.attendance && (
+                <div style={{ color: "red" }}>{props.errors.attendance}</div>
+                )}
 
-        <FormLabel htmlFor="attendancedetail">I'll be attending:</FormLabel>
+                {/* <FormLabel htmlFor="attendance">Will you be attending the wedding?</FormLabel>
+                        
+                    <InputWrapper>
+                        <InputContainer>
+                            <RadioInput type="radio" name="attending" value="yes" />
+                            <InputLabel>Yes</InputLabel>
+                        </InputContainer>
+                        <InputContainer>
+                            <RadioInput type="radio" name="attending" value="no" />
+                            <InputLabel>No</InputLabel>
+                        </InputContainer>
+                    </InputWrapper> */}
 
-        <InputWrapper>
-            <InputContainer>
-                <TickInput type="checkbox" name="rehersaldinner" value="Rehersal Dinner" />
-                <InputLabel>Rehersal Dinner</InputLabel>
-            </InputContainer>
-            <InputContainer>
-                <TickInput type="checkbox" name="weddingceremony" value="Wedding Ceremony" />
-                <InputLabel>Wedding Ceremony</InputLabel>
-            </InputContainer>
-            <InputContainer>
-                <TickInput type="checkbox" name="evening" value="Evening Reception" />
-                <InputLabel>Evening Reception</InputLabel>
-            </InputContainer>
-        </InputWrapper>
+                    <Spacer />
 
-        <Spacer />
+                    <TickInput
+                        name="attendanceDetail"
+                        type="checkbox"
+                        value="Rehersal Dinner"
+                        value={props.values.attendanceDetail}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                        style={{
+                            borderColor:
+                            props.errors.attendanceDetail && props.touched.attendanceDetail && "red"
+                        }}
+                    />
+                    <InputLabel>Rehersal Dinner</InputLabel>
 
-        <FormLabel htmlFor="attendancedetail">Do you need a space on the bus?</FormLabel>
+                    <TickInput
+                        name="attendanceDetail"
+                        type="checkbox"
+                        value="Wedding Ceremony"
+                        value={props.values.attendanceDetail}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                        style={{
+                            borderColor:
+                            props.errors.attendanceDetail && props.touched.attendanceDetail && "red"
+                        }}
+                    />
+                    <InputLabel>Wedding Ceremony</InputLabel>
 
-        <InputWrapper>
-            <InputContainer>
-                <RadioInput type="radio" name="bus" value="yes" />
-                <InputLabel>Yes</InputLabel>
-            </InputContainer>
-            <InputContainer>
-                <RadioInput type="radio" name="bus" value="no" />
-                <InputLabel>No</InputLabel>
-            </InputContainer>
-        </InputWrapper>
+                    <TickInput
+                        name="attendanceDetail"
+                        type="checkbox"
+                        value="Evening Reception"
+                        value={props.values.attendanceDetail}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                        style={{
+                            borderColor:
+                            props.errors.attendanceDetail && props.touched.attendanceDetail && "red"
+                        }}
+                    />
+                    <InputLabel>Evening Reception</InputLabel>
 
-        <Spacer />
+                    {props.errors.attendanceDetail && props.touched.attendanceDetail && (
+                    <div style={{ color: "red" }}>{props.errors.attendanceDetail}</div>
+                    )}
 
-        <FormLabel htmlFor="attendancedetail">Do you have any dietry requirements?</FormLabel>
+                    {/* <FormLabel htmlFor="attendancedetail">I'll be attending:</FormLabel>
 
-        <FormInputSpaced name="dietry" type="dietry" placeholder="If yes, please detail" />
+                    <InputWrapper>
+                        <InputContainer>
+                            <TickInput type="checkbox" name="Rehersal-Dinner" value="Rehersal Dinner" />
+                            <InputLabel>Rehersal Dinner</InputLabel>
+                        </InputContainer>
+                        <InputContainer>
+                            <TickInput type="checkbox" name="Wedding-Ceremony" value="Wedding Ceremony" />
+                            <InputLabel>Wedding Ceremony</InputLabel>
+                        </InputContainer>
+                        <InputContainer>
+                            <TickInput type="checkbox" name="evening" value="Evening Reception" />
+                            <InputLabel>Evening Reception</InputLabel>
+                        </InputContainer>
+                    </InputWrapper> */}
 
-        <Button type="submit">Send</Button>
-    </Form>
+                    <Spacer />
+
+                    <FormLabel htmlFor="attendance">Do you need a space on the bus?</FormLabel>
+
+                    <RadioInput
+                        name="bus"
+                        type="radio"
+                        value={props.values.bus}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                        style={{
+                            borderColor:
+                            props.errors.bus && props.touched.bus && "red"
+                        }}
+                    />
+                    <InputLabel>Yes</InputLabel>
+
+                    <RadioInput
+                        name="bus"
+                        type="radio"
+                        value={props.values.bus}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                        style={{
+                            borderColor:
+                            props.errors.bus && props.touched.bus && "red"
+                        }}
+                    />
+                    <InputLabel>No</InputLabel>
+
+                    {props.errors.bus && props.touched.bus && (
+                    <div style={{ color: "red" }}>{props.errors.bus}</div>
+                    )}
+
+                    {/* <FormLabel htmlFor="attendancedetail">Do you need a space on the bus?</FormLabel>
+
+                    <InputWrapper>
+                        <InputContainer>
+                            <RadioInput type="radio" name="bus" value="yes" />
+                            <InputLabel>Yes</InputLabel>
+                        </InputContainer>
+                        <InputContainer>
+                            <RadioInput type="radio" name="bus" value="no" />
+                            <InputLabel>No</InputLabel>
+                        </InputContainer>
+                    </InputWrapper> */}
+
+                    <Spacer />
+
+                    <FormLabel htmlFor="attendance">Are you bringing your plus one?</FormLabel>
+
+                    <RadioInput
+                        name="bus"
+                        type="radio"
+                        value={props.values.plusOne}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                        style={{
+                            borderColor:
+                            props.errors.bus && props.touched.bus && "red"
+                        }}
+                    />
+                    <InputLabel>Yes</InputLabel>
+
+                    <RadioInput
+                        name="bus"
+                        type="radio"
+                        value={props.values.plusOne}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                        style={{
+                            borderColor:
+                            props.errors.plusOne && props.touched.plusOne && "red"
+                        }}
+                    />
+                    <InputLabel>No</InputLabel>
+
+                    {props.errors.plusOne && props.touched.plusOne && (
+                    <div style={{ color: "red" }}>{props.errors.plusOne}</div>
+                    )}
+
+                    <FormLabel htmlFor="plusOneName">Name of Plus One</FormLabel>
+
+                    <FormInput
+                        name="plusOneName"
+                        type="text"
+                        placeholder="Full Name"
+                        value={props.values.plusOneName}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                    />
+
+                    {/* <FormLabel htmlFor="plusone">Are you bringing a plus one?</FormLabel>
+
+                    <InputWrapper>
+                        <InputContainer>
+                            <RadioInput type="radio" name="plusone" value="yes" />
+                            <InputLabel>Yes</InputLabel>
+                        </InputContainer>
+                        <InputContainer>
+                            <RadioInput type="radio" name="plusone" value="no" />
+                            <InputLabel>No</InputLabel>
+                        </InputContainer>
+                    </InputWrapper>
+
+                    <FormInputSpaced name="Plus-One-Name" type="text" placeholder="If yes, what is their full name?" /> */}
+
+                    <Divider />
+
+                    <FormLabel htmlFor="dietry">Any dietry requirements?</FormLabel>
+
+                    <FormInput
+                        name="dietry"
+                        type="text"
+                        placeholder="If yes, please detail"
+                        value={props.values.dietry}
+                        onChange={props.handleChange}
+                        onBlur={props.handleBlur}
+                    />
+                    {props.errors.dietry && props.touched.dietry && (
+                    <div style={{ color: "red" }}>{props.errors.dietry}</div>
+                    )}
+
+                    {/* <FormLabel htmlFor="dietry">Any dietry requirements we should know about?</FormLabel>
+
+                    <FormInput name="dietry" type="text" placeholder="If yes, please detail" /> */}
+
+                    <Button type="submit">Send</Button>
+            
+            {/* <LightTealButton
+                type="submit"
+                value="Submit"
+                disabled={props.isSubmitting}
+            >
+            Send
+            </LightTealButton> */}
+            </StyledForm>
+            )}
+    </Formik>
 )
   
 export default ContactForm;
