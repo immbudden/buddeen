@@ -586,7 +586,7 @@ const ContactForm = (props) => (
 
                     <Spacer />
 
-                    <FormLabel htmlFor="attendance">Are you bringing your plus one?</FormLabel>
+                    <FormLabel htmlFor="plusOne">Are you bringing your plus one?</FormLabel>
 
                     <RadioInput
                         name="bus"
@@ -602,7 +602,7 @@ const ContactForm = (props) => (
                     <InputLabel>Yes</InputLabel>
 
                     <RadioInput
-                        name="bus"
+                        name="plusOne"
                         type="radio"
                         value={props.values.plusOne}
                         onChange={props.handleChange}
@@ -675,7 +675,7 @@ const ContactForm = (props) => (
             </LightTealButton> */}
             </StyledForm>
             )}
-    </Formik>
+    </Formik> 
 )
   
 export default ContactForm;
