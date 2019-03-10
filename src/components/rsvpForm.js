@@ -183,6 +183,8 @@ const App = props => {
             <FormInputSpaced name="plusName" type="text" placeholder="If yes, what is their full name?" className="input" />
         </InputWrapper> 
 
+        <Spacer />
+
         <FormLabel className="label">I will be attending:</FormLabel>
 
         <InputWrapper>
@@ -208,16 +210,9 @@ const App = props => {
                     {touched.attendanceDetail && errors.attendanceDetail && <p>{errors.attendanceDetail}</p>}
                 </InputLabel>
             </InputContainer>
-
-            {/* <InputContainer>
-                <TickInput type="checkbox" name="Wedding-Ceremony" value="Wedding Ceremony" />
-                <InputLabel>Wedding Ceremony</InputLabel>
-            </InputContainer>
-            <InputContainer>
-                <TickInput type="checkbox" name="evening" value="Evening Reception" />
-                <InputLabel>Evening Reception</InputLabel>
-            </InputContainer> */}
         </InputWrapper>
+
+        <Spacer />
 
         <InputWrapper>
             <FormLabel className="label">Will you need a space on the bus?</FormLabel>
@@ -231,6 +226,7 @@ const App = props => {
             </InputContainer>
         </InputWrapper>
 
+        <Spacer />
         
         <FormLabel className="label">Dietry Requirements</FormLabel>
         {touched.dietry && errors.dietry && <p>{errors.dietry}</p>}
@@ -238,7 +234,7 @@ const App = props => {
             <FormInputSpaced name="dietry" type="text" placeholder="If yes, please detail" className="input" />
         </InputWrapper> 
 
-        <Button type="submit" disabled={isSubmitting}>Send</Button>
+        <Button type="submit">Send</Button>
       </Form>
   )
 }
