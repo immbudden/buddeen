@@ -458,7 +458,7 @@ const RSVPForm = () => (
           {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
           <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
 
-          <Button type="submit" disabled={isSubmitting}>
+          <Button type="submit" >
               Send
           </Button>
         </StyledForm>
