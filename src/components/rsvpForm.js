@@ -174,11 +174,31 @@ const Checkbox = ({
   );
 };
 
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
+
 // Checkbox group
 class AttendanceDetailGroup extends React.Component {
   constructor(props) {
     super(props);
   }
+
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "rsvpForm", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
+
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   handleChange = event => {
     const target = event.currentTarget;
@@ -315,6 +335,7 @@ const RSVPForm = () => (
         attendanceDetailGroup: [],
 
       }}
+      
       validationSchema={Yup.object().shape({
         fullname: Yup.string().required("What is your name?"),
         email: Yup.string().required("What is your email address?"),
@@ -323,20 +344,22 @@ const RSVPForm = () => (
         attendanceDetailGroup: Yup.array().required("What are you coming to?"),
         busGroup: Yup.string().required("Do you need a space?"),
       })}
-      // onSubmit={(values, actions) => {
-      //   setTimeout(() => {
-      //     console.log(JSON.stringify(values, null, 2));
-      //     actions.setSubmitting(false);
-      //   }, 500);
-      // }}
+
+
+      onSubmit={(values, actions) => {
+        setTimeout(() => {
+          console.log(JSON.stringify(values, null, 2));
+          actions.setSubmitting(false);
+        }, 500);
+      }}
       render={({
-        
+        handleSubmit,
         setFieldValue,
         setFieldTouched,
         values,
         errors,
         touched,
-        
+        isSubmitting
       }) => (
         <StyledForm
           key="rsvpForm"
@@ -345,7 +368,7 @@ const RSVPForm = () => (
           action={'#'}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          
+          onSubmit={handleSubmit}
         >
 
           <input type="hidden" name="form-name" value="rsvpForm" />
@@ -461,7 +484,7 @@ const RSVPForm = () => (
           {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
           <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
 
-          <Button type="submit" >
+          <Button type="submit" disabled={isSubmitting}>
               Send
           </Button>
         </StyledForm>
