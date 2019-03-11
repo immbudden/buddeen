@@ -345,7 +345,10 @@ const RSVPForm = () => (
           action={'#'}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}>
+          onSubmit={handleSubmit}
+        >
+
+          <input type="hidden" name="form-name" value="rsvpForm" />
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
@@ -458,7 +461,7 @@ const RSVPForm = () => (
           {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
           <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
 
-          <Button type="submit" >
+          <Button type="submit" disabled={isSubmitting}>
               Send
           </Button>
         </StyledForm>
