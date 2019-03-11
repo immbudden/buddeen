@@ -330,7 +330,7 @@ const RSVPForm = () => (
         }, 500);
       }}
       render={({
-        handleSubmit,
+        // handleSubmit,
         setFieldValue,
         setFieldTouched,
         values,
@@ -345,9 +345,7 @@ const RSVPForm = () => (
           action={'/'}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={() => {
-            alert("submitted");
-          }}
+          // onSubmit={handleSubmit}
         >
 
         <input type="hidden" name="form-name" value="rsvpForm" />
@@ -371,7 +369,7 @@ const RSVPForm = () => (
           <Divider />
 
           <RadioButtonGroup
-              id="attendanceGroup"
+              id="attendanceGroup"  
               label="Will you be in attendance?"
               value={values.attendanceGroup}
               error={errors.attendanceGroup}
@@ -379,13 +377,13 @@ const RSVPForm = () => (
           >
               <Field
               component={RadioButton}
-              name="attendanceGroup"
+              name="attendanceYes"
               id="attendanceYes"
               label="Yes"
               />
               <Field
               component={RadioButton}
-              name="attendanceGroup"
+              name="attendanceNo"
               id="attendanceNo"
               label="No"
               />
