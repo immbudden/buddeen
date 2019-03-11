@@ -6,7 +6,7 @@ import classNames from "classnames";
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const StyledForm = styled(Form) `
+const StyledForm = styled.form `
     flex: 1 1 100%;
     margin-bottom: 5rem;
 `
@@ -315,6 +315,7 @@ const RSVPForm = () => (
 
       }}
       validationSchema={Yup.object().shape({
+        fullname: Yup.string().required("What is your name?"),
         attendanceGroup: Yup.string().required("Are you attending the wedding?"),
         attendanceDetailGroup: Yup.array().required("What are you coming to?"),
         busGroup: Yup.string().required("Do you need a space?"),
@@ -322,7 +323,7 @@ const RSVPForm = () => (
       onSubmit={(values, actions) => {
         setTimeout(() => {
           console.log(JSON.stringify(values, null, 2));
-          actions.setSubmitting(true);
+          actions.setSubmitting(false);
         }, 500);
       }}
       render={({
@@ -334,7 +335,7 @@ const RSVPForm = () => (
         touched,
         isSubmitting
       }) => (
-        <StyledForm>
+        <StyledForm onSubmit={handleSubmit}>
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
@@ -447,7 +448,7 @@ const RSVPForm = () => (
           {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
           <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
 
-          <Button type="submit">
+          <Button type="submit" disabled={isSubmitting}>
               Send
           </Button>
         </StyledForm>
