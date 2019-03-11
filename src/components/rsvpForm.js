@@ -319,12 +319,12 @@ const RSVPForm = () => (
         attendanceDetailGroup: Yup.array().required("What are you coming to?"),
         busGroup: Yup.string().required("Do you need a space?"),
       })}
-      onSubmit={(values, actions) => {
-        setTimeout(() => {
-          console.log(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
-        }, 500);
-      }}
+      // onSubmit={(values, actions) => {
+      //   setTimeout(() => {
+      //     console.log(JSON.stringify(values, null, 2));
+      //     actions.setSubmitting(false);
+      //   }, 500);
+      // }}
       render={({
         handleSubmit,
         setFieldValue,
@@ -334,7 +334,7 @@ const RSVPForm = () => (
         touched,
         isSubmitting
       }) => (
-        <StyledForm onSubmit={handleSubmit}>
+        <StyledForm >
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
