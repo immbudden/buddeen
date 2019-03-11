@@ -94,7 +94,7 @@ const InputWrapper = styled.div `
     justify-content: flex-start;
 `
 
-const FormInputSpaced = styled('input') `
+const FormInputSpaced = styled(Field) `
     font-size: 1.5rem;
     font-weight: 100;
     color: #222;
@@ -135,7 +135,7 @@ const FormLabel = styled('label') `
 `
 
 const Feedback = styled.p `
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     justify-content: center;
     margin-top: 0.5rem;
     color: #E62645;
@@ -214,6 +214,7 @@ class AttendanceDetailGroup extends React.Component {
       <div>
         <FormLabel className="label">{label}</FormLabel>
         <FieldGroup>
+          {touched && <InputFeedback error={error} />}
           {React.Children.map(children, child => {
             return React.cloneElement(child, {
               field: {
@@ -223,7 +224,6 @@ class AttendanceDetailGroup extends React.Component {
               }
             });
           })}
-          {touched && <InputFeedback error={error} />}
         </FieldGroup>
       </div>
     );
@@ -284,8 +284,8 @@ const RadioButtonGroup = ({
     <div>
       <FormLabel className="label">{label}</FormLabel>
       <FieldGroup>
-        {children}
         {touched && <InputFeedback error={error} />}
+        {children}
       </FieldGroup>
     </div>
 
@@ -311,13 +311,14 @@ const RSVPForm = () => (
         tel: "",
         busGroup: "",
         plusonefullname: "",
-        // dietGroup: "",
         diet: "",
         attendanceDetailGroup: [],
 
       }}
       validationSchema={Yup.object().shape({
         fullname: Yup.string().required("What is your name?"),
+        email: Yup.string().required("What is your email address?"),
+        tel: Yup.string().required("What is your telephone number?"),
         attendanceGroup: Yup.string().required("Are you attending the wedding?"),
         attendanceDetailGroup: Yup.array().required("What are you coming to?"),
         busGroup: Yup.string().required("Do you need a space?"),
@@ -329,36 +330,36 @@ const RSVPForm = () => (
         }, 500);
       }}
       render={({
-        // handleSubmit,
+        handleSubmit,
         setFieldValue,
         setFieldTouched,
         values,
         errors,
         touched,
-        // isSubmitting
+        isSubmitting
       }) => (
         <StyledForm
-        key="rsvpForm"
-        name="rsvpForm"
-        method="POST"
-        action={'#'}
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        >
+          key="rsvpForm"
+          name="rsvpForm"
+          method="POST"
+          action={'#'}
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={handleSubmit}>
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
-            {touched.fullname && errors.fullname && <p>{errors.fullname}</p>}
+            {touched.fullname && errors.fullname && <Feedback>{errors.fullname}</Feedback>}
             <FormInput className="input" type="text" name="fullname" placeholder="Full Name" />
 
             <HoneyPot name="bot-field" type="pot-name" />
 
             <FormLabel className="label">Email Address</FormLabel>
-            {touched.email && errors.email && <p>{errors.email}</p>}
+            {touched.email && errors.email && <Feedback>{errors.email}</Feedback>}
             <FormInput className="input" type="email" name="email" placeholder="Email" />
 
             <FormLabel className="label">Telephone Number</FormLabel>
-            {touched.tel && errors.tel && <p>{errors.tel}</p>}
+            {touched.tel && errors.tel && <Feedback>{errors.tel}</Feedback>}
             <FormInput className="input" type="tel" name="tel" placeholder="Telephone Number" />
           </div>
 
@@ -457,7 +458,7 @@ const RSVPForm = () => (
           {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
           <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
 
-          <Button type="submit">
+          <Button type="submit" disabled={isSubmitting}>
               Send
           </Button>
         </StyledForm>
