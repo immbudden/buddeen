@@ -334,7 +334,7 @@ const RSVPForm = () => (
         touched,
         isSubmitting
       }) => (
-        <StyledForm onSubmit={handleSubmit}>
+        <StyledForm>
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
