@@ -300,7 +300,7 @@ const RadioButtonGroup = ({
   );
 };
 
-const RSVPForm = () => (
+const RSVP Form = () => (
   <div className="app">
 
     <Formik
@@ -339,8 +339,8 @@ const RSVPForm = () => (
         isSubmitting
       }) => (
         <StyledForm
-          key="rsvpForm"
-          name="rsvpForm"
+          key="RSVP Form"
+          name="RSVP Form"
           method="POST"
           action={'/'}
           data-netlify="true"
@@ -348,7 +348,7 @@ const RSVPForm = () => (
           onSubmit={handleSubmit}
         >
 
-        <input type="hidden" name="form-name" value="rsvpForm" />
+        <input type="hidden" name="form-name" value="RSVP Form" />
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
@@ -470,4 +470,4 @@ const RSVPForm = () => (
   </div>
 );
 
-export default RSVPForm;
+export default RSVP Form;
