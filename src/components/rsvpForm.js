@@ -175,7 +175,7 @@ const Checkbox = ({
 };
 
 // Checkbox group
-class AttendanceDetailGroup extends React.Component {
+class CheckboxGroup extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -369,7 +369,7 @@ const RSVPForm = () => (
           <Divider />
 
           <RadioButtonGroup
-              id="attendanceGroup"  
+              id="attendanceGroup"
               label="Will you be in attendance?"
               value={values.attendanceGroup}
               error={errors.attendanceGroup}
@@ -377,13 +377,13 @@ const RSVPForm = () => (
           >
               <Field
               component={RadioButton}
-              name="attendanceYes"
+              name="attendanceGroup"
               id="attendanceYes"
               label="Yes"
               />
               <Field
               component={RadioButton}
-              name="attendanceNo"
+              name="attendanceGroup"
               id="attendanceNo"
               label="No"
               />
@@ -391,7 +391,7 @@ const RSVPForm = () => (
 
           <Spacer />
           
-          <AttendanceDetailGroup
+          <CheckboxGroup
               id="attendanceDetailGroup"
               label="I will be attending..."
               value={values.attendanceDetailGroup}
@@ -424,7 +424,7 @@ const RSVPForm = () => (
               id="attendanceNone"
               label="None of the above"
               />
-          </AttendanceDetailGroup>
+          </CheckboxGroup>
 
           <Spacer />
 
