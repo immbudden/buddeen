@@ -6,7 +6,7 @@ import classNames from "classnames";
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const StyledForm = styled.form `
+const StyledForm = styled(Form) `
     flex: 1 1 100%;
     margin-bottom: 5rem;
 `
@@ -335,7 +335,14 @@ const RSVPForm = () => (
         touched,
         isSubmitting
       }) => (
-        <StyledForm onSubmit={handleSubmit}>
+        <StyledForm
+        key="rsvpForm"
+        name="rsvpForm"
+        method="POST"
+        action={'#'}
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}>
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
