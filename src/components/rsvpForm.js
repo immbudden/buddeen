@@ -323,20 +323,20 @@ const RSVPForm = () => (
         attendanceDetailGroup: Yup.array().required("What are you coming to?"),
         busGroup: Yup.string().required("Do you need a space?"),
       })}
-      onSubmit={(values, actions) => {
-        setTimeout(() => {
-          console.log(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
-        }, 500);
-      }}
+      // onSubmit={(values, actions) => {
+      //   setTimeout(() => {
+      //     console.log(JSON.stringify(values, null, 2));
+      //     actions.setSubmitting(false);
+      //   }, 500);
+      // }}
       render={({
-        handleSubmit,
+        
         setFieldValue,
         setFieldTouched,
         values,
         errors,
         touched,
-        isSubmitting
+        
       }) => (
         <StyledForm
           key="rsvpForm"
@@ -345,7 +345,7 @@ const RSVPForm = () => (
           action={'#'}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}
+          
         >
 
           <input type="hidden" name="form-name" value="rsvpForm" />
@@ -461,7 +461,7 @@ const RSVPForm = () => (
           {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
           <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
 
-          <Button type="submit" disabled={isSubmitting}>
+          <Button type="submit" >
               Send
           </Button>
         </StyledForm>
