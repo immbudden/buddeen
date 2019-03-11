@@ -307,10 +307,12 @@ const RSVPForm = () => (
       initialValues={{
         attendanceGroup: "",
         fullname: "",
+        email: "",
+        tel: "",
         busGroup: "",
-        // plusOneGroup: "",
+        plusonefullname: "",
         // dietGroup: "",
-        // diet: "",
+        diet: "",
         attendanceDetailGroup: [],
 
       }}
@@ -327,13 +329,13 @@ const RSVPForm = () => (
         }, 500);
       }}
       render={({
-        handleSubmit,
+        // handleSubmit,
         setFieldValue,
         setFieldTouched,
         values,
         errors,
         touched,
-        isSubmitting
+        // isSubmitting
       }) => (
         <StyledForm
         key="rsvpForm"
@@ -342,7 +344,7 @@ const RSVPForm = () => (
         action={'#'}
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}>
+        >
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
@@ -455,7 +457,7 @@ const RSVPForm = () => (
           {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
           <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
 
-          <Button type="submit" disabled={isSubmitting}>
+          <Button type="submit">
               Send
           </Button>
         </StyledForm>
