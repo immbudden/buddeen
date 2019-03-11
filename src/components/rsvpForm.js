@@ -174,31 +174,11 @@ const Checkbox = ({
   );
 };
 
-const encode = (data) => {
-  return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-}
-
 // Checkbox group
 class AttendanceDetailGroup extends React.Component {
   constructor(props) {
     super(props);
   }
-
-  handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "rsvpForm", ...this.state })
-    })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-
-    e.preventDefault();
-  };
-
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   handleChange = event => {
     const target = event.currentTarget;
@@ -335,7 +315,6 @@ const RSVPForm = () => (
         attendanceDetailGroup: [],
 
       }}
-      
       validationSchema={Yup.object().shape({
         fullname: Yup.string().required("What is your name?"),
         email: Yup.string().required("What is your email address?"),
@@ -344,8 +323,6 @@ const RSVPForm = () => (
         attendanceDetailGroup: Yup.array().required("What are you coming to?"),
         busGroup: Yup.string().required("Do you need a space?"),
       })}
-
-
       onSubmit={(values, actions) => {
         setTimeout(() => {
           console.log(JSON.stringify(values, null, 2));
@@ -365,13 +342,13 @@ const RSVPForm = () => (
           key="rsvpForm"
           name="rsvpForm"
           method="POST"
-          action={'#'}
+          action={'/'}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
         >
 
-          <input type="hidden" name="form-name" value="rsvpForm" />
+        <input type="hidden" name="form-name" value="rsvpForm" />
 
           <div>
             <FormLabel className="label">Full Name</FormLabel>
