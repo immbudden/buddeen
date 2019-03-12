@@ -332,8 +332,7 @@ export default () => (
                 <Container>
                     <SectionContent>
                         <Paragraph>
-                            Some information in here about the availability of hotels and B&amp;Bs, we recommend setting a base in and around Belfast 
-                            so that you can easily explore the city and the rest of the island.
+                            There are a lot of choices when it comes to accomdation in Northern Ireland. We would recommend setting up basecamp in an Airbnb for the duration of your stay and potentially a hotel closer to the venue for the wedding night.
                             <br />
                             <br />
                             <Bold>We recommend staying in these locations</Bold>
