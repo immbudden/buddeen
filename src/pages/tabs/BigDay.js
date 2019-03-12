@@ -220,7 +220,8 @@ const Button = styled.button `
     border: none;
     border-radius: 0.4rem;
     margin: 0 auto;
-    min-width: 45vw;
+    width: 45vw;
+    max-width: 20rem;
     margin-top: 2.5rem;
 `
 
@@ -258,6 +259,7 @@ const SlideImg = styled(Img) `
 const Url = styled.a `
     text-decoration: none;
     width: 100%;
+    color: #FFF;
 `
 
 
@@ -339,7 +341,7 @@ export default () => (
                             Kilmore House is our wedding venue and hosts up to 35 guests for the wedding night. Room availability is limited so please book ahead as early as possible.
                             <br />
                             <br />
-                            We also recommend two other hotels, Marine Hotel - which is located on the north coast seaside town of Ballycastle, and the Titanic Hotel, Belfast - which currently has an exceptional deal on until 30th April. A bus will drop to both these locations at the end of the night of the wedding.
+                            We also recommend two other hotels, Marine Hotel - which is located on the north coast seaside town of Ballycastle, and the Titanic Hotel, Belfast - which currently has an exceptional deal on until 30th April.
                         </Paragraph>
                     </SectionContent>
                 </Container>
@@ -423,9 +425,11 @@ export default () => (
                             fluid={data.busStopsImg.childImageSharp.fluid} />
                         </SectionImgContainer>
                         <Paragraph>
-                            Some information in here about the availability of taxis and buses on the night of the wedding, here 
-                            we should mention that the bus will stop at 3 locations.
+                            At the end of the night, there will be a bus for our fine guests, stopping off at the two hotels (Marine Hotel and Titanic hotel) as well as a stop in Glengormley.
+                            <br /><br />
+                            If you are staying nearby or don't want to get the bus, we recommend using the following taxi firm and booking ahead.
                         </Paragraph>
+                        <Button><Url href="tel:+442890365365">Call 365 Taxis</Url></Button>
                     </SectionContent>
                 </ContainerMargin>
             </SectionLight>
