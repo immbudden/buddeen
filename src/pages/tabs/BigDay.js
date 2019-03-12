@@ -336,10 +336,10 @@ export default () => (
                 <Container>
                     <SectionContent>
                         <Paragraph>
-                            Some information in here about the availability of hotels and B&amp;Bs near the venue, mention Kilmore, hotels airbnb etc here if they want to stay outside of basecamp for that night.
+                            Kilmore House is our wedding venue and hosts up to 35 guests for the wedding night. Room availability is limited so please book ahead as early as possible.
                             <br />
                             <br />
-                            <Bold>We recommend staying in these discounted locations</Bold>
+                            We also recommend two other hotels, Marine Hotel - which is located on the north coast seaside town of Ballycastle, and the Titanic Hotel, Belfast - which currently has an exceptional deal on until 30th April. A bus will drop to both these locations at the end of the night of the wedding.
                         </Paragraph>
                     </SectionContent>
                 </Container>
