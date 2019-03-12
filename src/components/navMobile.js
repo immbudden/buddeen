@@ -63,11 +63,11 @@ const NavLink = styled(Link) `
     }
 
     ${media.lessThan("huge")`
-        // font-size: 2rem;
+        // font-size: 1.8rem;
     `}
 
     ${media.lessThan("large")`
-        font-size: 1.35rem;
+        font-size: 1.25rem;
         // margin-right: 2rem;
     `}
 `
@@ -75,13 +75,9 @@ const NavLink = styled(Link) `
 const NavLinkIcon = styled.div `
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.4rem;
     max-height: 2.2rem;
     max-width: 2.2rem;
-`
-
-const active = styled.div `
-    color: pink;
 `
 
 const NavMobile = () => (
