@@ -437,7 +437,7 @@ const MyMapComponent = compose(
     withProps({
       googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBYL3QlXrvdys93ouvBz1V5RqzFTpz0WUk",
       loadingElement: <div style={{ height: `100%` }} />,
-      containerElement: <div style={{ height: `58vh` }} />,
+      containerElement: <div style={{ height: `62vh` }} />,
       mapElement: <div style={{ height: `100%` }} />,
     }),
     withScriptjs,
