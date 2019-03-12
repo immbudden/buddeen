@@ -399,7 +399,7 @@ const exampleMapStyles = [
 ] //Add some style 
 
 const MapWrapper = styled.div `
-    height: 58vh;
+    height: 62vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -424,6 +424,7 @@ const FabContainer = styled.div `
     flex: 1 1 100%;
     margin: 0 auto;
     margin: 2.5rem;
+    margin-bottom: 5rem;
 `
 
 const FabLabel = styled.span `

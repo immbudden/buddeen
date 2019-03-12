@@ -185,7 +185,7 @@ const Button = styled.button `
 `
 
 const CarouselStyled = styled (Carousel) `
-    margin-bottom: 2.5rem;
+    margin-bottom: 5rem;
 `
 
 const Slide = styled.div `
@@ -399,7 +399,7 @@ const exampleMapStyles = [
 ] //Add some style 
 
 const MapWrapper = styled.div `
-    height: 58vh;
+    height: 62vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
