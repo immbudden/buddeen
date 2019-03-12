@@ -59,7 +59,44 @@ const Container = styled.div `
     margin: 0 auto;
     width: 90%;
     flex-direction: column;
+    position: relative;
+    
+    ${media.greaterThan("medium")`
+        max-width: 50%;
+    `}
 `
+
+const ContainerMargin = styled.div `
+    display: flex;
+    flex: 1 1 100%;
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    position: relative;
+    margin-top: 2.5rem;
+    
+    ${media.greaterThan("medium")`
+        max-width: 50%;
+    `}
+`
+
+// const Container = styled.div `
+//     display: flex;
+//     flex: 1 1 100%;
+//     margin: 0 auto;
+//     max-width: 90%;
+//     position: relative;
+//     z-index: 2;
+//     flex-direction: column;
+//     justify-content: space-evenly;
+//     min-height: 100vh;
+//     padding-top: 5rem;
+//     padding-bottom: 5rem;
+
+//     ${media.greaterThan("medium")`
+//         max-width: 50%;
+//     `}
+// `
 
 const SlideContainer = styled.div `
     display: flex;
@@ -122,21 +159,36 @@ const SectionContent = styled.div `
     justify-content: center;
 `
 
+// const SectionImgContainer = styled.div `
+//     display: flex;
+//     flex 1 1 100%;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 0 auto;
+//     margin-bottom: 1rem;
+//     margin-top: 5rem;
+//     overflow: hidden;
+//     position: relative;
+// `
+
+// const SectionImg = styled(Img) `
+//     width: 17.5rem;
+// `
+
 const SectionImgContainer = styled.div `
+    height: 4vh;
+    margin: 1rem 0;
+    overflow: hidden;
     display: flex;
-    flex 1 1 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    margin-top: 5rem;
+    align-items: space-between;
+    margin-right: 0;
 `
 
+
 const SectionImg100 = styled(Img) `
-    width: 900vw;
-    max-width: 90vw;
-    margin-bottom: 0;
+    min-height: 4rem;
 `
 
 const Paragraph = styled.p `
@@ -269,14 +321,14 @@ export default () => (
             <SectionLight>
                 <SectionBreakGreen>
                         <SectionBreakContent>
-                            <SectionBreakBackgroundImg style={{
+                            {/* <SectionBreakBackgroundImg style={{
                                 position: "absolute",
                                 left: 0,
                                 top: 0,
                                 width: "100%",
                                 zIndex: -1,
                             }}
-                            fluid={data.champagneImg.childImageSharp.fluid} />
+                            fluid={data.champagneImg.childImageSharp.fluid} /> */}
                             <HeadingOneLight>Wedding Night</HeadingOneLight>
                         </SectionBreakContent>
                 </SectionBreakGreen>
@@ -357,17 +409,25 @@ export default () => (
                     </SectionBreakContent>
                 </SectionBreakGreen>
 
-                <Container>
+                <ContainerMargin>
                     <SectionContent>
                         <SectionImgContainer>
-                            <SectionImg100 fluid={data.busStopsImg.childImageSharp.fluid} />
+                            <SectionImg100 
+                            style={{
+                                position: "absolute",
+                                left: 0,
+                                top: 0,
+                                width: "100%",
+                                zIndex: 2,
+                            }}
+                            fluid={data.busStopsImg.childImageSharp.fluid} />
                         </SectionImgContainer>
                         <Paragraph>
                             Some information in here about the availability of taxis and buses on the night of the wedding, here 
                             we should mention that the bus will stop at 3 locations.
                         </Paragraph>
                     </SectionContent>
-                </Container>
+                </ContainerMargin>
             </SectionLight>
         )}
       

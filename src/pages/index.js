@@ -83,6 +83,10 @@ const Container = styled.div `
     min-height: 100vh;
     padding-top: 5rem;
     padding-bottom: 5rem;
+
+    ${media.greaterThan("medium")`
+        max-width: 50%;
+    `}
 `
 
 const StoryTextDark = styled.p `
@@ -122,6 +126,7 @@ const ImgContainer = styled.div `
     flex: 0 0 100%;
     height: 25rem;
     position: relative;
+    margin: 0 auto;
 `
 
 const ImgContainerHeight = styled.div `

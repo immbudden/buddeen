@@ -172,7 +172,8 @@ const Button = styled.button `
     border: none;
     border-radius: 0.4rem;
     margin: 0 auto;
-    min-width: 45vw;
+    width: 45vw;
+    max-width: 20rem;
     margin-top: 2.5rem;
 `
 
