@@ -424,7 +424,7 @@ const FabContainer = styled.div `
     flex: 1 1 100%;
     margin: 0 auto;
     margin: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7vh;
 `
 
 const FabLabel = styled.span `

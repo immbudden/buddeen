@@ -185,7 +185,7 @@ const Button = styled.button `
 `
 
 const CarouselStyled = styled (Carousel) `
-    margin-bottom: 5rem;
+    margin-bottom: 7vh;
 `
 
 const Slide = styled.div `
