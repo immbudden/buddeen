@@ -502,7 +502,7 @@ export default () => (
                     }
                 }
             }
-            DinnerImg: file(relativePath: { eq: "cheers.jpg" }) {
+            DinnerImg: file(relativePath: { eq: "weddingTable.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG

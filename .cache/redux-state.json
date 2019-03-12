@@ -5289,12 +5289,12 @@
         "sq--src-pages-registry-js"
       ],
       "602c690b-af9b-5faa-ba61-85feb695faa6": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "dafcc3d5-3857-53b7-b20d-2b56f5a9bf34": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "9cfb9dcf-98e5-5926-b5f3-2995e7dde08a": [
         "sq--src-pages-faq-js"
@@ -5311,9 +5311,7 @@
       "18159552-7c48-5cb7-bbab-6a2fa585997f": [
         "sq--src-pages-tabs-big-big-day-js"
       ],
-      "8b714fe2-8670-5a78-96cb-c6b4f94d74f7": [
-        "sq--src-pages-tabs-big-big-day-js"
-      ],
+      "8b714fe2-8670-5a78-96cb-c6b4f94d74f7": [],
       "237ebc7f-c8f8-5315-8f77-d78c06a2c7b3": [
         "sq--src-pages-tabs-big-big-day-js"
       ],
@@ -5330,12 +5328,12 @@
         "sq--src-pages-registry-js"
       ],
       "953be6c5-fe02-58ea-b67a-553943bf829d": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "fb144539-c5bd-568f-a724-f0de562750f1": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "6d2ec3d1-ef3a-51de-b69f-1b6f7223f2ed": [
         "sq--src-pages-faq-js"
@@ -5352,9 +5350,7 @@
       "7289777c-0dab-523c-893a-c0538ba05000": [
         "sq--src-pages-tabs-big-big-day-js"
       ],
-      "75107136-411d-5dce-90a7-23d9333f8984": [
-        "sq--src-pages-tabs-big-big-day-js"
-      ],
+      "75107136-411d-5dce-90a7-23d9333f8984": [],
       "840ac0c8-4b0f-5592-a15b-afc536679615": [
         "sq--src-pages-tabs-big-big-day-js"
       ],
@@ -5495,6 +5491,12 @@
       ],
       "4756b592-5814-5feb-9b35-d32ee74da047": [
         "sq--src-pages-tabs-getting-here-js"
+      ],
+      "0d95bc81-c2ec-53c6-9e81-52e72e492b68": [
+        "sq--src-pages-tabs-big-big-day-js"
+      ],
+      "3c627c41-cedd-50d2-b52f-5c6eb3673e5e": [
+        "sq--src-pages-tabs-big-big-day-js"
       ]
     },
     "connections": {}
@@ -5521,7 +5523,7 @@
     "tabs-rehersal-dinner-873": "454/path---tabs-rehersal-dinner-873-0af-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-pages-tabs-rehersal-dinner-js": 1444432453,
     "tabs-big-big-day-9e9": "818/path---tabs-big-big-day-9-e-9-307-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-pages-tabs-big-big-day-js": 1279947013,
+    "sq--src-pages-tabs-big-big-day-js": 3501422912,
     "rsvp-9a0": "82/path---rsvp-9-a-0-00d-JJjUWzri5QwDyhFbqKl07VL4"
   },
   "components": {
@@ -5608,8 +5610,8 @@
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/BigBigDay.js",
       "id": "sq--src-pages-tabs-big-big-day-js",
       "jsonName": "sq--src-pages-tabs-big-big-day-js",
-      "query": "query BigBigDayQuery {\n  ClinkImg: file(relativePath: {eq: \"champagne.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  KilmoreWeddingImg: file(relativePath: {eq: \"KilmoreWedding.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  WineImg: file(relativePath: {eq: \"wineAbstract.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  DinnerImg: file(relativePath: {eq: \"cheers.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  DancingImg: file(relativePath: {eq: \"dancing.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 1279947013
+      "query": "query BigBigDayQuery {\n  ClinkImg: file(relativePath: {eq: \"champagne.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  KilmoreWeddingImg: file(relativePath: {eq: \"KilmoreWedding.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  WineImg: file(relativePath: {eq: \"wineAbstract.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  DinnerImg: file(relativePath: {eq: \"weddingTable.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  DancingImg: file(relativePath: {eq: \"dancing.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 3501422912
     },
     "sq--src-pages-tabs-getting-here-js": {
       "name": "GettingHereQuery",
