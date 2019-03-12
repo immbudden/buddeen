@@ -15,7 +15,7 @@ import NavigationIcon from '@material-ui/icons/Navigation';
 // Typography
 
 const HeadingTwo = styled.h2 `
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     color: #3C4650;
     font-weight: 400;
     display: flex;
@@ -24,7 +24,7 @@ const HeadingTwo = styled.h2 `
 `
 
 const HeadingThree = styled.h3 `
-    font-size: 2.75rem;
+    font-size: 2.25rem;
     color: #3C4650;
     font-weight: 400;
     display: flex;
@@ -33,13 +33,13 @@ const HeadingThree = styled.h3 `
 `
 
 const HeadingFour = styled.p `
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #3C4650;
     font-weight: 400;
     display: flex;
     text-align: center;
     margin: 0 auto;
-    line-height: 4.5rem;
+    padding-top: 1.5rem;
 `
 
 const SuperScript = styled.sup `
@@ -93,7 +93,7 @@ const SectionLight = styled.div `
 
 const SectionBreakWhite = styled.div `
     background: #FFF;
-    height: 25vh;
+    height: 22vh;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -399,7 +399,7 @@ const exampleMapStyles = [
 ] //Add some style 
 
 const MapWrapper = styled.div `
-    height: 62vh;
+    height: 64vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -437,7 +437,7 @@ const MyMapComponent = compose(
     withProps({
       googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBYL3QlXrvdys93ouvBz1V5RqzFTpz0WUk",
       loadingElement: <div style={{ height: `100%` }} />,
-      containerElement: <div style={{ height: `62vh` }} />,
+      containerElement: <div style={{ height: `64vh` }} />,
       mapElement: <div style={{ height: `100%` }} />,
     }),
     withScriptjs,
