@@ -435,7 +435,7 @@ const FabLabel = styled.span `
 
 const MyMapComponent = compose(
     withProps({
-      googleMapURL: "http://bit.ly/2J7llHO",
+      googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBYL3QlXrvdys93ouvBz1V5RqzFTpz0WUk",
       loadingElement: <div style={{ height: `100%` }} />,
       containerElement: <div style={{ height: `58vh` }} />,
       mapElement: <div style={{ height: `100%` }} />,
@@ -522,7 +522,7 @@ export default () => (
                         {/* <Fab color="secondary" aria-label="Navigate" size="large">
                             <NavigationIcon /> <FabLabel>navigate</FabLabel>
                         </Fab> */}
-                        <Url href="https://www.google.com/maps/dir/54.697254,-5.8505651/Belfast+City+Hall,+Donegall+Square,+Belfast+BT1+5GS/@54.6479002,-5.9606305,12z/data=!3m1!4b1!4m16!1m6!3m5!1s0x486108562c8242a1:0xa923f9ba0ada408!2sBelfast+City+Hall!8m2!3d54.5967235!4d-5.9300822!4m8!1m1!4e1!1m5!1m1!1s0x486108562c8242a1:0xa923f9ba0ada408!2m2!1d-5.9300822!2d54.5967235">
+                        <Url href="http://bit.ly/2J7llHO">
                             <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
                                 <NavigationIcon />
                                 <FabLabel>Get Directions</FabLabel>
