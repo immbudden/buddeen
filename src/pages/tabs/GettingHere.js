@@ -316,7 +316,7 @@ export default () => (
                             <SectionImg fluid={data.carImg.childImageSharp.fluid} />
                         </SectionImgContainer>
                         <Paragraph>The easiest way to explore our beautiful Island would be to rent a car. We advise booking with Europcar at Dublin Airport, where you can get a car from as little as €20 a day.</Paragraph>
-                        <Button>Book a Car</Button>
+                        <Button><Url href="http://bit.ly/2O1YXOx">Book a Car</Url></Button>
                     </SectionContent>
                 </Container>
                 
