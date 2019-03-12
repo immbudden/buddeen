@@ -175,7 +175,7 @@ const Checkbox = ({
 };
 
 // Checkbox group
-class AttendanceDetailGroup extends React.Component {
+class CheckboxGroup extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -330,7 +330,7 @@ const RSVPForm = () => (
         }, 500);
       }}
       render={({
-        handleSubmit,
+        // handleSubmit,
         setFieldValue,
         setFieldTouched,
         values,
@@ -345,7 +345,7 @@ const RSVPForm = () => (
           action={'/'}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}
+          // onSubmit={handleSubmit}
         >
 
         <input type="hidden" name="form-name" value="rsvpForm" />
@@ -391,7 +391,7 @@ const RSVPForm = () => (
 
           <Spacer />
           
-          <AttendanceDetailGroup
+          <CheckboxGroup
               id="attendanceDetailGroup"
               label="I will be attending..."
               value={values.attendanceDetailGroup}
@@ -424,7 +424,7 @@ const RSVPForm = () => (
               id="attendanceNone"
               label="None of the above"
               />
-          </AttendanceDetailGroup>
+          </CheckboxGroup>
 
           <Spacer />
 

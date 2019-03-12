@@ -1,12 +1,12 @@
 import React from "react";
 import { render } from "react-dom";
-import { Formik, Field, Form } from "formik";
 import * as Yup from 'yup';
 import classNames from "classnames";
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import NetlifyForm from 'react-netlify-form'
 
-const StyledForm = styled(Form) `
+const StyledForm = styled(NetlifyForm) `
     flex: 1 1 100%;
     margin-bottom: 5rem;
 `
@@ -26,19 +26,25 @@ const Button = styled.button `
     justify-content: center;
 `
 
-const HoneyPot = styled('input') `
-    display: none;
-`
-
-const Divider = styled.div `
+const FormLabel = styled('label') `
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #222;
     flex: 1 1 100%;
-    width: 50vw;
-    margin: 5rem auto;
-    border 1px solid #FFF;
-    box-shadow: 0px 3px 6px 0px rgba(20,65,100,0.1);
+    margin-bottom: 0;
+    // text-transform: uppercase;
+    color: #144164;
 `
 
-const FormInput = styled(Field) `
+const RadioGroup = styled.fieldset `
+    border: 0;
+`
+
+const CheckboxGroup = styled.fieldset `
+    border: 0;
+`
+
+const FormInput = styled('input') `
     font-size: 1.5rem;
     font-weight: 100;
     color: #222;
@@ -51,6 +57,67 @@ const FormInput = styled(Field) `
     &:last-of-type {
         margin-bottom: 0;
     }
+`
+
+const FormInputSpaced = styled('input') `
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #222;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    border: 2px solid #EEE;
+    padding-bottom: 0.5rem; //typefix
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+`
+
+const FormTextArea = styled('textarea') `
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #222;
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
+    border: 2px solid #EEE;
+`
+
+const HoneyPot = styled('input') `
+    display: none;
+`
+
+const Divider = styled.div `
+    flex: 1 1 100%;
+    width: 50vw;
+    margin: 5rem auto;
+    border 1px solid #FFF;
+    box-shadow: 0px 3px 6px 0px rgba(20,65,100,0.1);
+`
+
+const Spacer = styled.div `
+    flex: 1 1 100%;
+    width: 50vw;
+    margin: 3rem auto;
+    border 0px solid #FFF;
+`
+
+const InputWrapper = styled.div `
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+`
+
+const InputContainer = styled.div `
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
 `
 
 const RadioInput = styled.input `
@@ -71,50 +138,6 @@ const InputLabel = styled.span `
     margin-left: 1rem;
 `
 
-const InputContainer = styled.div `
-    flex: 1 1 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-`
-
-const Spacer = styled.div `
-    flex: 1 1 100%;
-    width: 50vw;
-    margin: 3rem auto;
-    border 0px solid #FFF;
-`
-
-const InputWrapper = styled.div `
-    flex: 1 1 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-`
-
-const FormInputSpaced = styled(Field) `
-    font-size: 1.5rem;
-    font-weight: 100;
-    color: #222;
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 0rem;
-    margin-top: 1rem;
-    border: 2px solid #EEE;
-    padding-bottom: 0.5rem; //typefix
-
-    &:last-of-type {
-        margin-bottom: 0;
-    }
-`
-
-const FieldGroup = styled.fieldset `
-    border: 0;
-    margin-bottom: 0;
-`
-
 const TickInput = styled.input `
     height: 2.25rem;
     width: 2.25rem;
@@ -124,350 +147,120 @@ const TickInput = styled.input `
     &:
 `
 
-const FormLabel = styled('label') `
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #222;
-    flex: 1 1 100%;
-    margin-bottom: 0;
-    // text-transform: uppercase;
-    color: #144164;
+const FormContainer = styled.div `
+  margin-bottom: 2.5rem;
 `
 
-const Feedback = styled.p `
-    font-size: 1.2rem;
-    justify-content: center;
-    margin-top: 0.5rem;
-    color: #E62645;
-    font-weight: 400;
-    margin-top: 1rem;
-`
 
-// Input feedback
-const InputFeedback = ({ error }) =>
-  error ? <Feedback>{error}</Feedback> : null;
+const RSVPForm = (props) => (
+    <StyledForm 
+        key="rsvpForm"
+        name="rsvpForm"
+        method="POST"
+        action={'#'}
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+    >
 
-// Checkbox input
-const Checkbox = ({
-  field: { name, value, onChange, onBlur },
-  form: { errors, touched, setFieldValue },
-  id,
-  label,
-  className,
-  ...props
-}) => {
-  return (
-    <div>
-      <TickInput
-        name={name}
-        id={id}
-        type="checkbox"
-        value={value}
-        checked={value}
-        onChange={onChange}
-        onBlur={onBlur}
-        className={classNames("radio-button")}
-      />
-      <InputLabel htmlFor={id}>{label}</InputLabel>
-      {touched[name] && <InputFeedback error={errors[name]} />}
-    </div>
-  );
-};
+      {({ loading, error, success }) => (
+          <FormContainer>
+            {loading &&
+              <div>Loading...</div>
+            }
+            {error &&
+              <div>Your RSVP was not sent. Please try again later.</div>
+            }
+            {success &&
+              <div>Thank you for sending your RSVP</div>
+            }
+            {!loading && !success &&
+              <div>
+                <input type="hidden" name="form-name" value="rsvpForm" />
 
-// Checkbox group
-class CheckboxGroup extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+                <div>
+                    <FormInput name="name" type="name" placeholder="Full Name" required/>
 
-  handleChange = event => {
-    const target = event.currentTarget;
-    let valueArray = [...this.props.value] || [];
+                    <HoneyPot name="bot-field" type="pot-name" />
 
-    if (target.checked) {
-      valueArray.push(target.id);
-    } else {
-      valueArray.splice(valueArray.indexOf(target.id), 1);
-    }
+                    <FormInput name="email" type="email" placeholder="Email" required/>
 
-    this.props.onChange(this.props.id, valueArray);
-  };
+                    <FormInput name="tel" type="tel" placeholder="Telephone number" required/>
+                </div>
 
-  handleBlur = () => {
-    // take care of touched
-    this.props.onBlur(this.props.id, true);
-  };
+                <Divider />
 
-  render() {
-    const { value, error, touched, label, className, children } = this.props;
+                <FormLabel htmlFor="attendance">Will you be attending the wedding?</FormLabel>
 
-    const classes = classNames(
-      "input-field",
-      {
-        "is-success": value || (!error && touched), // handle prefilled or user-filled
-        "is-error": !!error && touched
-      },
-      className
-    );
+                <InputWrapper>
+                  <RadioGroup>
+                    <InputContainer>
+                        <RadioInput type="radio" name="attending" value="yes" required />
+                        <InputLabel>Yes</InputLabel>
+                    </InputContainer>
+                    <InputContainer>
+                        <RadioInput type="radio" name="attending" value="no" />
+                        <InputLabel>No</InputLabel>
+                    </InputContainer>
+                  </RadioGroup>
+                </InputWrapper>
 
-    return (
-      <div>
-        <FormLabel className="label">{label}</FormLabel>
-        <FieldGroup>
-          {touched && <InputFeedback error={error} />}
-          {React.Children.map(children, child => {
-            return React.cloneElement(child, {
-              field: {
-                value: value.includes(child.props.id),
-                onChange: this.handleChange,
-                onBlur: this.handleBlur
-              }
-            });
-          })}
-        </FieldGroup>
-      </div>
-    );
-  }
-}
+                <Spacer />
 
+                <FormLabel htmlFor="attendancedetail">I'll be attending:</FormLabel>
 
-// Radio input
+                <InputWrapper>
+                  <CheckboxGroup>
+                    <InputContainer>
+                        <TickInput type="checkbox" name="attendanceDetail" value="Wedding Ceremony"/>
+                        <InputLabel>Wedding Ceremony</InputLabel>
+                    </InputContainer>
+                    <InputContainer>
+                        <TickInput type="checkbox" name="attendanceDetail" value="Evening Reception" />
+                        <InputLabel>Evening Reception</InputLabel>
+                    </InputContainer>
+                    <InputContainer>
+                        <TickInput type="checkbox" name="attendanceDetail" value="None" />
+                        <InputLabel>None</InputLabel>
+                    </InputContainer>
+                  </CheckboxGroup>
+                </InputWrapper>
 
-const RadioButton = ({
-  field: { name, value, onChange, onBlur },
-  id,
-  label,
-  className,
-  ...props
-}) => {
-  return (
-    <div>
-      <RadioInput
-        name={name}
-        id={id}
-        type="radio"
-        value={id} // could be something else for output?
-        checked={id === value}
-        onChange={onChange}
-        onBlur={onBlur}
-        className={classNames("radio-button")}
-        {...props}
-      />
-      <InputLabel htmlFor={id}>{label}</InputLabel>
-    </div>
-  );
-};
+                <Spacer />
 
+                <FormLabel htmlFor="attendancedetail">Do you need a space on the bus?</FormLabel>
 
-// Radio group
+                <InputWrapper>
+                  <RadioGroup>
+                    <InputContainer>
+                        <RadioInput type="radio" name="bus" value="yes" required/>
+                        <InputLabel>Yes</InputLabel>
+                    </InputContainer>
+                    <InputContainer>
+                        <RadioInput type="radio" name="bus" value="no" />
+                        <InputLabel>No</InputLabel>
+                    </InputContainer>
+                  </RadioGroup>
+                </InputWrapper>
 
-const RadioButtonGroup = ({
-  value,
-  error,
-  touched,
-  id,
-  label,
-  className,
-  children
-}) => {
-  const classes = classNames(
-    "input-field",
-    {
-      "is-success": value || (!error && touched), // handle prefilled or user-filled
-      "is-error": !!error && touched
-    },
-    className
-  );
+                <Spacer />
 
-  return (
+                <FormLabel htmlFor="plusOneName">Are you bringing a plus one?</FormLabel>
 
-    <div>
-      <FormLabel className="label">{label}</FormLabel>
-      <FieldGroup>
-        {touched && <InputFeedback error={error} />}
-        {children}
-      </FieldGroup>
-    </div>
+                <FormInputSpaced name="plusOneName" type="text" placeholder="If yes, what is their full name?" />
 
+                <Spacer />
 
-    // <div className={classes}>
-    //   <fieldset>
-    //     <legend>{label}</legend>
-    //     {children}
-    //     {touched && <InputFeedback error={error} />}
-    //   </fieldset>
-    // </div>
-  );
-};
+                <FormLabel htmlFor="dietry">Any dietry requirements we should know about?</FormLabel>
 
-const RSVPForm = () => (
-  <div className="app">
+                <FormInput name="dietry" type="text" placeholder="If yes, please detail" />
 
-    <Formik
-      initialValues={{
-        attendanceGroup: "",
-        fullname: "",
-        email: "",
-        tel: "",
-        busGroup: "",
-        plusonefullname: "",
-        diet: "",
-        attendanceDetailGroup: [],
-
-      }}
-      validationSchema={Yup.object().shape({
-        fullname: Yup.string().required("What is your name?"),
-        email: Yup.string().required("What is your email address?"),
-        tel: Yup.string().required("What is your telephone number?"),
-        attendanceGroup: Yup.string().required("Are you attending the wedding?"),
-        attendanceDetailGroup: Yup.array().required("What are you coming to?"),
-        busGroup: Yup.string().required("Do you need a space?"),
-      })}
-      onSubmit={(values, actions) => {
-        setTimeout(() => {
-          console.log(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
-        }, 500);
-      }}
-      render={({
-        // handleSubmit,
-        setFieldValue,
-        setFieldTouched,
-        values,
-        errors,
-        touched,
-        isSubmitting
-      }) => (
-        <StyledForm
-          key="rsvpForm"
-          name="rsvpForm"
-          method="POST"
-          action={'/'}
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          // onSubmit={handleSubmit}
-        >
-
-        <input type="hidden" name="form-name" value="rsvpForm" />
-
-          <div>
-            <FormLabel className="label">Full Name</FormLabel>
-            {touched.fullname && errors.fullname && <Feedback>{errors.fullname}</Feedback>}
-            <FormInput className="input" type="text" name="fullname" placeholder="Full Name" />
-
-            <HoneyPot name="bot-field" type="pot-name" />
-
-            <FormLabel className="label">Email Address</FormLabel>
-            {touched.email && errors.email && <Feedback>{errors.email}</Feedback>}
-            <FormInput className="input" type="email" name="email" placeholder="Email" />
-
-            <FormLabel className="label">Telephone Number</FormLabel>
-            {touched.tel && errors.tel && <Feedback>{errors.tel}</Feedback>}
-            <FormInput className="input" type="tel" name="tel" placeholder="Telephone Number" />
-          </div>
-
-          <Divider />
-
-          <RadioButtonGroup
-              id="attendanceGroup"
-              label="Will you be in attendance?"
-              value={values.attendanceGroup}
-              error={errors.attendanceGroup}
-              touched={touched.attendanceGroup}
-          >
-              <Field
-              component={RadioButton}
-              name="attendanceGroup"
-              id="attendanceYes"
-              label="Yes"
-              />
-              <Field
-              component={RadioButton}
-              name="attendanceGroup"
-              id="attendanceNo"
-              label="No"
-              />
-          </RadioButtonGroup>
-
-          <Spacer />
-          
-          <CheckboxGroup
-              id="attendanceDetailGroup"
-              label="I will be attending..."
-              value={values.attendanceDetailGroup}
-              error={errors.attendanceDetailGroup}
-              touched={touched.attendanceDetailGroup}
-              onChange={setFieldValue}
-              onBlur={setFieldTouched}
-          >
-              <Field
-              component={Checkbox}
-              name="attendanceDetailGroup"
-              id="attendanceRehersal"
-              label="Rehersal Dinner"
-              />
-              <Field
-              component={Checkbox}
-              name="attendanceDetailGroup"
-              id="attendanceWedding"
-              label="Wedding Ceremony"
-              />
-              <Field
-              component={Checkbox}
-              name="attendanceDetailGroup"
-              id="attendanceEvening"
-              label="Evening Reception"
-              />
-              <Field
-              component={Checkbox}
-              name="attendanceDetailGroup"
-              id="attendanceNone"
-              label="None of the above"
-              />
-          </CheckboxGroup>
-
-          <Spacer />
-
-          <RadioButtonGroup
-              id="busGroup"
-              label="Do you need a space on the bus?"
-              value={values.attendanceGroup}
-              error={errors.attendanceGroup}
-              touched={touched.attendanceGroup}
-          >
-              <Field
-              component={RadioButton}
-              name="busGroup"
-              id="busYes"
-              label="Yes"
-              />
-              <Field
-              component={RadioButton}
-              name="busGroup"
-              id="busNo"
-              label="No"
-              />
-          </RadioButtonGroup>
-
-          <Spacer />
-          
-          <FormLabel className="label">If you have a plus one, what is their name?</FormLabel>
-          {/* {touched.plusonefullname && errors.plusonefullname && <p>{errors.plusonefullname}</p>} */}
-          <FormInputSpaced className="input" type="text" name="plusonefullname" placeholder="Full Name" />
-
-          <Spacer />
-
-          <FormLabel className="label">Do you have any dietry requirements?</FormLabel>
-          {/* {touched.diet && errors.diet && <p>{errors.diet}</p>} */}
-          <FormInput className="input" type="text" name="diet" placeholder="Detail any dietry requirements" />
-
-          <Button type="submit" disabled={isSubmitting}>
-              Send
-          </Button>
-        </StyledForm>
-      )}
-    />
-  </div>
-);
+                <Button type="submit">Send</Button>
+            </div>
+            }
+          </FormContainer>
+        )}
+        
+    </StyledForm>
+  ) 
 
 export default RSVPForm;
