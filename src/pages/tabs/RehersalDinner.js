@@ -435,7 +435,7 @@ const FabLabel = styled.span `
 
 const MyMapComponent = compose(
     withProps({
-      googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBYL3QlXrvdys93ouvBz1V5RqzFTpz0WUk",
+      googleMapURL: "http://bit.ly/2J7llHO",
       loadingElement: <div style={{ height: `100%` }} />,
       containerElement: <div style={{ height: `58vh` }} />,
       mapElement: <div style={{ height: `100%` }} />,
@@ -529,54 +529,6 @@ export default () => (
                             </Fab>
                         </Url>
                     </FabContainer>
-                    <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} edgeEasing="easeQuadInOut" edgeEasing="easeQuadInOut" renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
-                        <Slide>
-                            <SlideImg 
-                            style={{
-                                position: "absolute",
-                                left: 0,
-                                top: 0,
-                                width: "100%",
-                                zIndex: -1,
-                            }}
-                            fluid={data.BeerImg.childImageSharp.fluid} />
-                            <SlideContainer>
-                                    <EventTitle>Drinks Reception</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
-                            </SlideContainer>
-                        </Slide>
-                        <Slide>
-                            <SlideImg 
-                            style={{
-                                position: "absolute",
-                                left: 0,
-                                top: 0,
-                                width: "100%",
-                                zIndex: -1,
-                            }}
-                            fluid={data.CeremonyImg.childImageSharp.fluid} />
-                            <SlideContainer>
-                                    <EventTitle>Ceremony</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
-                            </SlideContainer>
-                        </Slide>
-                        <Slide>
-                            <SlideImg 
-                            style={{
-                                position: "absolute",
-                                left: 0,
-                                top: 0,
-                                width: "100%",
-                                zIndex: -1,
-                            }}
-                            fluid={data.BBQImg.childImageSharp.fluid} />
-                            <SlideContainer>
-                                    <EventTitle>BBQ</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
-                            </SlideContainer>
-                        </Slide>
-
-                </CarouselStyled>
                 </MapWrapper>
             </SectionLight>
             
@@ -584,32 +536,3 @@ export default () => (
       
     />
 )
-
-// const RehersalDinner = (data) => (
-
-//     <SectionLight>
-//         <SectionBreakGreen>
-//             <SectionBreakContent>
-//                 <SectionBreakImgContainer>
-//                     <SectionBreakImg fluid={data.passportImg.childImageSharp.fluid}/>
-//                 </SectionBreakImgContainer>
-//                 <HeadingOneLight>Getting to Northern Ireland</HeadingOneLight>
-//             </SectionBreakContent>
-//         </SectionBreakGreen>
-//     </SectionLight>
-
-// )
-
-// export const query = graphql`
-//     query {
-//         passportImg: file(relativePath: { eq: "illustrations/Passport.png" }) {
-//             childImageSharp {
-//                 fluid(maxWidth: 200) {
-//                     ...GatsbyImageSharpFluid_tracedSVG
-//                 }
-//             }
-//         }
-//     }
-// `
-
-// export default RehersalDinner

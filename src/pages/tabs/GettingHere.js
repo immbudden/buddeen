@@ -198,6 +198,17 @@ const Url = styled.a `
     color: #FFF;
 `
 
+const ButtonSmall = styled.button `
+    background: #64D2C3;
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 10px 15px 5px; // Typefix
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 2.5rem;
+    max-width: 30vw;
+`
+
 
 export default () => (
     
@@ -253,7 +264,7 @@ export default () => (
                 }
             }
 
-            CaveHillImg: file(relativePath: { eq: "places/Cavehill.jpg" }) {
+            CaveHillImg: file(relativePath: { eq: "places/Cavehill2.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -261,7 +272,7 @@ export default () => (
                 }
             }
 
-            CarrickImg: file(relativePath: { eq: "places/Carrick.jpg" }) {
+            CarrickImg: file(relativePath: { eq: "places/CarrickCastle.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -304,7 +315,7 @@ export default () => (
                         <SectionImgContainer>
                             <SectionImg fluid={data.carImg.childImageSharp.fluid} />
                         </SectionImgContainer>
-                        <Paragraph>The easiest way to explore our beautiful Island would be to rent a car. We advise booking with Sixt at Dublin Airport, where you can get a car from as little as $10 a day (VW Polo). <br /><br />If you use the code XXX at the checkout, we have arranged a special 15% discount.</Paragraph>
+                        <Paragraph>The easiest way to explore our beautiful Island would be to rent a car. We advise booking with Europcar at Dublin Airport, where you can get a car from as little as €20 a day.</Paragraph>
                         <Button>Book a Car</Button>
                     </SectionContent>
                 </Container>
@@ -329,7 +340,7 @@ export default () => (
                             </Paragraph>
                     </SectionContent>
                 </Container>
-                <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} edgeEasing="easeQuadInOut" edgeEasing="easeQuadInOut" renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
+                <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5}  renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
                     <Url href="http://bit.ly/2Tm0og4">
                         <Slide>
                             <SlideImg 
@@ -343,6 +354,7 @@ export default () => (
                             fluid={data.BelfastImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <LocationTitle>Belfast</LocationTitle>
+                                    <ButtonSmall>View on Airbnb</ButtonSmall>
                             </SlideContainer>
                         </Slide>
                     </Url>
@@ -359,6 +371,7 @@ export default () => (
                             fluid={data.CaveHillImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <LocationTitle>Newtownabbey</LocationTitle>
+                                    <ButtonSmall>View on Airbnb</ButtonSmall>
                             </SlideContainer>
                         </Slide>
                     </Url>
@@ -375,6 +388,7 @@ export default () => (
                             fluid={data.CarrickImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <LocationTitle>Carrickfergus</LocationTitle>
+                                    <ButtonSmall>View on Airbnb</ButtonSmall>
                             </SlideContainer>
                         </Slide>
                     </Url>

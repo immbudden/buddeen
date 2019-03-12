@@ -189,7 +189,7 @@ const CarouselStyled = styled (Carousel) `
 `
 
 const Slide = styled.div `
-    height: 17.5vh;
+    min-height: 17.5vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -536,7 +536,7 @@ export default () => (
                         {/* <Fab color="secondary" aria-label="Navigate" size="large">
                             <NavigationIcon /> <FabLabel>navigate</FabLabel>
                         </Fab> */}
-                        <Url href="https://www.google.com/maps/dir/54.6972398,-5.8505757/Kilmore+Country+House,+10+Glasmullen+Rd,+Waterfoot,+Ballymena+BT44+0QZ/@54.8768863,-6.3067012,10z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0xa2ef259ccecef498!2sKilmore+Country+House!8m2!3d55.0411051!4d-6.0828247!4m8!1m1!4e1!1m5!1m1!1s0x4861c89cfbc11f5b:0xa2ef259ccecef498!2m2!1d-6.0828247!2d55.0411051">
+                        <Url href="http://bit.ly/2J9fscT">
                             <Fab size ="large" variant="extended" color="secondary" aria-label="Navigate">
                                 <NavigationIcon />
                                 <FabLabel>Get Directions</FabLabel>

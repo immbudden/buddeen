@@ -344,8 +344,8 @@ export default () => (
                     </SectionContent>
                 </Container>
 
-                <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} edgeEasing="easeQuadInOut" edgeEasing="easeQuadInOut" renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
-                    <Url href="http://bit.ly/2Tm0og4">
+                <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
+                    <Url href="mailto:reception@kilmorecountryhouse.com">
                         <Slide>
                             <SlideImg 
                             style={{
@@ -362,7 +362,7 @@ export default () => (
                             </SlideContainer>
                         </Slide>
                     </Url>
-                    <Url href="http://bit.ly/2SEXj6q">
+                    <Url href="http://bit.ly/2F6j8rM">
                         <Slide>
                             <SlideImg 
                             style={{
@@ -379,7 +379,7 @@ export default () => (
                             </SlideContainer>
                         </Slide>
                     </Url>
-                    <Url href="http://bit.ly/2Uhjj91">
+                    <Url href="http://bit.ly/2HhuuM9">
                         <Slide>
                             <SlideImg 
                             style={{
@@ -392,7 +392,7 @@ export default () => (
                             fluid={data.TitanicHotelImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <LocationTitle>Titanic Belfast</LocationTitle>
-                                    <ButtonSmall>Book for £120</ButtonSmall>
+                                    <ButtonSmall>Book for £135</ButtonSmall>
                             </SlideContainer>
                         </Slide>
                     </Url>

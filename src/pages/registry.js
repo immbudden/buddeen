@@ -61,6 +61,10 @@ const Container = styled.div `
     margin: 0 auto;
     width: 90%;
     flex-direction: column;
+
+    ${media.greaterThan("medium")`
+        max-width: 50%;
+    `}
 `
 
 const SectionLight = styled.div `
@@ -305,9 +309,9 @@ export default () => (
                     <Container>
                         <SectionContent>
                             <Paragraph>
-                                This will be some intro text about the registry, something along the lines that we don’t expect anything from anyone and that their presence is enough. 
+                                As with any wedding, we've set up a registry to give people an idea of what we'll be buying for ourselves!
                                 <br /><br />
-                                However if you do feel the need to get us a gift, we have two set up, one at Macy’s and one at Amazon.
+                                We don't expect anyone to buy us anything - your presence is enough! However if you do feel the need to get us a gift, we have a registry set up at Macy’s.
                             </Paragraph>
                             <Button>
                                 <ButtonContent>

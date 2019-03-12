@@ -11,6 +11,7 @@ import NavMobile from '../components/navMobile'
 import media from "styled-media-query";
 import { Helmet } from "react-helmet"
 import Hi from '../images/hi2.gif'
+import Engagement from '../images/engagement.gif'
 // import Layout from "../components/layout"
 
 const HeadingOne = styled.h1 `
@@ -119,14 +120,21 @@ const ImageContainer = styled.div `
 
 const Image = styled("img") `
     margin-bottom: 0;
+    width: 100%;
+`
+
+const ImageHeight = styled("img") `
+    margin-bottom: 0;
+    height: 100%;
 `
 
 const ImgContainer = styled.div `
     display: flex;
-    flex: 0 0 100%;
+    flex: 0 1 100%;
     height: 25rem;
     position: relative;
     margin: 0 auto;
+    max-width: 100%;
 `
 
 const ImgContainerHeight = styled.div `
@@ -266,13 +274,13 @@ const IndexPage = (props) => (
         <SectionBlue>
             <Container>
                 <StoryTextLight>
-                Then in the story about how Buddeen came to be, this happened! Some more text in here to make it even.
+                    He knew this girl was the girl for him, so in July 2018, Michael planned a romantic trip around Lough Erne. 
                 </StoryTextLight>
-                <ImgContainerHeight>
-                        <StoryImgHeight fluid={props.data.smileHeart.childImageSharp.fluid} />
-                </ImgContainerHeight>
+                <ImgContainer>
+                    <ImageHeight src={Engagement} alt="Engagement" />
+                </ImgContainer>
                 <StoryTextLight>
-                Then in the story about how Buddeen came to be, this happened! Some more text in here to make it even.
+                    On White Island, Michael distracted Shereen with the faces of St. Patrick. When she turned around, he was on one knee. She said yes and the rest is history...
                 </StoryTextLight>
             </Container>
         </SectionBlue>

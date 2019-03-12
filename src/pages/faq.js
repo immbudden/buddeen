@@ -61,6 +61,11 @@ const Container = styled.div `
     margin: 0 auto;
     width: 90%;
     flex-direction: column;
+
+    ${media.greaterThan("medium")`
+        max-width: 50%;
+    `}
+    
 `
 
 const SectionLight = styled.div `
