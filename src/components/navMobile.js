@@ -23,9 +23,9 @@ const NavWrapperMobile = styled.div `
     z-index: 500;
     box-shadow: 0px -2px 15px -2px rgba(17,17,17,0.1);
 
-    ${media.greaterThan("medium")`
-        display: none;
-    `}
+    // ${media.greaterThan("medium")`
+    //     display: none;
+    // `}
 `
 
 const NavContainer = styled.div `

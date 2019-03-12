@@ -201,10 +201,12 @@ const Button = styled.button `
 `
 
 const Url = styled.a `
-    flex: 0 0 40%;
+    flex: 0 0 90%;
     text-decoration: none;
     width: 100%;
     color: #FFF;
+    display: flex;
+    margin: 0 auto;
 `
 
 const Bullet = styled.li `
@@ -212,12 +214,23 @@ const Bullet = styled.li `
 `
 
 const LogoContainer = styled.div `
-    flex 0 0 50%;
-    margin: 0 auto;
+    flex 0 0 55%;
+    justify-content: flex-end;
 `
 
 const MacysLogo = styled(Img) `
     width: 100%;
+`
+
+const ButtonText = styled.div `
+    flex 0 0 40%;
+    justify-content: flex-start;
+`
+
+const ButtonContent = styled.div `
+    flex 0 0 100%;
+    margin: 0 auto;
+    justify-content: space-between;
 `
 
 
@@ -295,7 +308,16 @@ export default () => (
                                 <br /><br />
                                 However if you do feel the need to get us a gift, we have two set up, one at Macy’s and one at Amazon.
                             </Paragraph>
-                            <Button><Url href="https://maceys.com">Buy at</Url><LogoContainer><MacysLogo fluid={data.macysImg.childImageSharp.fluid} /></LogoContainer></Button>
+                            <Button>
+                                <ButtonContent>
+                                    <Url href="https://mcys.co/2Tx5h6E">
+                                    <ButtonText>Buy at</ButtonText>
+                                        <LogoContainer>
+                                            <MacysLogo fluid={data.macysImg.childImageSharp.fluid} />
+                                        </LogoContainer>
+                                    </Url>
+                                </ButtonContent>
+                            </Button>
                         </SectionContent>
                     </Container>
 

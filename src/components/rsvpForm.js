@@ -211,15 +211,15 @@ const RSVPForm = (props) => (
                 <InputWrapper>
                   <CheckboxGroup>
                     <InputContainer>
-                        <TickInput type="checkbox" name="attendanceDetail" value="Wedding Ceremony"/>
+                        <TickInput type="checkbox" name="WeddingCeremony" value="Yes"/>
                         <InputLabel>Wedding Ceremony</InputLabel>
                     </InputContainer>
                     <InputContainer>
-                        <TickInput type="checkbox" name="attendanceDetail" value="Evening Reception" />
+                        <TickInput type="checkbox" name="EveningReception" value="Yes" />
                         <InputLabel>Evening Reception</InputLabel>
                     </InputContainer>
                     <InputContainer>
-                        <TickInput type="checkbox" name="attendanceDetail" value="None" />
+                        <TickInput type="checkbox" name="None" value="None" />
                         <InputLabel>None</InputLabel>
                     </InputContainer>
                   </CheckboxGroup>

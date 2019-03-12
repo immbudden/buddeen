@@ -140,10 +140,10 @@ class TravelTabs extends React.Component {
                             label="The Big Day"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
                         />
-                        <Tab 
+                        {/* <Tab 
                             label="Sight Seeing"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
-                        />
+                        /> */}
                     </Tabs>
                 </AppBar>
                 <SwipeableViews
@@ -163,9 +163,9 @@ class TravelTabs extends React.Component {
                         <BigDay />
                     </TabContainer>
 
-                    <TabContainer dir={theme.direction}>
+                    {/* <TabContainer dir={theme.direction}>
                         Item Three
-                    </TabContainer>
+                    </TabContainer> */}
                 
                 </SwipeableViews>
       </div>
