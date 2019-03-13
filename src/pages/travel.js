@@ -9,57 +9,7 @@ import NavMobile from '../components/navMobile'
 import media from "styled-media-query";
 import { Helmet } from "react-helmet"
 import TravelTabs from "../pages/tabs/travelTabs";
-import withRoot from '../utils/withRoot';
-import { withStyles } from '@material-ui/core/styles';
 // import Layout from "../components/layout"
-
-const styles = theme => ({
-  
-    root: {
-        flexGrow: 1,
-        backgroundColor: theme.palette.background.paper,
-        width: '100vw',
-    },
-    
-    tabsRoot: {
-        paddingTop: '1rem',
-        backgroundColor: "#144164"
-    },
-
-    tabsIndicator: {
-        height: "0.4rem",
-    },
-    
-    tabRoot: {
-        textTransform: 'initial',
-        minWidth: 72,
-        fontWeight: "100",
-        fontSize: "1.25rem",
-        letterSpacing: "0.07rem",
-        textTransform: "uppercase",
-        color: '#FFF',
-
-        '&:hover': {
-            color: '#64D2C8',
-            opacity: 1,
-        },
-
-        '&$tabSelected': {
-            color: '#64D2C8',
-            fontWeight: theme.typography.fontWeightMedium,
-        },
-
-        '&:focus': {
-            color: '#64D2C8',
-        },
-    
-    },
-    tabSelected: {},
-    typography: {
-    padding: theme.spacing.unit * 3,
-    },
-
-});
 
 const HeadingOne = styled.h1 `
     font-size: 5rem;
@@ -205,4 +155,4 @@ const TravelPage = () => (
 
 )
 
-export default withRoot(withStyles(styles, { withTheme: true })(TravelPage));
+export default TravelPage

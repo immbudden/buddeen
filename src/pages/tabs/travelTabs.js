@@ -37,53 +37,52 @@ TabContainer.propTypes = {
   dir: PropTypes.string.isRequired,
 };
 
-// const styles = theme => ({
+const styles = theme => ({
   
-//     root: {
-//         flexGrow: 1,
-//         backgroundColor: theme.palette.background.paper,
-//         width: '100vw',
-//     },
+    root: {
+        flexGrow: 1,
+
+    },
     
-//     tabsRoot: {
-//         paddingTop: '1rem',
-//         backgroundColor: "#144164"
-//     },
+    tabsRoot: {
+        paddingTop: '1rem',
+        backgroundColor: "#144164"
+    },
 
-//     tabsIndicator: {
-//         height: "0.4rem",
-//     },
+    tabsIndicator: {
+        height: "0.4rem",
+    },
     
-//     tabRoot: {
-//         textTransform: 'initial',
-//         minWidth: 72,
-//         fontWeight: "100",
-//         fontSize: "1.25rem",
-//         letterSpacing: "0.07rem",
-//         textTransform: "uppercase",
-//         color: '#FFF',
+    tabRoot: {
+        textTransform: 'initial',
+        minWidth: 72,
+        fontWeight: "100",
+        fontSize: "1.25rem",
+        letterSpacing: "0.07rem",
+        textTransform: "uppercase",
+        color: '#FFF',
 
-//         '&:hover': {
-//             color: '#64D2C8',
-//             opacity: 1,
-//         },
+        '&:hover': {
+            color: '#64D2C8',
+            opacity: 1,
+        },
 
-//         '&$tabSelected': {
-//             color: '#64D2C8',
-//             fontWeight: theme.typography.fontWeightMedium,
-//         },
+        '&$tabSelected': {
+            color: '#64D2C8',
+            fontWeight: theme.typography.fontWeightMedium,
+        },
 
-//         '&:focus': {
-//             color: '#64D2C8',
-//         },
+        '&:focus': {
+            color: '#64D2C8',
+        },
     
-//     },
-//     tabSelected: {},
-//     typography: {
-//     padding: theme.spacing.unit * 3,
-//     },
+    },
+    tabSelected: {},
+    typography: {
+    padding: theme.spacing.unit * 3,
+    },
 
-// });
+});
 
 // const themeBuddeen = createMuiTheme({
 //     // palette: {
@@ -178,4 +177,4 @@ TravelTabs.propTypes = {
   theme: PropTypes.object.isRequired,
 };
 
-export default TravelTabs;
+export default withRoot(withStyles(styles, { withTheme: true })(TravelTabs));
