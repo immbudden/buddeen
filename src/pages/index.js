@@ -12,6 +12,12 @@ import media from "styled-media-query";
 import { Helmet } from "react-helmet"
 import Hi from '../images/hi2.gif'
 import Engagement from '../images/engagement.gif'
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-136167902-1');
+    ReactGA.pageview('/index');
+}
 // import Layout from "../components/layout"
 
 const HeadingOne = styled.h1 `

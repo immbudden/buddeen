@@ -1453,12 +1453,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-12T18:03:00.127Z",
+      "buildTime": "2019-03-13T15:47:35.225Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8e4f2ecfbc009bfb87e7b3c185b1c93f",
+        "contentDigest": "2761d3394e9fd3baf77af6b2ffe6f763",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1468,7 +1468,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "27b5775e1605a5dbda486caea5cd12e4",
+        "contentDigest": "949eef5cea315ead2fbfdf5c8a4ce378",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1480,7 +1480,7 @@
       "size": 1088,
       "prettySize": "1.09 kB",
       "modifiedTime": "2019-03-12T18:02:27.580Z",
-      "accessTime": "2019-03-12T18:03:06.198Z",
+      "accessTime": "2019-03-13T15:47:40.783Z",
       "changeTime": "2019-03-12T18:02:27.580Z",
       "birthTime": "2018-12-18T13:24:12.862Z",
       "root": "/",
@@ -1498,11 +1498,11 @@
       "blksize": 4096,
       "ino": 8601505201,
       "blocks": 0,
-      "atimeMs": 1552413786198.2114,
+      "atimeMs": 1552492060783.3738,
       "mtimeMs": 1552413747579.675,
       "ctimeMs": 1552413747579.675,
       "birthtimeMs": 1545139452861.9148,
-      "atime": "2019-03-12T18:03:06.198Z",
+      "atime": "2019-03-13T15:47:40.783Z",
       "mtime": "2019-03-12T18:02:27.580Z",
       "ctime": "2019-03-12T18:02:27.580Z",
       "birthtime": "2018-12-18T13:24:12.862Z"
@@ -1512,7 +1512,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "67143c12005f20f178cc97f27957e24a",
+        "contentDigest": "ef077a6e4f60b0c633ee884c94d07e79",
         "type": "Directory",
         "description": "Directory \"src/images/icons\"",
         "owner": "gatsby-source-filesystem"
@@ -1524,7 +1524,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2019-03-12T01:02:05.594Z",
-      "accessTime": "2019-03-12T18:03:06.202Z",
+      "accessTime": "2019-03-13T15:47:40.787Z",
       "changeTime": "2019-03-12T01:02:05.594Z",
       "birthTime": "2019-02-26T05:44:14.614Z",
       "root": "/",
@@ -1542,11 +1542,11 @@
       "blksize": 4096,
       "ino": 8604293127,
       "blocks": 0,
-      "atimeMs": 1552413786201.8333,
+      "atimeMs": 1552492060787.4294,
       "mtimeMs": 1552352525593.66,
       "ctimeMs": 1552352525593.66,
       "birthtimeMs": 1551159854614.4094,
-      "atime": "2019-03-12T18:03:06.202Z",
+      "atime": "2019-03-13T15:47:40.787Z",
       "mtime": "2019-03-12T01:02:05.594Z",
       "ctime": "2019-03-12T01:02:05.594Z",
       "birthtime": "2019-02-26T05:44:14.614Z"
@@ -1556,7 +1556,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ee4eafd2a0a9de6e3466e2d54f29dc34",
+        "contentDigest": "c2247414fe03d0810be541deacbf287f",
         "type": "Directory",
         "description": "Directory \"src/images/illustrations\"",
         "owner": "gatsby-source-filesystem"
@@ -1568,7 +1568,7 @@
       "size": 608,
       "prettySize": "608 B",
       "modifiedTime": "2019-03-04T23:34:49.894Z",
-      "accessTime": "2019-03-12T18:03:06.202Z",
+      "accessTime": "2019-03-13T15:47:40.787Z",
       "changeTime": "2019-03-04T23:34:49.894Z",
       "birthTime": "2019-03-02T23:19:42.597Z",
       "root": "/",
@@ -1586,11 +1586,11 @@
       "blksize": 4096,
       "ino": 8604628443,
       "blocks": 0,
-      "atimeMs": 1552413786201.8223,
+      "atimeMs": 1552492060787.4792,
       "mtimeMs": 1551742489893.5942,
       "ctimeMs": 1551742489893.5942,
       "birthtimeMs": 1551568782597.1433,
-      "atime": "2019-03-12T18:03:06.202Z",
+      "atime": "2019-03-13T15:47:40.787Z",
       "mtime": "2019-03-04T23:34:49.894Z",
       "ctime": "2019-03-04T23:34:49.894Z",
       "birthtime": "2019-03-02T23:19:42.597Z"
@@ -1600,7 +1600,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d8d029fa4d1b8a6f30808ce2df99ffb6",
+        "contentDigest": "fd13cc926790b0bac977b20107a3f116",
         "type": "Directory",
         "description": "Directory \"src/images/places\"",
         "owner": "gatsby-source-filesystem"
@@ -1609,11 +1609,11 @@
       "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/places",
       "relativePath": "places",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2019-03-12T18:02:27.580Z",
-      "accessTime": "2019-03-12T18:03:06.202Z",
-      "changeTime": "2019-03-12T18:02:27.580Z",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2019-03-12T18:04:52.639Z",
+      "accessTime": "2019-03-13T15:47:40.787Z",
+      "changeTime": "2019-03-12T18:04:52.639Z",
       "birthTime": "2019-03-03T04:05:58.741Z",
       "root": "/",
       "dir": "/Users/immbudden/Development/Buddeen/src/images",
@@ -1623,20 +1623,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 9,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8604642037,
       "blocks": 0,
-      "atimeMs": 1552413786201.8296,
-      "mtimeMs": 1552413747579.675,
-      "ctimeMs": 1552413747579.675,
+      "atimeMs": 1552492060787.454,
+      "mtimeMs": 1552413892639.1763,
+      "ctimeMs": 1552413892639.1763,
       "birthtimeMs": 1551585958741.027,
-      "atime": "2019-03-12T18:03:06.202Z",
-      "mtime": "2019-03-12T18:02:27.580Z",
-      "ctime": "2019-03-12T18:02:27.580Z",
+      "atime": "2019-03-13T15:47:40.787Z",
+      "mtime": "2019-03-12T18:04:52.639Z",
+      "ctime": "2019-03-12T18:04:52.639Z",
       "birthtime": "2019-03-03T04:05:58.741Z"
     },
     "24de9530-f474-50f2-a423-1ec0bb917e95": {
@@ -4972,6 +4972,63 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "9dbb6cdc-4d73-581a-b6dd-e17525ab3fa7": {
+      "id": "9dbb6cdc-4d73-581a-b6dd-e17525ab3fa7",
+      "children": [
+        "4756b592-5814-5feb-9b35-d32ee74da047"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "889f54ea269b791dce3cadb19116ac55",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/places/CarrickCastle.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/places/CarrickCastle.jpg",
+      "relativePath": "places/CarrickCastle.jpg",
+      "extension": "jpg",
+      "size": 298135,
+      "prettySize": "298 kB",
+      "modifiedTime": "2019-03-12T18:04:40.248Z",
+      "accessTime": "2019-03-12T18:04:52.623Z",
+      "changeTime": "2019-03-12T18:04:52.722Z",
+      "birthTime": "2019-03-12T18:04:40.245Z",
+      "root": "/",
+      "dir": "/Users/immbudden/Development/Buddeen/src/images/places",
+      "base": "CarrickCastle.jpg",
+      "ext": ".jpg",
+      "name": "CarrickCastle",
+      "relativeDirectory": "places",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605062218,
+      "blocks": 584,
+      "atimeMs": 1552413892623.1086,
+      "mtimeMs": 1552413880247.6423,
+      "ctimeMs": 1552413892721.9224,
+      "birthtimeMs": 1552413880244.5928,
+      "atime": "2019-03-12T18:04:52.623Z",
+      "mtime": "2019-03-12T18:04:40.248Z",
+      "ctime": "2019-03-12T18:04:52.722Z",
+      "birthtime": "2019-03-12T18:04:40.245Z"
+    },
+    "4756b592-5814-5feb-9b35-d32ee74da047": {
+      "id": "4756b592-5814-5feb-9b35-d32ee74da047",
+      "children": [],
+      "parent": "9dbb6cdc-4d73-581a-b6dd-e17525ab3fa7",
+      "internal": {
+        "contentDigest": "889f54ea269b791dce3cadb19116ac55",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /faq/": {
       "jsonName": "faq-19a",
       "internalComponentName": "ComponentFaq",
@@ -5211,63 +5268,6 @@
         "description": "068c580d-9869-5af0-9eb8-167c47f1743d",
         "owner": "internal-data-bridge"
       }
-    },
-    "9dbb6cdc-4d73-581a-b6dd-e17525ab3fa7": {
-      "id": "9dbb6cdc-4d73-581a-b6dd-e17525ab3fa7",
-      "children": [
-        "4756b592-5814-5feb-9b35-d32ee74da047"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "889f54ea269b791dce3cadb19116ac55",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/places/CarrickCastle.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/immbudden/Development/Buddeen/src/images/places/CarrickCastle.jpg",
-      "relativePath": "places/CarrickCastle.jpg",
-      "extension": "jpg",
-      "size": 298135,
-      "prettySize": "298 kB",
-      "modifiedTime": "2019-03-12T18:04:40.248Z",
-      "accessTime": "2019-03-12T18:04:52.623Z",
-      "changeTime": "2019-03-12T18:04:52.722Z",
-      "birthTime": "2019-03-12T18:04:40.245Z",
-      "root": "/",
-      "dir": "/Users/immbudden/Development/Buddeen/src/images/places",
-      "base": "CarrickCastle.jpg",
-      "ext": ".jpg",
-      "name": "CarrickCastle",
-      "relativeDirectory": "places",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8605062218,
-      "blocks": 584,
-      "atimeMs": 1552413892623.1086,
-      "mtimeMs": 1552413880247.6423,
-      "ctimeMs": 1552413892721.9224,
-      "birthtimeMs": 1552413880244.5928,
-      "atime": "2019-03-12T18:04:52.623Z",
-      "mtime": "2019-03-12T18:04:40.248Z",
-      "ctime": "2019-03-12T18:04:52.722Z",
-      "birthtime": "2019-03-12T18:04:40.245Z"
-    },
-    "4756b592-5814-5feb-9b35-d32ee74da047": {
-      "id": "4756b592-5814-5feb-9b35-d32ee74da047",
-      "children": [],
-      "parent": "9dbb6cdc-4d73-581a-b6dd-e17525ab3fa7",
-      "internal": {
-        "contentDigest": "889f54ea269b791dce3cadb19116ac55",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
@@ -5289,12 +5289,12 @@
         "sq--src-pages-registry-js"
       ],
       "602c690b-af9b-5faa-ba61-85feb695faa6": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "dafcc3d5-3857-53b7-b20d-2b56f5a9bf34": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "9cfb9dcf-98e5-5926-b5f3-2995e7dde08a": [
         "sq--src-pages-faq-js"
@@ -5328,12 +5328,12 @@
         "sq--src-pages-registry-js"
       ],
       "953be6c5-fe02-58ea-b67a-553943bf829d": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "fb144539-c5bd-568f-a724-f0de562750f1": [
-        "sq--src-pages-faq-js",
-        "sq--src-pages-registry-js"
+        "sq--src-pages-registry-js",
+        "sq--src-pages-faq-js"
       ],
       "6d2ec3d1-ef3a-51de-b69f-1b6f7223f2ed": [
         "sq--src-pages-faq-js"

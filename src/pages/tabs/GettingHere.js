@@ -7,6 +7,13 @@ import Img from 'gatsby-image'
 import { withStyles } from '@material-ui/core/styles';
 import Carousel from 'nuka-carousel';
 
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-136167902-1');
+    ReactGA.pageview('/travel/GettingHere');
+}
+
 // Typography
 
 const HeadingOne = styled.h1 `

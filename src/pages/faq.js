@@ -8,6 +8,12 @@ import Img from 'gatsby-image'
 import { withStyles } from '@material-ui/core/styles';
 import { Helmet } from "react-helmet"
 import NavMobile from '../components/navMobile'
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-136167902-1');
+    ReactGA.pageview('/faq');
+}
 
 // Typography
 
@@ -65,7 +71,7 @@ const Container = styled.div `
     ${media.greaterThan("medium")`
         max-width: 50%;
     `}
-    
+
 `
 
 const SectionLight = styled.div `
