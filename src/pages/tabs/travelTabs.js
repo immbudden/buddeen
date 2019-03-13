@@ -23,6 +23,11 @@ const TabContainer = styled.div `
     padding-bottom: 7.5vh;
     overflow-y: scroll;
 `
+
+const TabStyled = styled(Tab) `
+    width: 100vw;
+`
+
 // Old code from Material Tabs
 // function TabContainer({ children, dir }) {
 //   return (
@@ -131,11 +136,11 @@ class TravelTabs extends React.Component {
                         variant="fullWidth"
                         classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
                     >
-                        <Tab 
+                        <TabStyled 
                             label="Getting Here"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
                         />
-                        <Tab 
+                        <TabStyled
                             label="The Big Day"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
                         />
