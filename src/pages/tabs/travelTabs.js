@@ -41,7 +41,6 @@ const styles = theme => ({
   
     root: {
         flexGrow: 1,
-
     },
     
     tabsRoot: {
@@ -61,6 +60,7 @@ const styles = theme => ({
         letterSpacing: "0.07rem",
         textTransform: "uppercase",
         color: '#FFF',
+        width: '100vw',
 
         '&:hover': {
             color: '#64D2C8',
@@ -153,7 +153,6 @@ class TravelTabs extends React.Component {
                     action={actions => {
                         this.swipeableActions = actions;
                     }}
-                    style={{width: "100vw"}}
                 >
                     <TabContainer dir={theme.direction}>
                         <GettingHere />

@@ -58,6 +58,7 @@ const styles = theme => ({
         letterSpacing: "0.07rem",
         textTransform: "uppercase",
         color: '#FFF',
+        width: '100vw',
 
         '&:hover': {
             color: '#64D2C8',
