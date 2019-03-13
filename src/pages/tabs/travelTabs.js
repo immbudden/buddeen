@@ -153,6 +153,7 @@ class TravelTabs extends React.Component {
                     action={actions => {
                         this.swipeableActions = actions;
                     }}
+                    style={{width: "100vw"}}
                 >
                     <TabContainer dir={theme.direction}>
                         <GettingHere />
