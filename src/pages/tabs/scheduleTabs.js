@@ -21,11 +21,6 @@ const TabContainer = styled.div `
     // padding-bottom: 7.5vh;
     // overflow-y: scroll;
 `
-
-const TabStyled = styled(Tab) `
-    width: 100vw;
-`
-
 // Old code from Material Tabs
 // function TabContainer({ children, dir }) {
 //   return (
@@ -57,13 +52,12 @@ const styles = theme => ({
     
     tabRoot: {
         textTransform: 'initial',
-        minWidth: 72,
+        minWidth: '100vw',
         fontWeight: "100",
         fontSize: "1.25rem",
         letterSpacing: "0.07rem",
         textTransform: "uppercase",
         color: '#FFF',
-        width: '100vw',
 
         '&:hover': {
             color: '#64D2C8',
@@ -134,11 +128,11 @@ class ScheduleTabs extends React.Component {
                         variant="fullWidth"
                         classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
                     >
-                        <TabStyled 
+                        <Tab 
                             label="Rehersal Dinner"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
                         />
-                        <TabStyled 
+                        <Tab 
                             label="The Big Day"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
                         />
