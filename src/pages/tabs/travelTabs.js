@@ -55,7 +55,7 @@ const styles = theme => ({
     
     tabRoot: {
         textTransform: 'initial',
-        minWidth: '100vw',
+        minWidth: 72,
         fontWeight: "100",
         fontSize: "1.25rem",
         letterSpacing: "0.07rem",
@@ -133,11 +133,13 @@ class TravelTabs extends React.Component {
                     >
                         <Tab 
                             label="Getting Here"
-                            classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
+                            classes={{ root: classes.tabRoot, selected: classes.tabSelected }}
+                            style={{width:'100vw'}} 
                         />
                         <Tab 
                             label="The Big Day"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
+                            style={{width:'100vw'}} 
                         />
                         {/* <Tab 
                             label="Sight Seeing"

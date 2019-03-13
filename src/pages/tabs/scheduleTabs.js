@@ -39,6 +39,7 @@ const styles = theme => ({
   
     root: {
         flexGrow: 1,
+
     },
     
     tabsRoot: {
@@ -52,7 +53,7 @@ const styles = theme => ({
     
     tabRoot: {
         textTransform: 'initial',
-        minWidth: '100vw',
+        minWidth: 72,
         fontWeight: "100",
         fontSize: "1.25rem",
         letterSpacing: "0.07rem",
@@ -131,10 +132,12 @@ class ScheduleTabs extends React.Component {
                         <Tab 
                             label="Rehersal Dinner"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
+                            style={{width:'100vw'}} 
                         />
                         <Tab 
                             label="The Big Day"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
+                            style={{width:'100vw'}} 
                         />
                     </Tabs>
                 </AppBar>
