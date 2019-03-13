@@ -5,9 +5,9 @@ import classNames from "classnames";
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import NetlifyForm from 'react-netlify-form'
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-136167902-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+// import ReactGA from 'react-ga';
+// ReactGA.initialize('UA-136167902-1');
+// ReactGA.pageview(window.location.pathname + window.location.search);
 
 const StyledForm = styled(NetlifyForm) `
     flex: 1 1 100%;
