@@ -11,11 +11,8 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-map
 import Fab from '@material-ui/core/Fab';
 import NavigationIcon from '@material-ui/icons/Navigation';
 import ReactGA from 'react-ga';
-
-function initializeReactGA() {
-    ReactGA.initialize('UA-136167902-1');
-    ReactGA.pageview('/schedule/BigBigDay');
-}
+ReactGA.initialize('UA-136167902-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 // import markerLanyon from "../images/mapPin.png";
 
 // Typography

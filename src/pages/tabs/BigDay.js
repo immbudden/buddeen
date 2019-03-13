@@ -7,12 +7,8 @@ import Img from 'gatsby-image'
 import { withStyles } from '@material-ui/core/styles';
 import Carousel from 'nuka-carousel';
 import ReactGA from 'react-ga';
-
-function initializeReactGA() {
-    ReactGA.initialize('UA-136167902-1');
-    ReactGA.pageview('/travel/BigDay');
-}
-
+ReactGA.initialize('UA-136167902-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 // Typography
 
 const HeadingOne = styled.h1 `

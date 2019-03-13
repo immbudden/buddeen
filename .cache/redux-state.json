@@ -5289,19 +5289,13 @@
         "sq--src-pages-registry-js"
       ],
       "602c690b-af9b-5faa-ba61-85feb695faa6": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-registry-js"
       ],
       "dafcc3d5-3857-53b7-b20d-2b56f5a9bf34": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-registry-js"
       ],
-      "9cfb9dcf-98e5-5926-b5f3-2995e7dde08a": [
-        "sq--src-pages-faq-js"
-      ],
-      "5dca67b6-a775-595b-b2d9-c2542d8ef73c": [
-        "sq--src-pages-faq-js"
-      ],
+      "9cfb9dcf-98e5-5926-b5f3-2995e7dde08a": [],
+      "5dca67b6-a775-595b-b2d9-c2542d8ef73c": [],
       "d1786d68-7e9c-5206-a7a1-e8c94327ef54": [
         "sq--src-pages-tabs-big-big-day-js"
       ],
@@ -5328,19 +5322,13 @@
         "sq--src-pages-registry-js"
       ],
       "953be6c5-fe02-58ea-b67a-553943bf829d": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-registry-js"
       ],
       "fb144539-c5bd-568f-a724-f0de562750f1": [
-        "sq--src-pages-faq-js",
         "sq--src-pages-registry-js"
       ],
-      "6d2ec3d1-ef3a-51de-b69f-1b6f7223f2ed": [
-        "sq--src-pages-faq-js"
-      ],
-      "a8066238-38b5-5489-81c7-f861cb4ba61f": [
-        "sq--src-pages-faq-js"
-      ],
+      "6d2ec3d1-ef3a-51de-b69f-1b6f7223f2ed": [],
+      "a8066238-38b5-5489-81c7-f861cb4ba61f": [],
       "f67979c0-fa03-587c-9f42-490d981a8b9e": [
         "sq--src-pages-tabs-big-big-day-js"
       ],
@@ -5449,35 +5437,27 @@
         "sq--src-pages-tabs-rehersal-dinner-js"
       ],
       "0b6f1543-2cf1-5273-95a2-c6657d53e989": [
-        "/rsvp/",
         "/"
       ],
       "24de9530-f474-50f2-a423-1ec0bb917e95": [
-        "/rsvp/",
         "/"
       ],
       "284f4845-4e75-52ad-81e5-34e5f21ae488": [
-        "/rsvp/",
         "/"
       ],
       "9961ca45-1dea-5450-bbd0-a7213e8c5d4c": [
-        "/rsvp/",
         "/"
       ],
       "06e85a14-9588-5700-8cb4-80fb229360fb": [
-        "/rsvp/",
         "/"
       ],
       "24100f74-450f-5d68-86d3-86625b8ed294": [
-        "/rsvp/",
         "/"
       ],
       "76547eae-6c29-5d1d-a7c7-e445e88730d1": [
-        "/rsvp/",
         "/"
       ],
       "0472108b-f507-5015-b351-1ed673f35811": [
-        "/rsvp/",
         "/"
       ],
       "20ce362c-9f44-51cb-842d-cd00f94a9b01": [
@@ -5524,7 +5504,7 @@
     "sq--src-pages-tabs-rehersal-dinner-js": 1444432453,
     "tabs-big-big-day-9e9": "818/path---tabs-big-big-day-9-e-9-307-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-pages-tabs-big-big-day-js": 3501422912,
-    "rsvp-9a0": "82/path---rsvp-9-a-0-00d-JJjUWzri5QwDyhFbqKl07VL4"
+    "rsvp-9a0": "409/path---rsvp-9-a-0-00d-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js": {
@@ -5544,7 +5524,7 @@
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/registry.js"
     },
     "/Users/immbudden/Development/Buddeen/src/pages/rsvp.js": {
-      "query": "query usersImmbuddenDevelopmentBuddeenSrcPagesRsvpJs3621373434 {\n  homeHeroImg: file(relativePath: {eq: \"Buddeen.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  logo: file(relativePath: {eq: \"BuddeenLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  RopeBridge: file(relativePath: {eq: \"RopeBridge_Edit.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  smileHeart: file(relativePath: {eq: \"smileHeart-2.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/rsvp.js"
     },
     "/Users/immbudden/Development/Buddeen/src/pages/schedule.js": {
@@ -5597,14 +5577,6 @@
       "query": "query registryQuery {\n  presentImg: file(relativePath: {eq: \"illustrations/presentPop.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  macysImg: file(relativePath: {eq: \"macysLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  palmImg: file(relativePath: {eq: \"illustrations/palm.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  piggyImg: file(relativePath: {eq: \"illustrations/piggy.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  statueImg: file(relativePath: {eq: \"illustrations/statue.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 595730646
     },
-    "sq--src-pages-faq-js": {
-      "name": "faqQuery",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/faq.js",
-      "id": "sq--src-pages-faq-js",
-      "jsonName": "sq--src-pages-faq-js",
-      "query": "query faqQuery {\n  IrelandImg: file(relativePath: {eq: \"illustrations/Ireland.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  phoneHandImg: file(relativePath: {eq: \"illustrations/phoneHand.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  piggyImg: file(relativePath: {eq: \"illustrations/piggy.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  statueImg: file(relativePath: {eq: \"illustrations/statue.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2919243106
-    },
     "sq--src-pages-tabs-big-big-day-js": {
       "name": "BigBigDayQuery",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/BigBigDay.js",
@@ -5621,14 +5593,6 @@
       "query": "query GettingHereQuery {\n  passportImg: file(relativePath: {eq: \"illustrations/Passport.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  flightImg: file(relativePath: {eq: \"illustrations/flight.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  busImg: file(relativePath: {eq: \"illustrations/bus.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  carImg: file(relativePath: {eq: \"illustrations/car.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  baseCampImg: file(relativePath: {eq: \"illustrations/baseCamp.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  BelfastImg: file(relativePath: {eq: \"Belfast.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CaveHillImg: file(relativePath: {eq: \"places/Cavehill2.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CarrickImg: file(relativePath: {eq: \"places/CarrickCastle.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 3861041818
     },
-    "sq--src-pages-tabs-rehersal-dinner-js": {
-      "name": "RehersalDinnerQuery",
-      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/RehersalDinner.js",
-      "id": "sq--src-pages-tabs-rehersal-dinner-js",
-      "jsonName": "sq--src-pages-tabs-rehersal-dinner-js",
-      "query": "query RehersalDinnerQuery {\n  BeerImg: file(relativePath: {eq: \"beer.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500, cropFocus: CENTER) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CeremonyImg: file(relativePath: {eq: \"ceremony.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  BBQImg: file(relativePath: {eq: \"bbq.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 1444432453
-    },
     "sq--src-pages-tabs-big-day-js": {
       "name": "BigDayQuery",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/BigDay.js",
@@ -5636,6 +5600,14 @@
       "jsonName": "sq--src-pages-tabs-big-day-js",
       "query": "query BigDayQuery {\n  taxiImg: file(relativePath: {eq: \"illustrations/taxi.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  busStopsImg: file(relativePath: {eq: \"illustrations/busStops.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  champagneImg: file(relativePath: {eq: \"illustrations/champagne.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  KilmoreImg: file(relativePath: {eq: \"places/Kilmore.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  MarineHotelImg: file(relativePath: {eq: \"places/MarineHotel.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  TitanicHotelImg: file(relativePath: {eq: \"places/TitanicHotel.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 659040727
+    },
+    "sq--src-pages-tabs-rehersal-dinner-js": {
+      "name": "RehersalDinnerQuery",
+      "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/tabs/RehersalDinner.js",
+      "id": "sq--src-pages-tabs-rehersal-dinner-js",
+      "jsonName": "sq--src-pages-tabs-rehersal-dinner-js",
+      "query": "query RehersalDinnerQuery {\n  BeerImg: file(relativePath: {eq: \"beer.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500, cropFocus: CENTER) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  CeremonyImg: file(relativePath: {eq: \"ceremony.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n  BBQImg: file(relativePath: {eq: \"bbq.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 1444432453
     }
   }
 }
