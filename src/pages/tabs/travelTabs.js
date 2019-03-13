@@ -121,7 +121,7 @@ class TravelTabs extends React.Component {
 
     return (
         
-        <div className={classes.root}>
+        <div className={classes.root} style={{width:'100vw'}} >
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <AppBar position="fixed" color="primary">
                     <Tabs
