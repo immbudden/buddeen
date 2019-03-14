@@ -8,9 +8,6 @@ import Img from 'gatsby-image'
 import { withStyles } from '@material-ui/core/styles';
 import { Helmet } from "react-helmet"
 import NavMobile from '../components/navMobile'
-// import ReactGA from 'react-ga';
-// ReactGA.initialize('UA-136167902-1');
-// ReactGA.pageview(window.location.pathname + window.location.search);
 
 // Typography
 

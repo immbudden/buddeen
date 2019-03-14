@@ -12,10 +12,6 @@ import media from "styled-media-query";
 import { Helmet } from "react-helmet"
 import Hi from '../images/hi2.gif'
 import RSVPForm from '../components/rsvpForm'
-// import ReactGA from 'react-ga';
-// ReactGA.initialize('UA-136167902-1');
-// ReactGA.pageview(window.location.pathname + window.location.search);
-// import Layout from "../components/layout"
 
 const HeadingOne = styled.h1 `
     font-size: 5rem;
