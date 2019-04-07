@@ -1,25 +1,12 @@
 module.exports = {
 
-  siteMetadata: {
-      title: `Buddeen`,
-      siteUrl: `http://buddeen.com`,
-    description: `On 4th July 2019 - Buddeen (Michael and Shereen) get married`,
-    },
-
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "useBuiltIns": "usage",
-          "corejs": 2
-        }
-      ],
-      "@babel/preset-react",
-      "minify"
-    ],
+    siteMetadata: {
+        title: `Buddeen`,
+        siteUrl: `http://buddeen.com`,
+      description: `On 4th July 2019 - Buddeen (Michael and Shereen) get married`,
+      },
 
   plugins: [
-    "@babel/plugin-transform-runtime",
     {
         resolve: `gatsby-source-filesystem`,
         options: {
