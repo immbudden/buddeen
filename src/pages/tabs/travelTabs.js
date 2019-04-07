@@ -13,6 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import GettingHere from '../tabs/GettingHere';
 import BigDay from '../tabs/BigDay';
+import SightSeeing from '../tabs/SightSeeing';
 import withRoot from '../../utils/withRoot';
 // import { theme } from '../../utils/materialTheme'
 
@@ -141,10 +142,11 @@ class TravelTabs extends React.Component {
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
                             style={{width:'100vw'}} 
                         />
-                        {/* <Tab 
-                            label="Sight Seeing"
+                        <Tab 
+                            label="Sightseeing"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
-                        /> */}
+                            style={{width:'100vw'}} 
+                        />
                     </Tabs>
                 </AppBar>
                 <SwipeableViews
@@ -164,9 +166,9 @@ class TravelTabs extends React.Component {
                         <BigDay />
                     </TabContainer>
 
-                    {/* <TabContainer dir={theme.direction}>
-                        Item Three
-                    </TabContainer> */}
+                    <TabContainer dir={theme.direction}>
+                        <SightSeeing />
+                    </TabContainer>
                 
                 </SwipeableViews>
       </div>

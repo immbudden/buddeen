@@ -15,6 +15,11 @@
         "path": "/faq/"
     },
     {
+        "componentChunkName": "component---src-pages-home-js",
+        "jsonName": "home-75b",
+        "path": "/home/"
+    },
+    {
         "componentChunkName": "component---src-pages-registry-js",
         "jsonName": "registry-952",
         "path": "/registry/"
@@ -50,9 +55,114 @@
         "path": "/tabs/RehersalDinner/"
     },
     {
+        "componentChunkName": "component---src-pages-tabs-sight-seeing-js",
+        "jsonName": "tabs-sight-seeing-765",
+        "path": "/tabs/SightSeeing/"
+    },
+    {
         "componentChunkName": "component---src-pages-tabs-schedule-tabs-js",
         "jsonName": "tabs-schedule-tabs-87c",
         "path": "/tabs/scheduleTabs/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-ballintoy-js",
+        "jsonName": "tabs-sights-ballintoy-3d1",
+        "path": "/tabs/sights/Ballintoy/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-belfast-bars-js",
+        "jsonName": "tabs-sights-belfast-bars-cbd",
+        "path": "/tabs/sights/BelfastBars/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-bus-tour-js",
+        "jsonName": "tabs-sights-bus-tour-9fe",
+        "path": "/tabs/sights/BusTour/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-bushmills-js",
+        "jsonName": "tabs-sights-bushmills-1e6",
+        "path": "/tabs/sights/Bushmills/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-carrick-js",
+        "jsonName": "tabs-sights-carrick-db7",
+        "path": "/tabs/sights/Carrick/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-castle-leslie-js",
+        "jsonName": "tabs-sights-castle-leslie-a81",
+        "path": "/tabs/sights/CastleLeslie/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-cavehill-js",
+        "jsonName": "tabs-sights-cavehill-35b",
+        "path": "/tabs/sights/Cavehill/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-dark-hedges-js",
+        "jsonName": "tabs-sights-dark-hedges-274",
+        "path": "/tabs/sights/DarkHedges/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-dunluce-js",
+        "jsonName": "tabs-sights-dunluce-118",
+        "path": "/tabs/sights/Dunluce/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-giants-causeway-js",
+        "jsonName": "tabs-sights-giants-causeway-9cb",
+        "path": "/tabs/sights/GiantsCauseway/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-gobbins-js",
+        "jsonName": "tabs-sights-gobbins-944",
+        "path": "/tabs/sights/Gobbins/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-guiness-js",
+        "jsonName": "tabs-sights-guiness-4be",
+        "path": "/tabs/sights/Guiness/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-jameson-js",
+        "jsonName": "tabs-sights-jameson-f04",
+        "path": "/tabs/sights/Jameson/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-moher-js",
+        "jsonName": "tabs-sights-moher-cf4",
+        "path": "/tabs/sights/Moher/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-rope-bridge-js",
+        "jsonName": "tabs-sights-rope-bridge-f04",
+        "path": "/tabs/sights/RopeBridge/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-slieve-league-js",
+        "jsonName": "tabs-sights-slieve-league-8e6",
+        "path": "/tabs/sights/SlieveLeague/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-titanic-museum-js",
+        "jsonName": "tabs-sights-titanic-museum-5c9",
+        "path": "/tabs/sights/TitanicMuseum/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-torr-head-js",
+        "jsonName": "tabs-sights-torr-head-5b5",
+        "path": "/tabs/sights/TorrHead/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-trinity-js",
+        "jsonName": "tabs-sights-trinity-312",
+        "path": "/tabs/sights/Trinity/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tabs-sights-wild-atlantic-js",
+        "jsonName": "tabs-sights-wild-atlantic-078",
+        "path": "/tabs/sights/WildAtlantic/"
     },
     {
         "componentChunkName": "component---src-pages-tabs-travel-tabs-js",
