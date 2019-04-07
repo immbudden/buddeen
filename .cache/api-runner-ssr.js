@@ -2,6 +2,9 @@ var plugins = [{
       plugin: require('/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
@@ -13,9 +16,6 @@ var plugins = [{
     },{
       plugin: require('/Users/immbudden/Development/Buddeen/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
       options: {"plugins":[],"logo":"./src/images/favcon.png","appName":null,"appDescription":null,"developerName":null,"developerURL":null,"dir":"auto","lang":"en-US","background":"#fff","theme_color":"#fff","display":"standalone","orientation":"any","start_url":"/?homescreen=1","version":"1.0","icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"opengraph":false,"twitter":false,"yandex":false,"windows":false}},
-    },{
-      plugin: require('/Users/immbudden/Development/Buddeen/gatsby-ssr'),
-      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

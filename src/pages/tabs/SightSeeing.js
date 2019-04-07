@@ -147,7 +147,7 @@ const Url = styled.a `
     color: #FFF;
 `
 
-const SightSeeing = (props) => (
+const SightSeeing = (data) => (
 
     <BrowserRouter>
         <SectionLight>
