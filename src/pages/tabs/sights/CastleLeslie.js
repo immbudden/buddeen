@@ -166,7 +166,7 @@ export default () => (
         render={data => (
             <div>
                 <BannerContainer>
-                        <BannerImg fluid={data.MoherImg.childImageSharp.fluid} />
+                        <BannerImg fluid={data.CastleLeslieImg.childImageSharp.fluid} />
                 </BannerContainer>
             
                 <Container>
