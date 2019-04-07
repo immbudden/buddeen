@@ -4,6 +4,7 @@ const preferDefault = m => m && m.default || m
 exports.components = {
   "component---cache-dev-404-page-js": () => import("/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-faq-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
+  "component---src-pages-home-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/home.js" /* webpackChunkName: "component---src-pages-home-js" */),
   "component---src-pages-index-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-registry-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/registry.js" /* webpackChunkName: "component---src-pages-registry-js" */),
   "component---src-pages-rsvp-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/rsvp.js" /* webpackChunkName: "component---src-pages-rsvp-js" */),
@@ -15,6 +16,7 @@ exports.components = {
   "component---src-pages-tabs-schedule-tabs-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/scheduleTabs.js" /* webpackChunkName: "component---src-pages-tabs-schedule-tabs-js" */),
   "component---src-pages-tabs-sights-ballintoy-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Ballintoy.js" /* webpackChunkName: "component---src-pages-tabs-sights-ballintoy-js" */),
   "component---src-pages-tabs-sights-belfast-bars-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/BelfastBars.js" /* webpackChunkName: "component---src-pages-tabs-sights-belfast-bars-js" */),
+  "component---src-pages-tabs-sights-bushmills-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Bushmills.js" /* webpackChunkName: "component---src-pages-tabs-sights-bushmills-js" */),
   "component---src-pages-tabs-sights-bus-tour-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/BusTour.js" /* webpackChunkName: "component---src-pages-tabs-sights-bus-tour-js" */),
   "component---src-pages-tabs-sights-carrick-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Carrick.js" /* webpackChunkName: "component---src-pages-tabs-sights-carrick-js" */),
   "component---src-pages-tabs-sights-castle-leslie-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/CastleLeslie.js" /* webpackChunkName: "component---src-pages-tabs-sights-castle-leslie-js" */),
@@ -34,9 +36,7 @@ exports.components = {
   "component---src-pages-tabs-sights-wild-atlantic-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/WildAtlantic.js" /* webpackChunkName: "component---src-pages-tabs-sights-wild-atlantic-js" */),
   "component---src-pages-tabs-sight-seeing-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/SightSeeing.js" /* webpackChunkName: "component---src-pages-tabs-sight-seeing-js" */),
   "component---src-pages-tabs-travel-tabs-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js" /* webpackChunkName: "component---src-pages-tabs-travel-tabs-js" */),
-  "component---src-pages-travel-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/travel.js" /* webpackChunkName: "component---src-pages-travel-js" */),
-  "component---src-pages-home-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/home.js" /* webpackChunkName: "component---src-pages-home-js" */),
-  "component---src-pages-tabs-sights-bushmills-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Bushmills.js" /* webpackChunkName: "component---src-pages-tabs-sights-bushmills-js" */)
+  "component---src-pages-travel-js": () => import("/Users/immbudden/Development/Buddeen/src/pages/travel.js" /* webpackChunkName: "component---src-pages-travel-js" */)
 }
 
 exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/immbudden/Development/Buddeen/.cache/data.json")

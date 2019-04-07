@@ -7,6 +7,7 @@ const preferDefault = m => m && m.default || m
 exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/.cache/dev-404-page.js"))),
   "component---src-pages-faq-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/faq.js"))),
+  "component---src-pages-home-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/home.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/index.js"))),
   "component---src-pages-registry-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/registry.js"))),
   "component---src-pages-rsvp-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/rsvp.js"))),
@@ -18,6 +19,7 @@ exports.components = {
   "component---src-pages-tabs-schedule-tabs-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/scheduleTabs.js"))),
   "component---src-pages-tabs-sights-ballintoy-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Ballintoy.js"))),
   "component---src-pages-tabs-sights-belfast-bars-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/BelfastBars.js"))),
+  "component---src-pages-tabs-sights-bushmills-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Bushmills.js"))),
   "component---src-pages-tabs-sights-bus-tour-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/BusTour.js"))),
   "component---src-pages-tabs-sights-carrick-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Carrick.js"))),
   "component---src-pages-tabs-sights-castle-leslie-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/CastleLeslie.js"))),
@@ -37,8 +39,6 @@ exports.components = {
   "component---src-pages-tabs-sights-wild-atlantic-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/WildAtlantic.js"))),
   "component---src-pages-tabs-sight-seeing-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/SightSeeing.js"))),
   "component---src-pages-tabs-travel-tabs-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/travelTabs.js"))),
-  "component---src-pages-travel-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/travel.js"))),
-  "component---src-pages-home-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/home.js"))),
-  "component---src-pages-tabs-sights-bushmills-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/tabs/sights/Bushmills.js")))
+  "component---src-pages-travel-js": hot(preferDefault(require("/Users/immbudden/Development/Buddeen/src/pages/travel.js")))
 }
 
