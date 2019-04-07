@@ -1538,14 +1538,23 @@
       },
       "port": 8001,
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "useBuiltIns": "usage",
+            "corejs": 2
+          }
+        ],
+        "@babel/preset-react",
+        "minify"
+      ],
       "buildTime": "2019-04-07T09:07:09.105Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fc59b74023ed9fb610410a32ffffe7cf",
+        "contentDigest": "98f77881d7e1e8164483a5160cf0f53a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
