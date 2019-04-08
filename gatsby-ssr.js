@@ -24,7 +24,7 @@ function replaceRenderer({ bodyComponent, replaceBodyHTMLString, setHeadComponen
   ]);
 }
 
-export default replaceRenderer;
+exports.replaceRenderer = replaceRenderer;
 
 // It's not ready yet: https://github.com/gatsbyjs/gatsby/issues/8237.
 //
