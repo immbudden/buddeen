@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>Belfast</Area>
                         </TitleContainer>
                         <Paragraph>
-                            This 23 stop, hop-on/hop-off, open-top bus tour is the best way to get a comprehensive look at the many unique and historic sites in Belfast.  On it you’ll get to see and learn about Belfast’s troubled past and the peace process that reshaped this beautiful city.
+                            This 23 stop, hop-on/hop-off, open-top bus tour is the best way to see the many unique and historic sites in Belfast.  On it you’ll get to see and learn about Belfast’s troubled past and the peace process that reshaped this beautiful city.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

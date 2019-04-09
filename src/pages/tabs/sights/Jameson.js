@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>Dublin</Area>
                         </TitleContainer>
                         <Paragraph>
-                            Enjoy the World’s Leading Distillery Tour at the birthplace of Irish whiskey in Dublin. Jameson Distillery Bow St. is the original site where Jameson Irish Whiskey was distilled until 1971. This charming little distillery is the best whiskey tour we’ve been on.
+                            Enjoy the world’s leading distillery tour at the birthplace of Irish whiskey in Dublin. The Bow St. Distillery is the original site where Jameson was distilled until 1971. This charming little distillery is the best whiskey tour we’ve been on.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

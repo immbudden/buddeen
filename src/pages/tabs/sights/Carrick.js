@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>North Coast</Area>
                         </TitleContainer>
                         <Paragraph>
-                            This Norman castle is located in the town of Carrickfergus on the shore of Belfast Lough and remains one of the best preserved medieval structures in Northern Ireland. The castle is 15 minutes from Belfast should be your first stop on the causeway coast.
+                            This Norman castle is located in the town of Carrickfergus on the shore of Belfast Lough and remains one of the best preserved medieval structures in Ireland. It is 15 mins from Belfast should be your first stop on the causeway coast.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

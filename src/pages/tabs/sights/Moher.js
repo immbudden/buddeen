@@ -178,7 +178,7 @@ export default () => (
                     <SectionContent>
                         <TitleContainer>
                             <HeadingOne>Cliffs of Moher</HeadingOne>
-                            <Area><StyledIcon><Place /></StyledIcon>County Clare</Area>
+                            <Area><StyledIcon><Place /></StyledIcon>Clare</Area>
                         </TitleContainer>
                         <Paragraph>
                             These scenic cliffs tower 600 feet over the rugged Atlantic coast and run for 14 kilometers. They are located on the Wild Atlantic Way in County Clare of southwestern Ireland.  Buddeen top tip - go for Sunset, you won’t be dissapointed!

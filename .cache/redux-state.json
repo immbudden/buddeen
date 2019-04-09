@@ -7018,84 +7018,84 @@
   "componentDataDependencies": {
     "nodes": {
       "8dd6ed02-e178-5903-9d99-8f9f8aaa9434": [
-        "sq--src-pages-tabs-sights-giants-causeway-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-giants-causeway-js"
       ],
       "8d5bbc6a-b8a0-5dd0-aa44-34de272bd56f": [
-        "sq--src-pages-tabs-sights-dark-hedges-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-dark-hedges-js"
       ],
       "08b6ebcd-888a-5148-84f4-7be704e155a5": [
-        "sq--src-pages-tabs-sights-rope-bridge-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-rope-bridge-js"
       ],
       "5d6e972d-ec2b-5106-a335-ce6e7b7dee07": [
-        "sq--src-pages-tabs-sights-gobbins-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-gobbins-js"
       ],
       "a6a438d6-e55a-512f-9323-118b82f817a0": [
-        "sq--src-pages-tabs-sights-torr-head-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-torr-head-js"
       ],
       "0c6dd924-cdbd-5708-b6c5-c08e333b1a70": [
-        "sq--src-pages-tabs-sights-ballintoy-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-ballintoy-js"
       ],
       "72f6acce-0330-5c72-b89a-d730fcadbfda": [
-        "sq--src-pages-tabs-sights-bushmills-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-bushmills-js"
       ],
       "e87fdd01-bae3-56ed-8917-fa774140bd2b": [
-        "sq--src-pages-tabs-sights-dunluce-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-dunluce-js"
       ],
       "f258be4b-dba8-501a-8a7b-ea1e499d3006": [
-        "sq--src-pages-tabs-sights-carrick-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-carrick-js"
       ],
       "e5943762-5028-5b02-9bbb-c57045add9d9": [
-        "sq--src-pages-tabs-sights-cavehill-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-cavehill-js"
       ],
       "448a9e1f-f03b-5abb-97e4-4f0a25600b31": [
-        "sq--src-pages-tabs-sights-titanic-museum-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-titanic-museum-js"
       ],
       "b14286e5-51b6-5ca2-baa0-9850476c458d": [
-        "sq--src-pages-tabs-sights-bus-tour-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-bus-tour-js"
       ],
       "7d964a83-ed64-5f56-9c55-e290a59d44c3": [
-        "sq--src-pages-tabs-sights-belfast-bars-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-belfast-bars-js"
       ],
       "7a202203-58d3-595e-9c58-b13aabf28bba": [
-        "sq--src-pages-tabs-sights-guiness-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-guiness-js"
       ],
       "befe5279-54db-50da-9529-b9a9cdca335f": [
-        "sq--src-pages-tabs-sights-jameson-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-jameson-js"
       ],
       "e920e5aa-2634-5a06-8abe-0217c2fa5505": [
-        "sq--src-pages-tabs-sights-trinity-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-trinity-js"
       ],
       "5bdb1c51-8c44-55a5-9473-78eba27e22fe": [
-        "sq--src-pages-tabs-sights-moher-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-moher-js"
       ],
       "e48468c1-84c7-58b2-8bf8-a708b7d2c85c": [
-        "sq--src-pages-tabs-sights-castle-leslie-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-castle-leslie-js"
       ],
       "0242795a-0f82-503d-a72b-b0087980d789": [
-        "sq--src-pages-tabs-sights-slieve-league-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-slieve-league-js"
       ],
       "b1aa5c29-5be7-54ad-a66d-61c2994695e8": [
-        "sq--src-pages-tabs-sights-wild-atlantic-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-wild-atlantic-js"
       ],
       "1678432f-afff-5621-b3ac-75946eb8815d": [
         "sq--src-components-nav-js"
@@ -7124,84 +7124,84 @@
         "sq--src-pages-registry-js"
       ],
       "c05e5397-1436-56f7-8c63-ed6cb3765e56": [
-        "sq--src-pages-tabs-sights-giants-causeway-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-giants-causeway-js"
       ],
       "81fa29b6-7b2b-574f-97c5-bee1c2aa5c29": [
-        "sq--src-pages-tabs-sights-dark-hedges-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-dark-hedges-js"
       ],
       "a052e175-d5e5-513e-8f35-b98fa5abbd68": [
-        "sq--src-pages-tabs-sights-rope-bridge-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-rope-bridge-js"
       ],
       "1e62aa30-2eef-5448-9e16-7cddc0ce6af0": [
-        "sq--src-pages-tabs-sights-gobbins-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-gobbins-js"
       ],
       "c4196696-2a3e-5363-8dd6-c494004fccf6": [
-        "sq--src-pages-tabs-sights-torr-head-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-torr-head-js"
       ],
       "4ed5bb5b-ebe8-5308-bfb6-6184d1999288": [
-        "sq--src-pages-tabs-sights-ballintoy-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-ballintoy-js"
       ],
       "ccc814eb-3f34-57c2-9e95-8f34eddfae9f": [
-        "sq--src-pages-tabs-sights-bushmills-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-bushmills-js"
       ],
       "c0b88b44-0e0e-5853-972d-a5455ddc73a3": [
-        "sq--src-pages-tabs-sights-dunluce-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-dunluce-js"
       ],
       "70b0a6ef-47ef-5954-93f7-2d3293de5dc1": [
-        "sq--src-pages-tabs-sights-carrick-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-carrick-js"
       ],
       "6aba8813-fead-5379-bbb0-48cf1d0e1ffd": [
-        "sq--src-pages-tabs-sights-cavehill-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-cavehill-js"
       ],
       "c0733b76-89d8-5cfd-bfbb-5110e1192c17": [
-        "sq--src-pages-tabs-sights-titanic-museum-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-titanic-museum-js"
       ],
       "4a756b41-5a34-5f65-b0c3-2360fde2d3de": [
-        "sq--src-pages-tabs-sights-bus-tour-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-bus-tour-js"
       ],
       "9dcc434a-342d-5518-a91e-af90391e615d": [
-        "sq--src-pages-tabs-sights-belfast-bars-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-belfast-bars-js"
       ],
       "51044987-8d51-5677-b27f-5e60a6a5af84": [
-        "sq--src-pages-tabs-sights-guiness-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-guiness-js"
       ],
       "270f5bed-dc13-55dc-9498-508762fa8abc": [
-        "sq--src-pages-tabs-sights-jameson-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-jameson-js"
       ],
       "dbe6ba59-a1cc-5188-8c1f-eb1d7cd01a70": [
-        "sq--src-pages-tabs-sights-trinity-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-trinity-js"
       ],
       "1c10271b-1285-5805-80e8-462ead6ea195": [
-        "sq--src-pages-tabs-sights-moher-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-moher-js"
       ],
       "b6dad62e-e8a3-59ba-8984-10f39c39495c": [
-        "sq--src-pages-tabs-sights-castle-leslie-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-castle-leslie-js"
       ],
       "13be5913-fe5b-5299-9710-c615c8c8d5f4": [
-        "sq--src-pages-tabs-sights-slieve-league-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-slieve-league-js"
       ],
       "93adcc9b-c692-5727-8dd9-8321d96fc875": [
-        "sq--src-pages-tabs-sights-wild-atlantic-js",
-        "sq--src-components-sight-carousel-js"
+        "sq--src-components-sight-carousel-js",
+        "sq--src-pages-tabs-sights-wild-atlantic-js"
       ],
       "eec99fc6-d028-5fc8-bcfb-974693842c3a": [
         "sq--src-components-nav-js"

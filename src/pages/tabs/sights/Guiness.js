@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>Dublin</Area>
                         </TitleContainer>
                         <Paragraph>
-                            Guinness is synonymous with Ireland, and no visit to Dublin is complete without a trip to the Guinness Storehouse for a tour. On it, you’ll get to learn about Guinness’ history, learn how to pour pint yourself and get a free tasting at the rooftop bar.
+                            Guinness is synonymous with Ireland, and no visit to Dublin is complete without a tour of the Guinness Storehouse. On it, you’ll learn about Guinness’ history, learn how to pour pint yourself and get a free tasting at the rooftop bar.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

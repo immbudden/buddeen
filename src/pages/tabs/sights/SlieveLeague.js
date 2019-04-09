@@ -178,10 +178,10 @@ export default () => (
                     <SectionContent>
                         <TitleContainer>
                             <HeadingOne>Slieve League</HeadingOne>
-                            <Area><StyledIcon><Place /></StyledIcon>County Donegal</Area>
+                            <Area><StyledIcon><Place /></StyledIcon>Donegal</Area>
                         </TitleContainer>
                         <Paragraph>
-                            A breathtaking mountain on the Atlantic coast of County Donegal. At 1970 feet (3 times higher than the Cliffs of Moher), it has some of the highest sea cliffs on the island of Ireland. Reserve your visit for a clear day as the cliffs won’t be visible if it’s cloudy.
+                            A breathtaking mountain on the Atlantic coast of Donegal. At 1970 feet (3x higher than Cliffs of Moher), it has some of the highest sea cliffs on the island. Check the weather before you go as the cliffs won’t be visible if it’s cloudy.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>Dublin</Area>
                         </TitleContainer>
                         <Paragraph>
-                            Visit Ireland’s oldest university and step inside the infamous Long Room in the Old Library, the Book of Kells resides in the Library’s and is over 1000 years old! The library was also the inspiration for the Hogwarts library and featured in Star Wars Episode 2.
+                            Visit Ireland’s oldest university and step inside the famous Long Room in the Old Library, where the 100 year old Book of Kells resides. The library was also the inspiration for the Hogwarts library and featured in Star Wars Episode 2.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

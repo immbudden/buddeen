@@ -178,7 +178,7 @@ export default () => (
                     <SectionContent>
                         <TitleContainer>
                             <HeadingOne>Castle Leslie</HeadingOne>
-                            <Area><StyledIcon><Place /></StyledIcon>County Monaghan</Area>
+                            <Area><StyledIcon><Place /></StyledIcon>Monaghan</Area>
                         </TitleContainer>
                         <Paragraph>
                             A luxury Irish castle set on a private 1,000-acre country estate that also functions as a boutique hotel. The castle is home to an Irish branch of Clan Leslie and has an impressive array of forests and lakes on the grounds.

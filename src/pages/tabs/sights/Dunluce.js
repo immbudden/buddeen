@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>North Coast</Area>
                         </TitleContainer>
                         <Paragraph>
-                            Built in the 1400s, this now-ruined castle sits precariously on a basalt outcropping on the northern coast. It is surrounded by extremely steep cliffs and is connected to the mainland via a small bridge - you’ll also recognise it as Castle Greyjoy from GoT!
+                            Built in the 1400s, this now-ruined castle sits precariously on a basalt outcropping on the northern coast. It is surrounded by extremely steep cliffs and you’ll also recognise it as Castle Greyjoy from Game of Thrones!
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

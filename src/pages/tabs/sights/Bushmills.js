@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>North Coast</Area>
                         </TitleContainer>
                         <Paragraph>
-                            The home of Irish Malt Whiskey, the Old Bushmills Distillery is the oldest licensed whiskey distillery in the world, making whiskey since 1608. Stop in for a guided tour, tasting and grab a bottle of the 12 year reserve - it’s only available in the distillery.
+                            The home of Irish Malt Whiskey since 1608, the Old Bushmills Distillery is the oldest licensed whiskey distillery in the world. Stop in for a guided tour, tasting and grab a bottle of the 12 year reserve - it’s only available in the distillery.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>
