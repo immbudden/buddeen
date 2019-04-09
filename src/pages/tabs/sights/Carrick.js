@@ -118,6 +118,10 @@ const BannerContainer = styled.div `
     justify-content: center;
     margin-top: 5.5rem;
     overflow: hidden;
+
+    ${media.greaterThan("medium")`
+        height: 35vh;
+    `}
 `
 
 const BannerImg = styled(Img) `
@@ -140,6 +144,7 @@ const Area = styled.p `
     font-weight: 400;
     flex: 1 1 30%;
     margin-bottom: 0;
+    text-align: right;
 `
 
 const StyledIcon = styled(Icon) `

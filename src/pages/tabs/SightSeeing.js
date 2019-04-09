@@ -1,7 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { render } from 'react-dom'
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types';
 import media from "styled-media-query";
 import styled from 'styled-components'
@@ -147,38 +145,105 @@ const Url = styled.a `
     color: #FFF;
 `
 
-const SightSeeing = (data) => (
+const SightSeeing = (data) => {
+    const [activeTab, setActiveTab] = useState('GiantsCauseway')
 
-    <BrowserRouter>
-        <SectionLight>
-            <Switch>
-                <Redirect from='/travel' exact to="/GiantsCauseway"/>
-                <Route path='/GiantsCauseway' component={GiantsCauseway}/>
-                <Route path='/Ballintoy' component={Ballintoy}/>
-                <Route path='/BelfastBars' component={BelfastBars}/>
-                <Route path='/Bushmills' component={Bushmills}/>
-                <Route path='/BusTour' component={BusTour}/>
-                <Route path='/Carrick' component={Carrick}/>
-                <Route path='/CastleLeslie' component={CastleLeslie}/>
-                <Route path='/Cavehill' component={Cavehill}/>
-                <Route path='/DarkHedges' component={DarkHedges}/>
-                <Route path='/Dunluce' component={Dunluce}/>
-                <Route path='/GiantsCauseway' component={GiantsCauseway}/>
-                <Route path='/Gobbins' component={Gobbins}/>
-                <Route path='/Guiness' component={Guiness}/>
-                <Route path='/Jameson' component={Jameson}/>
-                <Route path='/Moher' component={Moher}/>
-                <Route path='/RopeBridge' component={RopeBridge}/>
-                <Route path='/SlieveLeague' component={SlieveLeague}/>
-                <Route path='/TitanicMuseum' component={TitanicMuseum}/>
-                <Route path='/TorrHead' component={TorrHead}/>
-                <Route path='/Trinity' component={Trinity}/>
-                <Route path='/WildAtlantic' component={WildAtlantic}/>
-            </Switch>
-            <SightCarousel />
-        </SectionLight>
-    </BrowserRouter>
-
-)
+    function navigateToTab(e, tabName) {
+        e.preventDefault()
+        setActiveTab(tabName)
+    }
+    
+    return (
+            <SectionLight>
+                
+            {activeTab === 'GiantsCauseway' && (
+                <GiantsCauseway/>
+            )}
+            {activeTab === 'Ballintoy' && (
+                <Ballintoy/>
+            )}
+            {activeTab === 'BelfastBars' && (
+                <BelfastBars/>
+            )}
+            {activeTab === 'Bushmills' && (
+                <Bushmills />
+            )}
+            {activeTab === 'BusTour' && (
+                <BusTour />
+            )}
+            {activeTab === 'Carrick' && (
+                <Carrick />
+            )}
+            {activeTab === 'CastleLeslie' && (
+                <CastleLeslie />
+            )}
+            {activeTab === 'Cavehill' && (
+                <Cavehill />
+            )}
+            {activeTab === 'DarkHedges' && (
+                <DarkHedges />
+            )}
+            {activeTab === 'Dunluce' && (
+                <Dunluce />
+            )}
+            {activeTab === 'Gobbins' && (
+                <Gobbins />
+            )}
+            {activeTab === 'Guiness' && (
+                <Guiness />
+            )}
+            {activeTab === 'Jameson' && (
+                <Jameson />
+            )}
+            {activeTab === 'Moher' && (
+                <Moher />
+            )}
+            {activeTab === 'RopeBridge' && (
+                <RopeBridge />
+            )}
+            {activeTab === 'SlieveLeague' && (
+                <SlieveLeague />
+            )}
+            {activeTab === 'TitanicMuseum' && (
+                <TitanicMuseum />
+            )}
+            {activeTab === 'TorrHead' && (
+                <TorrHead />
+            )}
+            {activeTab === 'Trinity' && (
+                <Trinity />
+            )}
+            {activeTab === 'WildAtlantic' && (
+                <WildAtlantic />
+            )}
+            {/* <Ballintoy/> */}
+                {/* <Switch>
+                    <Redirect from='/travel' exact to="/GiantsCauseway"/>
+                    <Route path='/GiantsCauseway' component={GiantsCauseway}/>
+                    <Route path='/Ballintoy' component={Ballintoy}/>
+                    <Route path='/BelfastBars' component={BelfastBars}/>
+                    <Route path='/Bushmills' component={Bushmills}/>
+                    <Route path='/BusTour' component={BusTour}/>
+                    <Route path='/Carrick' component={Carrick}/>
+                    <Route path='/CastleLeslie' component={CastleLeslie}/>
+                    <Route path='/Cavehill' component={Cavehill}/>
+                    <Route path='/DarkHedges' component={DarkHedges}/>
+                    <Route path='/Dunluce' component={Dunluce}/>
+                    <Route path='/GiantsCauseway' component={GiantsCauseway}/>
+                    <Route path='/Gobbins' component={Gobbins}/>
+                    <Route path='/Guiness' component={Guiness}/>
+                    <Route path='/Jameson' component={Jameson}/>
+                    <Route path='/Moher' component={Moher}/>
+                    <Route path='/RopeBridge' component={RopeBridge}/>
+                    <Route path='/SlieveLeague' component={SlieveLeague}/>
+                    <Route path='/TitanicMuseum' component={TitanicMuseum}/>
+                    <Route path='/TorrHead' component={TorrHead}/>
+                    <Route path='/Trinity' component={Trinity}/>
+                    <Route path='/WildAtlantic' component={WildAtlantic}/>
+                {/* </Switch> */}
+                <SightCarousel navigateToTab={navigateToTab} />
+            </SectionLight> 
+    )
+}
 
 export default SightSeeing

@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import styled, { keyframes } from "styled-components";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { graphql, StaticQuery } from 'gatsby'
 import PropTypes from 'prop-types';
@@ -121,6 +120,10 @@ const BannerContainer = styled.div `
     justify-content: center;
     margin-top: 5.5rem;
     overflow: hidden;
+
+    ${media.greaterThan("medium")`
+        height: 35vh;
+    `}
 `
 
 const BannerImg = styled(Img) `
@@ -143,6 +146,7 @@ const Area = styled.p `
     font-weight: 400;
     flex: 1 1 30%;
     margin-bottom: 0;
+    text-align: right;
 `
 
 const StyledIcon = styled(Icon) `

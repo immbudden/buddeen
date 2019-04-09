@@ -1,8 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { graphql, StaticQuery } from 'gatsby'
-import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types';
 import media from "styled-media-query";
 import styled from 'styled-components'
@@ -20,6 +18,10 @@ const LocationTitle = styled.h2 `
     display: flex;
     text-align: left;
     text-shadow: 2px 2px 8px rgba(34,34,34,0.5);
+
+    ${media.greaterThan("medium")`
+        font-size: 3.5rem;
+    `}
 `
 
 // Typography End
@@ -99,7 +101,11 @@ const ButtonSmall = styled.button `
     border: none;
     border-radius: 0.4rem;
     margin-top: 2.5rem;
-    max-width: 30vw;
+    max-width: 50%;
+
+    ${media.greaterThan("medium")`
+        max-width: 25%;
+    `}
 `
 
 const CarouselStyled = styled (Carousel) `
@@ -117,19 +123,24 @@ const Slide = styled.div `
     align-items: space-between;
     padding: 1.5rem 0;
     margin-right: 0;
+
+    ${media.greaterThan("medium")`
+        height: 25vh;
+        padding: 2.5rem;
+    `}
 `
 const SlideImg = styled(Img) `
     min-height: 17.5vh;
 `
 
-const Url = styled(Link) `
+const Url = styled.a `
     text-decoration: none;
     width: 100%;
     color: #FFF;
 `
 
 
-export default () => (
+export default ({navigateToTab}) => (
     
     <StaticQuery
       query={graphql`
@@ -302,7 +313,7 @@ export default () => (
 
                 <div>
                     <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true} edge="linear">
-                        <Url to="/GiantsCauseway">
+                        <Url onClick={e => navigateToTab(e, 'GiantsCauseway')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -315,11 +326,11 @@ export default () => (
                                 fluid={data.GiantsImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Giants Causeway</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/DarkHedges">
+                        <Url onClick={e => navigateToTab(e, 'DarkHedges')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -332,11 +343,11 @@ export default () => (
                                 fluid={data.DarkHedgesImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Dark Hedges</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/RopeBridge">
+                        <Url onClick={e => navigateToTab(e, 'RopeBridge')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -349,11 +360,11 @@ export default () => (
                                 fluid={data.RopeBridgeImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Carrick-a-Rede</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Gobbins">
+                        <Url onClick={e => navigateToTab(e, 'Gobbins')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -366,11 +377,11 @@ export default () => (
                                 fluid={data.GobbinsImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>The Gobbins</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/TorrHead">
+                        <Url onClick={e => navigateToTab(e, 'TorrHead')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -383,11 +394,11 @@ export default () => (
                                 fluid={data.TorrHeadImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Torr Head</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Ballintoy">
+                        <Url onClick={e => navigateToTab(e, 'Ballintoy')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -400,11 +411,11 @@ export default () => (
                                 fluid={data.BallintoyImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Ballintoy Harbour</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Bushmills">
+                        <Url onClick={e => navigateToTab(e, 'Bushmills')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -417,11 +428,11 @@ export default () => (
                                 fluid={data.BushmillsImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Bushmills Distillery</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Dunluce">
+                        <Url onClick={e => navigateToTab(e, 'Dunluce')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -434,11 +445,11 @@ export default () => (
                                 fluid={data.DunluceImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Dunluce Castle</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Carrick">
+                        <Url onClick={e => navigateToTab(e, 'Carrick')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -451,11 +462,11 @@ export default () => (
                                 fluid={data.CarrickImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Carrickfergus Castle</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Cavehill">
+                        <Url onClick={e => navigateToTab(e, 'Cavehill')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -468,11 +479,11 @@ export default () => (
                                 fluid={data.CavehillImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Cavehill</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Titanic">
+                        <Url onClick={e => navigateToTab(e, 'TitanicMuseum')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -485,11 +496,11 @@ export default () => (
                                 fluid={data.TitanicMuseumImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Titanic Museum</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/BusTour">
+                        <Url onClick={e => navigateToTab(e, 'BusTour')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -502,11 +513,11 @@ export default () => (
                                 fluid={data.BusTourImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Belfast Bus Tour</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/BelfastBars">
+                        <Url onClick={e => navigateToTab(e, 'BelfastBars')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -519,11 +530,11 @@ export default () => (
                                 fluid={data.BelfastBarsImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Belfast Bars</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Guiness">
+                        <Url onClick={e => navigateToTab(e, 'Guiness')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -536,11 +547,11 @@ export default () => (
                                 fluid={data.GuinessImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Guiness Storehouse</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Jameson">
+                        <Url onClick={e => navigateToTab(e, 'Jameson')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -553,11 +564,11 @@ export default () => (
                                 fluid={data.JamesonImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Jameson Distillery</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Trinity">
+                        <Url onClick={e => navigateToTab(e, 'Trinity')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -570,11 +581,11 @@ export default () => (
                                 fluid={data.TrinityImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Trinity College</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/Moher">
+                        <Url onClick={e => navigateToTab(e, 'Moher')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -587,11 +598,11 @@ export default () => (
                                 fluid={data.MoherImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Cliffs of Moher</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/CastleLeslie">
+                        <Url onClick={e => navigateToTab(e, 'CastleLeslie')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -604,11 +615,11 @@ export default () => (
                                 fluid={data.CastleLeslieImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Castle Leslie</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/SlieveLeague">
+                        <Url onClick={e => navigateToTab(e, 'SlieveLeague')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -621,11 +632,11 @@ export default () => (
                                 fluid={data.SlieveLeagueImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Slieve League</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
-                        <Url to="/WildAtlantic">
+                        <Url onClick={e => navigateToTab(e, 'WildAtlantic')}>
                             <Slide>
                                 <SlideImg 
                                 style={{
@@ -638,7 +649,7 @@ export default () => (
                                 fluid={data.WildImg.childImageSharp.fluid} />
                                 <SlideContainer>
                                         <LocationTitle>Wild Atlantic Way</LocationTitle>
-                                        <ButtonSmall>Directions</ButtonSmall>
+                                        <ButtonSmall>View</ButtonSmall>
                                 </SlideContainer>
                             </Slide>
                         </Url>
