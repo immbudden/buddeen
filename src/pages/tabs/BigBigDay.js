@@ -556,7 +556,7 @@ export default () => (
                             fluid={data.ClinkImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <EventTitle>Welcome Drinks</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
+                                    <EventSubTitle>1:30pm</EventSubTitle>
                             </SlideContainer>
                         </Slide>
                         <Slide>
@@ -571,7 +571,7 @@ export default () => (
                             fluid={data.KilmoreWeddingImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <EventTitle>Ceremony</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
+                                    <EventSubTitle>2:00pm</EventSubTitle>
                             </SlideContainer>
                         </Slide>
                         <Slide>
@@ -586,7 +586,7 @@ export default () => (
                             fluid={data.WineImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <EventTitle>Drinks Reception</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
+                                    <EventSubTitle>2:30pm</EventSubTitle>
                             </SlideContainer>
                         </Slide>
                         <Slide>
@@ -601,7 +601,7 @@ export default () => (
                             fluid={data.DinnerImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <EventTitle>Dinner</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
+                                    <EventSubTitle>5:30pm</EventSubTitle>
                             </SlideContainer>
                         </Slide>
                         <Slide>
@@ -616,7 +616,7 @@ export default () => (
                             fluid={data.DancingImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <EventTitle>Dancing</EventTitle>
-                                    <EventSubTitle>Time TBC</EventSubTitle>
+                                    <EventSubTitle>8:00pm</EventSubTitle>
                             </SlideContainer>
                         </Slide>
 
