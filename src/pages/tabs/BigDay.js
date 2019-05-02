@@ -346,7 +346,7 @@ export default () => (
                 </Container>
 
                 <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true}>
-                    <Url href="mailto:reception@kilmorecountryhouse.com">
+                    <Url href="mailto:slseyal11@gmail.com">
                         <Slide>
                             <SlideImg 
                             style={{
@@ -380,7 +380,7 @@ export default () => (
                             </SlideContainer>
                         </Slide>
                     </Url>
-                    <Url href="http://bit.ly/2HhuuM9">
+                    <Url href="https://www.titanichotelbelfast.com/luxury-rooms-belfast/standard-room/53-9/">
                         <Slide>
                             <SlideImg 
                             style={{
@@ -393,7 +393,7 @@ export default () => (
                             fluid={data.TitanicHotelImg.childImageSharp.fluid} />
                             <SlideContainer>
                                     <LocationTitle>Titanic Belfast</LocationTitle>
-                                    <ButtonSmall>Book for £135</ButtonSmall>
+                                    <ButtonSmall>Book for £130</ButtonSmall>
                             </SlideContainer>
                         </Slide>
                     </Url>

@@ -129,11 +129,11 @@ class ScheduleTabs extends React.Component {
                         variant="fullWidth"
                         classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
                     >
-                        <Tab 
+                        {/* <Tab 
                             label="Rehersal Dinner"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
                             style={{width:'100vw'}} 
-                        />
+                        /> */}
                         <Tab 
                             label="The Big Day"
                             classes={{ root: classes.tabRoot, selected: classes.tabSelected }} 
@@ -150,9 +150,9 @@ class ScheduleTabs extends React.Component {
                         this.swipeableActions = actions;
                     }}
                 >
-                    <TabContainer dir={theme.direction}>
+                    {/* <TabContainer dir={theme.direction}>
                         <RehersalDinner />
-                    </TabContainer>
+                    </TabContainer> */}
 
                     <TabContainer dir={theme.direction}>
                         <BigBigDay />
