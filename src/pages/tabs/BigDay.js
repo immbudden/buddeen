@@ -340,7 +340,7 @@ export default () => (
                             Kilmore House is our wedding venue and hosts up to 35 guests for the wedding night. Room availability is limited so please book ahead as early as possible.
                             <br />
                             <br />
-                            We also recommend two other hotels, Marine Hotel - which is located on the north coast seaside town of Ballycastle, and the Titanic Hotel, Belfast - which currently has an exceptional deal on until 30th April.
+                            We also recommend two other hotels, Marine Hotel - which is located on the north coast seaside town of Ballycastle, and the Titanic Hotel, Belfast.
                         </Paragraph>
                     </SectionContent>
                 </Container>
