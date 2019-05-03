@@ -7027,12 +7027,12 @@
         "sq--src-pages-faq-js"
       ],
       "602c690b-af9b-5faa-ba61-85feb695faa6": [
-        "sq--src-pages-registry-js",
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "dafcc3d5-3857-53b7-b20d-2b56f5a9bf34": [
-        "sq--src-pages-registry-js",
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "44ac452d-e889-541d-9e16-7b8fd2b060cb": [
         "sq--src-pages-registry-js"
@@ -7133,12 +7133,12 @@
         "sq--src-pages-faq-js"
       ],
       "953be6c5-fe02-58ea-b67a-553943bf829d": [
-        "sq--src-pages-registry-js",
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "fb144539-c5bd-568f-a724-f0de562750f1": [
-        "sq--src-pages-registry-js",
-        "sq--src-pages-faq-js"
+        "sq--src-pages-faq-js",
+        "sq--src-pages-registry-js"
       ],
       "8d6e078d-8db4-556d-9b16-d95de15a3a55": [
         "sq--src-pages-registry-js"
@@ -7406,7 +7406,7 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "643/path---index-6a9-DF7vOM1EhFzMdcHHwn9NN0Q52M",
+    "index": "617/path---index-6a9-uliVz2IWwUbiGgRobpaeekvOg",
     "sq--src-components-nav-js": 783971839,
     "sq--src-pages-index-js": 768581675,
     "sq--src-components-nav-mobile-js": 1735570884,
@@ -7490,7 +7490,7 @@
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/home.js"
     },
     "/Users/immbudden/Development/Buddeen/src/pages/index.js": {
-      "query": "query usersImmbuddenDevelopmentBuddeenSrcPagesIndexJs3621373434 {\n  homeHeroImg: file(relativePath: {eq: \"Buddeen.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  logo: file(relativePath: {eq: \"BuddeenLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  RopeBridge: file(relativePath: {eq: \"RopeBridge_Edit.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  smileHeart: file(relativePath: {eq: \"smileHeart-2.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query usersImmbuddenDevelopmentBuddeenSrcPagesIndexJs2233049864 {\n  homeHeroImg: file(relativePath: {eq: \"Buddeen.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1700, quality: 65) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  logo: file(relativePath: {eq: \"BuddeenLogo.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 2500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  RopeBridge: file(relativePath: {eq: \"RopeBridge_Edit.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  smileHeart: file(relativePath: {eq: \"smileHeart-2.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000, quality: 60, cropFocus: ENTROPY) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/immbudden/Development/Buddeen/src/pages/index.js"
     },
     "/Users/immbudden/Development/Buddeen/src/pages/registry.js": {
