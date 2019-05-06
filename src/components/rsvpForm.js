@@ -220,6 +220,10 @@ const RSVPForm = (props) => (
                         <InputLabel>Evening Reception</InputLabel>
                     </InputContainer>
                     <InputContainer>
+                        <TickInput type="checkbox" name="Breakfast" value="Yes" />
+                        <InputLabel>Breakfast (5<sup>th</sup> July @ Kilmore House)</InputLabel>
+                    </InputContainer>
+                    <InputContainer>
                         <TickInput type="checkbox" name="None" value="None" />
                         <InputLabel>None</InputLabel>
                     </InputContainer>
