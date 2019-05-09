@@ -255,9 +255,9 @@ const RSVPForm = (props) => (
 
                 <Spacer />
 
-                <FormLabel htmlFor="dietry">Any dietry requirements we should know about?</FormLabel>
+                <FormLabel htmlFor="dietary">Any dietary requirements we should know about?</FormLabel>
 
-                <FormInput name="dietry" type="text" placeholder="If yes, please detail" />
+                <FormInput name="dietary" type="text" placeholder="If yes, please detail" />
 
                 <Button type="submit">Send</Button>
             </div>
