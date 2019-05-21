@@ -312,7 +312,7 @@ export default ({navigateToTab}) => (
         render={data => (
 
                 <div>
-                    <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={0.5} renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true} edge="linear">
+                    <CarouselStyled slidesToShow={1.5} cellSpacing={25} slidesToScroll={1} renderBottomCenterControls={null} renderCenterLeftControls={null} renderCenterRightControls={null} wrapAround={true} swiping={true} easing="easePolyInOut" edgeEasing="easePolyInOut" speed={600}>
                         <Url onClick={e => navigateToTab(e, 'GiantsCauseway')}>
                             <Slide>
                                 <SlideImg 
