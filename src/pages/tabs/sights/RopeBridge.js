@@ -186,7 +186,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>North Coast</Area>
                         </TitleContainer>
                         <Paragraph>
-                            Suspended 100ft above the sea, the rope bridge was erected by salmon fisherman 350 years ago. The only structure on the tiny island is a fisherman’s cottage.  Tickets are £7 but as it's busy so book ahead at <StyledLink href="carrickaredetickets.com">carrickaredetickets.com</StyledLink>!
+                            Suspended 100ft above the sea, the rope bridge was erected by salmon fisherman 350 years ago. A fisherman’s cottage is the only structure on the tiny island. Tickets are £7 but it's busy so book ahead at <StyledLink href="carrickaredetickets.com">carrickaredetickets.com</StyledLink>!
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>
