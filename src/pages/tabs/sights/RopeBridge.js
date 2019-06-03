@@ -151,6 +151,11 @@ const StyledIcon = styled(Icon) `
     color: #E62645;
 `
 
+const StyledLink = styled(Link) `
+    color: #3CAAA0;
+    font-weight: 500;
+`
+
 
 export default () => (
     
@@ -181,7 +186,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>North Coast</Area>
                         </TitleContainer>
                         <Paragraph>
-                            Suspended 100ft above the sea, the rope bridge was erected by salmon fisherman 350 years ago. The only structure on the tiny island is a fisherman’s cottage.  Tickets are only £7 but it's busy so make sure you book ahead!
+                            Suspended 100ft above the sea, the rope bridge was erected by salmon fisherman 350 years ago. The only structure on the tiny island is a fisherman’s cottage.  Tickets are £7 but it's busy so make sure you book ahead at <StyledLink href="carrickaredetickets.com">carrickaredetickets.com</StyledLink>!
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

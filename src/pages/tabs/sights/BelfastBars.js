@@ -181,7 +181,7 @@ export default () => (
                             <Area><StyledIcon><Place /></StyledIcon>Belfast</Area>
                         </TitleContainer>
                         <Paragraph>
-                            There will be a list in here which should include; Sunflower, John Hewitt, Kelly’s Cellars, Whites Tavern, and a few others that I can’t think of now because I’m sleepy.
+                            Belfast has a lot of great bars to visit, our personal favourites are; The Sunflower, John Hewitt, Kelly’s Cellars, Whites Tavern, Muriels, The Spaniard, The Merchant Hotel Bar, Berts Jazz Bar and The Black Box.
                         </Paragraph>
                         <DividerSmall />
                         <ParagraphNoTop>

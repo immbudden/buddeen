@@ -176,7 +176,6 @@ const SectionContent = styled.div `
 // `
 
 const SectionImgContainer = styled.div `
-    height: 4vh;
     margin: 1rem 0;
     overflow: hidden;
     display: flex;
@@ -276,7 +275,7 @@ export default () => (
                 }
             }
 
-            busStopsImg: file(relativePath: { eq: "illustrations/busStops.png" }) {
+            busRouteImg: file(relativePath: { eq: "BusRoute.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -293,14 +292,6 @@ export default () => (
             }
 
             KilmoreImg: file(relativePath: { eq: "places/Kilmore.jpg" }) {
-                childImageSharp {
-                    fluid(maxWidth: 500) {
-                        ...GatsbyImageSharpFluid_tracedSVG
-                    }
-                }
-            }
-
-            MarineHotelImg: file(relativePath: { eq: "places/MarineHotel.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -340,7 +331,7 @@ export default () => (
                             Kilmore House is our wedding venue and hosts up to 35 guests for the wedding night. Room availability is limited so please book ahead as early as possible.
                             <br />
                             <br />
-                            We also recommend two other hotels, Marine Hotel - which is located on the north coast seaside town of Ballycastle, and the Titanic Hotel, Belfast.
+                            We also recommend one the Titanic Hotel, Belfast if people want to stay in the city.
                         </Paragraph>
                     </SectionContent>
                 </Container>
@@ -360,23 +351,6 @@ export default () => (
                             <SlideContainer>
                                     <LocationTitle>Kilmore House</LocationTitle>
                                     <ButtonSmall>Book for £35</ButtonSmall>
-                            </SlideContainer>
-                        </Slide>
-                    </Url>
-                    <Url href="http://bit.ly/2F6j8rM">
-                        <Slide>
-                            <SlideImg 
-                            style={{
-                                position: "absolute",
-                                left: 0,
-                                top: 0,
-                                width: "100%",
-                                zIndex: -1,
-                            }}
-                            fluid={data.MarineHotelImg.childImageSharp.fluid} />
-                            <SlideContainer>
-                                    <LocationTitle>Marine Hotel</LocationTitle>
-                                    <ButtonSmall>Book for £130</ButtonSmall>
                             </SlideContainer>
                         </Slide>
                     </Url>
@@ -414,14 +388,7 @@ export default () => (
                     <SectionContent>
                         <SectionImgContainer>
                             <SectionImg100 
-                            style={{
-                                position: "absolute",
-                                left: 0,
-                                top: 0,
-                                width: "100%",
-                                zIndex: 2,
-                            }}
-                            fluid={data.busStopsImg.childImageSharp.fluid} />
+                            fluid={data.busRouteImg.childImageSharp.fluid} />
                         </SectionImgContainer>
                         <Paragraph>
                             At the end of the night, there will be a bus for our fine guests, stopping off at the two hotels (Marine Hotel and Titanic hotel) as well as a stop in Glengormley.
